@@ -1,0 +1,19 @@
+include helpers
+
+doctype
+html(lang=config.language)
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    block title
+    link(rel="shortcut icon" type="image/x-icon" href="/favicon.ico")
+  body
+  
+    header
+    
+    section.content
+      block content
+      block pagination
+
+    footer
+

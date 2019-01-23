@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+ - "node"
+install:
+  - npm install
+  - npm install -g gulp hexo-cli
+
+
+script:
+  - npm run hexo
+
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: false
+  on:
+    branch: dev
+  local-dir: public
+  target-branch: master

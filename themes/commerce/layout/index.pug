@@ -1,0 +1,232 @@
+extends layouts/_default
+
+block vars
+  -
+    page = {
+      title: 'Home'
+    }
+
+block default
+
+  //- Slider
+  section.uk-position-relative.uk-visible-toggle.uk-light(uk-slideshow="min-height: 300; max-height: 600;")
+    ul.uk-slideshow-items
+      each item in promo
+        li(style="background-color: " + item.background)
+          a(href="#")
+            figure.uk-container.uk-height-1-1
+              img(src= item.image
+                  alt= item.title
+                  width="1200"
+                  height="600"
+                  uk-cover)
+
+
+    if (__('direction')=="ltr")
+      a.uk-position-center-left.uk-position-small.uk-hidden-hover(
+        href="#",
+        uk-slidenav-previous,
+        uk-slideshow-item="previous"
+       )
+    else if (__('direction')=="rtl")
+      a.uk-position-center-left.uk-position-small.uk-hidden-hover(
+        href="#",
+        uk-slidenav-next,
+        uk-slideshow-item="next"
+       )
+
+    if (__('direction')=="ltr")
+      a.uk-position-center-right.uk-position-small.uk-hidden-hover(
+        href="#"
+        uk-slideshow-item="next"
+        uk-slidenav-next)
+    else if (__('direction')=="rtl")
+
+
+      a.uk-position-center-right.uk-position-small.uk-hidden-hover(
+        href="#"
+        uk-slideshow-item="previous"
+        uk-slidenav-previous)
+
+    div.uk-position-bottom-center.uk-position-small
+      ul.uk-slideshow-nav.uk-dotnav
+
+  //- Categories
+  section.uk-section.uk-section-default.uk-section-small
+    div.uk-container
+      div(class="uk-grid-small " +
+                "uk-child-width-1-2 " +
+                "uk-child-width-1-3@s " +
+                "uk-child-width-1-6@m"
+          uk-grid)
+        each category in categories
+          div
+            a(class="uk-link-muted " +
+                    "uk-text-center " +
+                    "uk-display-block " +
+                    "uk-padding-small " +
+                    "uk-box-shadow-hover-large"
+              href= category.href)
+              if category.image
+                div.tm-ratio.tm-ratio-4-3
+                  div.tm-media-box
+                    figure.tm-media-box-wrap
+                      img.item-brand(src= category.image alt= category.title)
+              div.uk-margin-small-top
+                div.uk-text-truncate= category.title
+                //- if category.comment
+                  div.uk-text-meta.uk-text-xsmall.uk-text-truncate= category.comment
+
+      div.uk-margin.uk-text-center
+        +link-to-all(__('see all categories'), "catalog.html")
+
+  //- Trending
+  section.uk-section.uk-section-small
+    div.uk-container
+
+      h2.uk-text-center=__('Trending')
+
+      div.uk-card.uk-card-default.tm-ignore-container
+        div(class="uk-grid-collapse " +
+                  "uk-child-width-1-3 " +
+                  "uk-child-width-1-4@m " +
+                  "tm-products-grid"
+            uk-grid)
+          - var productsFeed = site.categories.findOne( {name: 'Products'} ).posts.find({lang: __('lang')}).sort('date', -1).limit(8);  
+          - var count = 0
+          each product in productsFeed.toArray()
+            if count < 8
+              +product(product)
+            - count++;
+
+      div.uk-margin.uk-text-center
+        +link-to-all(__('ShopAll'), "subcategory.html")
+
+  //- Brands
+  //-section.uk-section.uk-section-default.uk-section-small
+    div.uk-container
+
+      h2.uk-text-center=__('Partners')
+
+      div.uk-margin-medium-top(uk-slider="finite: true")
+        div.uk-position-relative
+          div.uk-grid-small.uk-flex-middle(uk-grid)
+
+            div(class="uk-visible@m")
+              a(href="#"
+                uk-slidenav-previous
+                uk-slider-item=__('uikit.previous'))
+
+            div.uk-width-expand.uk-slider-container
+              ul(class="uk-slider-items " +
+                       "uk-child-width-1-3 " +
+                       "uk-child-width-1-6@s " +
+                       "uk-grid " +
+                       "uk-grid-large")
+                each brand in brands
+                  li
+                    div.tm-ratio.tm-ratio-16-9
+                      a.uk-link-muted.tm-media-box.tm-grayscale(
+                        href="#"
+                        title= brand.name)
+                        figure.tm-media-box-wrap
+                          img(src= brand.image alt= brand.name)
+
+            div(class="uk-visible@m")
+              a(href="#"
+                uk-slider-item=__('next')
+                uk-slidenav-next)
+
+        ul(class="uk-slider-nav " +
+                 "uk-dotnav " +
+                 "uk-flex-center " +
+                 "uk-margin-medium-top " +
+                 "uk-hidden@m")
+
+      div.uk-margin.uk-text-center
+        +link-to-all(__('PartnersAll'), "brands.html")
+
+  //- Blog
+  - var blogArticles = site.categories.findOne( {name: 'Blog'} ).posts.find({lang: __('lang')}).sort('date', -1).limit(2);
+  section.uk-section.uk-section-small
+    div.uk-container
+
+      h2.uk-text-center=__('Blog')
+
+      div(class="uk-grid-medium " +
+                "uk-grid-match " +
+                "uk-child-width-1-1 " +
+                "uk-child-width-1-2@s"
+          uk-grid)
+     
+        each article in blogArticles.toArray()
+          div
+            +article(article)
+
+      div.uk-margin.uk-text-center
+        +link-to-all(__('AllArticles'), "blog.html")
+
+  //- About & News
+  section.uk-section.uk-section-default.uk-section-small
+    div.uk-container
+      div(class="uk-grid-medium " +
+                "uk-child-width-1-1 " +
+                "uk-child-width-1-2@s"
+          uk-grid)
+
+        //- About
+        section
+          if (__('direction')=="ltr") 
+            h2(class="uk-text-center uk-text-left@s")=__('about.header')
+          else if (__('direction')=="rtl")  
+            h2(class="uk-text-center uk-text-right@s")=__('about.header')
+
+          p=__('about.text')
+          p=__('about.motto')
+          div(class=`${__('direction')=='ltr' ? 'uk-text-left@s' : 'uk-text-right@s'}` uk-text-center)
+            +link-to-all(__('ReadMore'), "about.html")
+
+        //- News
+        section
+          if (__('direction')=="ltr")
+            h2(class="uk-text-center uk-text-left@s")= __('LatestNews')
+          else if (__('direction')=="rtl")   
+            h2(class="uk-text-center uk-text-right@s")= __('LatestNews')
+
+          - var newsArticles = site.categories.findOne( {name: 'News'} ).posts.find({lang: __('lang')}).limit(2).sort('date', -1);
+          
+            ul.uk-list.uk-list-small.uk-list-divider
+              each article in newsArticles.toArray()
+                li
+                  article.uk-article
+                    div.uk-article-body
+                      //- Date
+                      div.uk-article-meta.uk-margin-xsmall-bottom
+                        time= article.date.format(config.date_format)
+                      //- Title
+                      h3.uk-h4.uk-margin-remove
+                        a.uk-link-heading(href=url_for(article.path))= article.title
+                      //- Description
+                      if article.description
+                        div.uk-margin-xsmall-top.uk-text-small!= article.description
+
+            div(class=`${__('direction')=='ltr' ? 'uk-text-left@s' : 'uk-text-right@s'}` uk-margin uk-text-center)
+              +link-to-all(__('LatestNews'), "news.html")
+
+  //- Subscribe
+  section.uk-section.uk-section-primary.uk-section-small.uk-light
+    div.uk-container
+
+        div.uk-text-center
+          div.uk-h2.uk-margin-remove= __('footer.subscribe')
+          div= __('footer.subscribetext')
+
+        div.uk-margin
+          form
+            div.uk-grid-small.uk-flex-center(uk-grid)
+              div(class="uk-width-1-1 uk-width-medium@s")
+                div.uk-inline.uk-width-1-1
+                  span.uk-form-icon(uk-icon="mail")
+                  input.uk-input(type="email" placeholder="Your email" required)
+              div
+                button.uk-button.uk-button-primary subscribe
