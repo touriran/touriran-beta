@@ -4,7 +4,7 @@ title: "Chehel Souton"
 province: Chaharmahal and Bakhtiari
 region: 
 period:
-excerpt:
+excerpt: ""
 collection:
   - Activities
 category: 

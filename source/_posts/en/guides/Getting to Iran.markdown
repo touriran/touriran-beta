@@ -4,7 +4,7 @@ title: "Visa"
 date: 2016-02-19
 collection:
   - Guides
-excerpt:
+excerpt: ""
 image: https://upload.wikimedia.org/wikipedia/commons/c/c2/Si-o-se-Pol.jpg
 image-sm: https://upload.wikimedia.org/wikipedia/commons/c/c2/Si-o-se-Pol.jpg
 ---

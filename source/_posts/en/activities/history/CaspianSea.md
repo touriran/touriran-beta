@@ -5,7 +5,7 @@ collection:
   - Activities
 category: history
 tags: nature sea history
-excerpt: ""This site dates back to 2500 years ago.
+excerpt: "This site dates back to 2500 years ago."
 image-bg: https://loremflickr.com/1020/720/iran
 image-sm: https://loremflickr.com/400/400/iran
 ---

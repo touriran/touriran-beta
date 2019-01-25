@@ -4,7 +4,7 @@ title: "Hiking"
 collection:
   - Activities
 category: adventure
-excerpt:
+excerpt: ""
 tags: nature mountains
 image-bg: https://loremflickr.com/1020/720/iran
 image-sm: https://loremflickr.com/400/400/iran
