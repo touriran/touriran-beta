@@ -1,6 +1,6 @@
 ---
 title: "Shiraz Tour"
-excerpt:
+excerpt: ""
 collection:
   - Tours
 category:

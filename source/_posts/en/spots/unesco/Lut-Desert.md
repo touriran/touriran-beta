@@ -3,7 +3,7 @@ layout: post
 title: "Lut Desert"
 collection:
   - Spots
-excerpt:
+excerpt: ""
 image-bg: https://loremflickr.com/1020/720/iran
 image-sm: https://loremflickr.com/400/400/iran
 ---
