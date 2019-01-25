@@ -9,10 +9,12 @@ block vars
 
     informationalActivePage = 4
 
+
 block informational
+  - var newsArticles = site.categories.findOne( {name: 'News'} ).posts.find({lang: __('lang')}).limit(10).sort('date', -1);
   section.uk-card.uk-card-default.uk-card-small.uk-card-body.tm-ignore-container
     ul.uk-list.uk-list-large.uk-list-divider
-      each article in news
+      each article in newsArticles.toArray()
         li
           article.uk-article
             div.uk-article-body

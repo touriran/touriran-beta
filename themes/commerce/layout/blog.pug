@@ -10,8 +10,8 @@ block vars
     informationalActivePage = 3
 
 block informational
+  - var blogArticles = site.categories.findOne( {name: 'Blog'} ).posts.find({lang: __('lang')}).sort('date', -1).limit(10);
   div.uk-grid-medium.uk-child-width-1-1(uk-grid)
-
-    each article in articles
+    each article in blogArticles.toArray()
       div
         +article(article)
