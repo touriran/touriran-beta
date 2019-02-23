@@ -1,7 +1,7 @@
 ---
 
-title: "Test layout"
-layout: destination
+title: "Off the beaten track: Iran's best kept secrets"
+layout: post
 date: 2016-02-19
 category: "Blog"
 tag: []

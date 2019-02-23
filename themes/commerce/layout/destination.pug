@@ -1,0 +1,657 @@
+extends layouts/_article
+
+block article
+    style
+      include assets/style.css
+    script
+      include assets/cards.js
+    // CARDS WRAPPER
+    section.uk-section.uk-section-small.uk-section-default.uk-padding-remove-bottom
+        .uk-container.uk-container-expand.uk-margin-large-bottom
+        ul.uk-subnav.uk-subnav-pill
+            li.uk-active(data-uk-filter-control='')
+            a(href='#') Show All
+            li(data-uk-filter-control='.nature-card')
+            a(href='#') Nature
+            li(data-uk-filter-control='.music-card')
+            a(href='#') Music
+            li(data-uk-filter-control='.photo-card')
+            a(href='#') Photography
+            li(data-uk-filter-control='.design-card')
+            a(href='#') Design
+        .uk-grid.uk-grid-medium.uk-grid-match.js-filter(class='uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-child-width-1-5@xl', data-uk-grid='masonry: true', data-uk-sortable='handle: .drag-icon')
+            // card
+            .nature-card(data-tags='a beautiful landscape - nature outdoor')
+            .uk-card.uk-card-small.uk-card-default
+                .uk-card-header
+                .uk-grid.uk-grid-small.uk-text-small(data-uk-grid='')
+                    .uk-width-expand
+                    span.cat-txt Nature / Outdoor
+                    .uk-width-auto.uk-text-right.uk-text-muted
+                    span(data-uk-icon='icon:clock; ratio: 0.8')
+                    |  3 min.
+                .uk-card-media
+                .uk-inline-clip.uk-transition-toggle(tabindex='0')
+                    img.lazy(data-src='https://picsum.photos/400/300/?random=5', data-width='400', data-height='300', data-uk-img='', alt='', src='img/transp.gif')
+                    .uk-transition-slide-bottom.uk-position-bottom.uk-overlay.uk-overlay-primary
+                    span(data-uk-icon='icon:heart; ratio: 0.8')
+                    |  12.345 
+                    span(data-uk-icon='icon:comment; ratio: 0.8')
+                    |  12.345
+                .uk-card-body
+                h6.uk-margin-small-bottom.uk-margin-remove-adjacent.uk-text-bold A BEAUTIFUL LANDSCAPE HERE
+                p.uk-text-small.uk-text-muted Duis aute irure dolor in reprehenderit in voluptate velit
+                .uk-card-footer
+                .uk-grid.uk-grid-small.uk-grid-divider.uk-flex.uk-flex-middle(data-uk-grid='')
+                    .uk-width-expand.uk-text-small
+                    | John Doe
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Twitter', data-uk-icon='icon:twitter; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Instagram', data-uk-icon='icon:instagram; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Behance', data-uk-icon='icon:behance; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Pinterest', data-uk-icon='icon:pinterest; ratio: 0.8')
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link.drag-icon(data-uk-tooltip='title: Drag this card', href='#', data-uk-icon='icon:move; ratio: 1')
+            // /card
+            // card
+            .music-card(data-tags='amazing music band here - music bands')
+            .uk-card.uk-card-small.uk-card-default
+                .uk-card-header
+                .uk-grid.uk-grid-small.uk-text-small(data-uk-grid='')
+                    .uk-width-expand
+                    span.cat-txt MUSIC / BANDS
+                    .uk-width-auto.uk-text-right.uk-text-muted
+                    span(data-uk-icon='icon:clock; ratio: 0.8')
+                    |  6 min.
+                .uk-card-media
+                .uk-inline-clip.uk-transition-toggle(tabindex='0')
+                    img.lazy(data-src='https://picsum.photos/400/470/?random=4', data-width='400', data-height='470', data-uk-img='', alt='', src='img/transp.gif')
+                    .uk-transition-slide-bottom.uk-position-bottom.uk-overlay.uk-overlay-primary
+                    span(data-uk-icon='icon:heart; ratio: 0.8')
+                    |  12.345 
+                    span(data-uk-icon='icon:comment; ratio: 0.8')
+                    |  12.345
+                .uk-card-body
+                h6.uk-margin-small-bottom.uk-margin-remove-adjacent.uk-text-bold AMAZING MUSIC BAND HERE
+                p.uk-text-small.uk-text-muted Duis aute irure dolor in reprehenderit in voluptate velit
+                .uk-card-footer
+                .uk-grid.uk-grid-small.uk-grid-divider.uk-flex.uk-flex-middle(data-uk-grid='')
+                    .uk-width-expand.uk-text-small
+                    | John Doe
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Twitter', data-uk-icon='icon:twitter; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Instagram', data-uk-icon='icon:instagram; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Behance', data-uk-icon='icon:behance; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Pinterest', data-uk-icon='icon:pinterest; ratio: 0.8')
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link.drag-icon(data-uk-tooltip='title: Drag this card', href='#', data-uk-icon='icon:move; ratio: 1')
+            // /card
+            // card
+            .music-card(data-tags='video music awards pictures - music bands')
+            .uk-card.uk-card-small.uk-card-default
+                .uk-card-header
+                .uk-grid.uk-grid-small.uk-text-small(data-uk-grid='')
+                    .uk-width-expand
+                    span.cat-txt MUSIC / BANDS
+                    .uk-width-auto.uk-text-right.uk-text-muted
+                    span(data-uk-icon='icon:clock; ratio: 0.8')
+                    |  12 min.
+                .uk-card-media
+                .uk-inline-clip.uk-transition-toggle(tabindex='0')
+                    img.lazy(data-src='https://picsum.photos/400/400/?random=3', data-width='400', data-height='400', data-uk-img='', alt='', src='img/transp.gif')
+                    .uk-transition-slide-bottom.uk-position-bottom.uk-overlay.uk-overlay-primary
+                    span(data-uk-icon='icon:heart; ratio: 0.8')
+                    |  12.345 
+                    span(data-uk-icon='icon:comment; ratio: 0.8')
+                    |  12.345
+                .uk-card-body
+                h6.uk-margin-small-bottom.uk-margin-remove-adjacent.uk-text-bold VIDEO MUSIC AWARDS PICTURES
+                p.uk-text-small.uk-text-muted Duis aute irure dolor in reprehenderit in voluptate velit
+                .uk-card-footer
+                .uk-grid.uk-grid-small.uk-grid-divider.uk-flex.uk-flex-middle(data-uk-grid='')
+                    .uk-width-expand.uk-text-small
+                    | John Doe
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Twitter', data-uk-icon='icon:twitter; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Instagram', data-uk-icon='icon:instagram; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Behance', data-uk-icon='icon:behance; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Pinterest', data-uk-icon='icon:pinterest; ratio: 0.8')
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link.drag-icon(data-uk-tooltip='title: Drag this card', href='#', data-uk-icon='icon:move; ratio: 1')
+            // /card
+            // card
+            .design-card(data-tags='trends in design world - design')
+            .uk-card.uk-card-small.uk-card-default
+                .uk-card-header
+                .uk-grid.uk-grid-small.uk-text-small(data-uk-grid='')
+                    .uk-width-expand
+                    span.cat-txt DESIGN
+                    .uk-width-auto.uk-text-right.uk-text-muted
+                    span(data-uk-icon='icon:clock; ratio: 0.8')
+                    |  18 min.
+                .uk-card-media
+                .uk-inline-clip.uk-transition-toggle(tabindex='0')
+                    img.lazy(data-src='https://picsum.photos/400/460/?random=2', data-width='400', data-height='460', data-uk-img='', alt='', src='img/transp.gif')
+                    .uk-transition-slide-bottom.uk-position-bottom.uk-overlay.uk-overlay-primary
+                    span(data-uk-icon='icon:heart; ratio: 0.8')
+                    |  12.345 
+                    span(data-uk-icon='icon:comment; ratio: 0.8')
+                    |  12.345
+                .uk-card-body
+                h6.uk-margin-small-bottom.uk-margin-remove-adjacent.uk-text-bold TRENDS IN DESIGN WORLD
+                p.uk-text-small.uk-text-muted Duis aute irure dolor in reprehenderit in voluptate velit
+                .uk-card-footer
+                .uk-grid.uk-grid-small.uk-grid-divider.uk-flex.uk-flex-middle(data-uk-grid='')
+                    .uk-width-expand.uk-text-small
+                    | John Doe
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Twitter', data-uk-icon='icon:twitter; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Instagram', data-uk-icon='icon:instagram; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Behance', data-uk-icon='icon:behance; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Pinterest', data-uk-icon='icon:pinterest; ratio: 0.8')
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link.drag-icon(data-uk-tooltip='title: Drag this card', href='#', data-uk-icon='icon:move; ratio: 1')
+            // /card
+            // card
+            .photo-card(data-tags='amazing pictures - photography')
+            .uk-card.uk-card-small.uk-card-default
+                .uk-card-header
+                .uk-grid.uk-grid-small.uk-text-small(data-uk-grid='')
+                    .uk-width-expand
+                    span.cat-txt PHOTOGRAPHY
+                    .uk-width-auto.uk-text-right.uk-text-muted
+                    span(data-uk-icon='icon:clock; ratio: 0.8')
+                    |  23 min.
+                .uk-card-media
+                .uk-inline-clip.uk-transition-toggle(tabindex='0')
+                    img.lazy(data-src='https://picsum.photos/400/200/?random=1', data-width='400', data-height='200', data-uk-img='', alt='', src='img/transp.gif')
+                    .uk-transition-slide-bottom.uk-position-bottom.uk-overlay.uk-overlay-primary
+                    span(data-uk-icon='icon:heart; ratio: 0.8')
+                    |  12.345 
+                    span(data-uk-icon='icon:comment; ratio: 0.8')
+                    |  12.345
+                .uk-card-body
+                h6.uk-margin-small-bottom.uk-margin-remove-adjacent.uk-text-bold AMAZING PICTURES
+                p.uk-text-small.uk-text-muted Duis aute irure dolor in reprehenderit in voluptate velit
+                .uk-card-footer
+                .uk-grid.uk-grid-small.uk-grid-divider.uk-flex.uk-flex-middle(data-uk-grid='')
+                    .uk-width-expand.uk-text-small
+                    | John Doe
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Twitter', data-uk-icon='icon:twitter; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Instagram', data-uk-icon='icon:instagram; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Behance', data-uk-icon='icon:behance; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Pinterest', data-uk-icon='icon:pinterest; ratio: 0.8')
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link.drag-icon(data-uk-tooltip='title: Drag this card', href='#', data-uk-icon='icon:move; ratio: 1')
+            // /card
+            // card
+            .photo-card(data-tags='amazing nature pictures - photograhy')
+            .uk-card.uk-card-small.uk-card-default
+                .uk-card-header
+                .uk-grid.uk-grid-small.uk-text-small(data-uk-grid='')
+                    .uk-width-expand
+                    span.cat-txt PHOTOGRAPHY
+                    .uk-width-auto.uk-text-right.uk-text-muted
+                    span(data-uk-icon='icon:clock; ratio: 0.8')
+                    |  46 min.
+                .uk-card-media
+                .uk-inline-clip.uk-transition-toggle(tabindex='0')
+                    img.lazy(data-src='https://picsum.photos/400/360/?random=9', data-width='400', data-height='360', data-uk-img='', alt='', src='img/transp.gif')
+                    .uk-transition-slide-bottom.uk-position-bottom.uk-overlay.uk-overlay-primary
+                    span(data-uk-icon='icon:heart; ratio: 0.8')
+                    |  12.345 
+                    span(data-uk-icon='icon:comment; ratio: 0.8')
+                    |  12.345
+                .uk-card-body
+                h6.uk-margin-small-bottom.uk-margin-remove-adjacent.uk-text-bold AMAZING LANDSCAPE PICTURES
+                p.uk-text-small.uk-text-muted Duis aute irure dolor in reprehenderit in voluptate velit
+                .uk-card-footer
+                .uk-grid.uk-grid-small.uk-grid-divider.uk-flex.uk-flex-middle(data-uk-grid='')
+                    .uk-width-expand.uk-text-small
+                    | John Doe
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Twitter', data-uk-icon='icon:twitter; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Instagram', data-uk-icon='icon:instagram; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Behance', data-uk-icon='icon:behance; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Pinterest', data-uk-icon='icon:pinterest; ratio: 0.8')
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link.drag-icon(data-uk-tooltip='title: Drag this card', href='#', data-uk-icon='icon:move; ratio: 1')
+            // /card
+            // card
+            .nature-card(data-tags='wildlife and nature pictures - nature outdoor')
+            .uk-card.uk-card-small.uk-card-default
+                .uk-card-header
+                .uk-grid.uk-grid-small.uk-text-small(data-uk-grid='')
+                    .uk-width-expand
+                    span.cat-txt Nature / Outdoor
+                    .uk-width-auto.uk-text-right.uk-text-muted
+                    span(data-uk-icon='icon:clock; ratio: 0.8')
+                    |  1 hr.
+                .uk-card-media
+                .uk-inline-clip.uk-transition-toggle(tabindex='0')
+                    img.lazy(data-src='https://picsum.photos/400/300/?random=1', data-width='400', data-height='300', data-uk-img='', alt='', src='img/transp.gif')
+                    .uk-transition-slide-bottom.uk-position-bottom.uk-overlay.uk-overlay-primary
+                    span(data-uk-icon='icon:heart; ratio: 0.8')
+                    |  12.345 
+                    span(data-uk-icon='icon:comment; ratio: 0.8')
+                    |  12.345
+                .uk-card-body
+                h6.uk-margin-small-bottom.uk-margin-remove-adjacent.uk-text-bold WILDLIFE AND NATURE PICTURES
+                p.uk-text-small.uk-text-muted Duis aute irure dolor in reprehenderit in voluptate velit
+                .uk-card-footer
+                .uk-grid.uk-grid-small.uk-grid-divider.uk-flex.uk-flex-middle(data-uk-grid='')
+                    .uk-width-expand.uk-text-small
+                    | John Doe
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Twitter', data-uk-icon='icon:twitter; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Instagram', data-uk-icon='icon:instagram; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Behance', data-uk-icon='icon:behance; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Pinterest', data-uk-icon='icon:pinterest; ratio: 0.8')
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link.drag-icon(data-uk-tooltip='title: Drag this card', href='#', data-uk-icon='icon:move; ratio: 1')
+            // /card
+            // card
+            .music-card(data-tags='amazing new rock band from england - music bands')
+            .uk-card.uk-card-small.uk-card-default
+                .uk-card-header
+                .uk-grid.uk-grid-small.uk-text-small(data-uk-grid='')
+                    .uk-width-expand
+                    span.cat-txt MUSIC / BANDS
+                    .uk-width-auto.uk-text-right.uk-text-muted
+                    span(data-uk-icon='icon:clock; ratio: 0.8')
+                    |  1 hr.
+                .uk-card-media
+                .uk-inline-clip.uk-transition-toggle(tabindex='0')
+                    img.lazy(data-src='https://picsum.photos/400/470/?random=1', data-width='400', data-height='470', data-uk-img='', alt='', src='img/transp.gif')
+                    .uk-transition-slide-bottom.uk-position-bottom.uk-overlay.uk-overlay-primary
+                    span(data-uk-icon='icon:heart; ratio: 0.8')
+                    |  12.345 
+                    span(data-uk-icon='icon:comment; ratio: 0.8')
+                    |  12.345
+                .uk-card-body
+                h6.uk-margin-small-bottom.uk-margin-remove-adjacent.uk-text-bold AMAZING NEW ROCK BAND FROM ENGLAND
+                p.uk-text-small.uk-text-muted Duis aute irure dolor in reprehenderit in voluptate velit
+                .uk-card-footer
+                .uk-grid.uk-grid-small.uk-grid-divider.uk-flex.uk-flex-middle(data-uk-grid='')
+                    .uk-width-expand.uk-text-small
+                    | John Doe
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Twitter', data-uk-icon='icon:twitter; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Instagram', data-uk-icon='icon:instagram; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Behance', data-uk-icon='icon:behance; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Pinterest', data-uk-icon='icon:pinterest; ratio: 0.8')
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link.drag-icon(data-uk-tooltip='title: Drag this card', href='#', data-uk-icon='icon:move; ratio: 1')
+            // /card
+            // card
+            .music-card(data-tags='new album release today - music bands')
+            .uk-card.uk-card-small.uk-card-default
+                .uk-card-header
+                .uk-grid.uk-grid-small.uk-text-small(data-uk-grid='')
+                    .uk-width-expand
+                    span.cat-txt MUSIC / BANDS
+                    .uk-width-auto.uk-text-right.uk-text-muted
+                    span(data-uk-icon='icon:clock; ratio: 0.8')
+                    |  2 hr.
+                .uk-card-media
+                .uk-inline-clip.uk-transition-toggle(tabindex='0')
+                    img.lazy(data-src='https://picsum.photos/400/400/?random=1', data-width='400', data-height='400', data-uk-img='', alt='', src='img/transp.gif')
+                    .uk-transition-slide-bottom.uk-position-bottom.uk-overlay.uk-overlay-primary
+                    span(data-uk-icon='icon:heart; ratio: 0.8')
+                    |  12.345 
+                    span(data-uk-icon='icon:comment; ratio: 0.8')
+                    |  12.345
+                .uk-card-body
+                h6.uk-margin-small-bottom.uk-margin-remove-adjacent.uk-text-bold NEW ALBUM RELEASE TODAY
+                p.uk-text-small.uk-text-muted Duis aute irure dolor in reprehenderit in voluptate velit
+                .uk-card-footer
+                .uk-grid.uk-grid-small.uk-grid-divider.uk-flex.uk-flex-middle(data-uk-grid='')
+                    .uk-width-expand.uk-text-small
+                    | John Doe
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Twitter', data-uk-icon='icon:twitter; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Instagram', data-uk-icon='icon:instagram; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Behance', data-uk-icon='icon:behance; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Pinterest', data-uk-icon='icon:pinterest; ratio: 0.8')
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link.drag-icon(data-uk-tooltip='title: Drag this card', href='#', data-uk-icon='icon:move; ratio: 1')
+            // /card
+            // card
+            .photo-card(data-tags='urban picture gallery - photography')
+            .uk-card.uk-card-small.uk-card-default
+                .uk-card-header
+                .uk-grid.uk-grid-small.uk-text-small(data-uk-grid='')
+                    .uk-width-expand
+                    span.cat-txt PHOTOGRAPHY
+                    .uk-width-auto.uk-text-right.uk-text-muted
+                    span(data-uk-icon='icon:clock; ratio: 0.8')
+                    |  3 hr.
+                .uk-card-media
+                .uk-inline-clip.uk-transition-toggle(tabindex='0')
+                    img.lazy(data-src='https://picsum.photos/400/330/?random=1', data-width='400', data-height='330', data-uk-img='', alt='', src='img/transp.gif')
+                    .uk-transition-slide-bottom.uk-position-bottom.uk-overlay.uk-overlay-primary
+                    span(data-uk-icon='icon:heart; ratio: 0.8')
+                    |  12.345 
+                    span(data-uk-icon='icon:comment; ratio: 0.8')
+                    |  12.345
+                .uk-card-body
+                h6.uk-margin-small-bottom.uk-margin-remove-adjacent.uk-text-bold URBAN PICTURE GALLERY
+                p.uk-text-small.uk-text-muted Duis aute irure dolor in reprehenderit in voluptate velit
+                .uk-card-footer
+                .uk-grid.uk-grid-small.uk-grid-divider.uk-flex.uk-flex-middle(data-uk-grid='')
+                    .uk-width-expand.uk-text-small
+                    | John Doe
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Twitter', data-uk-icon='icon:twitter; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Instagram', data-uk-icon='icon:instagram; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Behance', data-uk-icon='icon:behance; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Pinterest', data-uk-icon='icon:pinterest; ratio: 0.8')
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link.drag-icon(data-uk-tooltip='title: Drag this card', href='#', data-uk-icon='icon:move; ratio: 1')
+            // /card
+            // card
+            .photo-card(data-tags='portraits - photograhy')
+            .uk-card.uk-card-small.uk-card-default
+                .uk-card-header
+                .uk-grid.uk-grid-small.uk-text-small(data-uk-grid='')
+                    .uk-width-expand
+                    span.cat-txt PHOTOGRAPHY
+                    .uk-width-auto.uk-text-right.uk-text-muted
+                    span(data-uk-icon='icon:clock; ratio: 0.8')
+                    |  1 day.
+                .uk-card-media
+                .uk-inline-clip.uk-transition-toggle(tabindex='0')
+                    img.lazy(data-src='https://picsum.photos/400/350/?random=6', data-width='400', data-height='350', data-uk-img='', alt='', src='img/transp.gif')
+                    .uk-transition-slide-bottom.uk-position-bottom.uk-overlay.uk-overlay-primary
+                    span(data-uk-icon='icon:heart; ratio: 0.8')
+                    |  12.345 
+                    span(data-uk-icon='icon:comment; ratio: 0.8')
+                    |  12.345
+                .uk-card-body
+                h6.uk-margin-small-bottom.uk-margin-remove-adjacent.uk-text-bold PORTRAITS
+                p.uk-text-small.uk-text-muted Duis aute irure dolor in reprehenderit in voluptate velit
+                .uk-card-footer
+                .uk-grid.uk-grid-small.uk-grid-divider.uk-flex.uk-flex-middle(data-uk-grid='')
+                    .uk-width-expand.uk-text-small
+                    | John Doe
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Twitter', data-uk-icon='icon:twitter; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Instagram', data-uk-icon='icon:instagram; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Behance', data-uk-icon='icon:behance; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Pinterest', data-uk-icon='icon:pinterest; ratio: 0.8')
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link.drag-icon(data-uk-tooltip='title: Drag this card', href='#', data-uk-icon='icon:move; ratio: 1')
+            // /card
+            // card
+            .design-card(data-tags='how to use space in design - design')
+            .uk-card.uk-card-small.uk-card-default
+                .uk-card-header
+                .uk-grid.uk-grid-small.uk-text-small(data-uk-grid='')
+                    .uk-width-expand
+                    span.cat-txt DESIGN
+                    .uk-width-auto.uk-text-right.uk-text-muted
+                    span(data-uk-icon='icon:clock; ratio: 0.8')
+                    |  1 day.
+                .uk-card-media
+                .uk-inline-clip.uk-transition-toggle(tabindex='0')
+                    img.lazy(data-src='https://picsum.photos/400/460/?random=2', data-width='400', data-height='460', data-uk-img='', alt='', src='img/transp.gif')
+                    .uk-transition-slide-bottom.uk-position-bottom.uk-overlay.uk-overlay-primary
+                    span(data-uk-icon='icon:heart; ratio: 0.8')
+                    |  12.345 
+                    span(data-uk-icon='icon:comment; ratio: 0.8')
+                    |  12.345
+                .uk-card-body
+                h6.uk-margin-small-bottom.uk-margin-remove-adjacent.uk-text-bold HOW TO USE SPACE IN DESIGN
+                p.uk-text-small.uk-text-muted Duis aute irure dolor in reprehenderit in voluptate velit
+                .uk-card-footer
+                .uk-grid.uk-grid-small.uk-grid-divider.uk-flex.uk-flex-middle(data-uk-grid='')
+                    .uk-width-expand.uk-text-small
+                    | John Doe
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Twitter', data-uk-icon='icon:twitter; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Instagram', data-uk-icon='icon:instagram; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Behance', data-uk-icon='icon:behance; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Pinterest', data-uk-icon='icon:pinterest; ratio: 0.8')
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link.drag-icon(data-uk-tooltip='title: Drag this card', href='#', data-uk-icon='icon:move; ratio: 1')
+            // /card
+            // card
+            .music-card(data-tags='remastered record from the clash - music bands')
+            .uk-card.uk-card-small.uk-card-default
+                .uk-card-header
+                .uk-grid.uk-grid-small.uk-text-small(data-uk-grid='')
+                    .uk-width-expand
+                    span.cat-txt MUSIC / BANDS
+                    .uk-width-auto.uk-text-right.uk-text-muted
+                    span(data-uk-icon='icon:clock; ratio: 0.8')
+                    |  1 day.
+                .uk-card-media
+                .uk-inline-clip.uk-transition-toggle(tabindex='0')
+                    img.lazy(data-src='https://picsum.photos/400/200/?random=2', data-width='400', data-height='200', data-uk-img='', alt='', src='img/transp.gif')
+                    .uk-transition-slide-bottom.uk-position-bottom.uk-overlay.uk-overlay-primary
+                    span(data-uk-icon='icon:heart; ratio: 0.8')
+                    |  12.345 
+                    span(data-uk-icon='icon:comment; ratio: 0.8')
+                    |  12.345
+                .uk-card-body
+                h6.uk-margin-small-bottom.uk-margin-remove-adjacent.uk-text-bold REMASTERED RECORD FROM THE CLASH
+                p.uk-text-small.uk-text-muted Duis aute irure dolor in reprehenderit in voluptate velit
+                .uk-card-footer
+                .uk-grid.uk-grid-small.uk-grid-divider.uk-flex.uk-flex-middle(data-uk-grid='')
+                    .uk-width-expand.uk-text-small
+                    | John Doe
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Twitter', data-uk-icon='icon:twitter; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Instagram', data-uk-icon='icon:instagram; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Behance', data-uk-icon='icon:behance; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Pinterest', data-uk-icon='icon:pinterest; ratio: 0.8')
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link.drag-icon(data-uk-tooltip='title: Drag this card', href='#', data-uk-icon='icon:move; ratio: 1')
+            // /card
+            // card
+            .design-card(data-tags='how to use typography in design - design')
+            .uk-card.uk-card-small.uk-card-default
+                .uk-card-header
+                .uk-grid.uk-grid-small.uk-text-small(data-uk-grid='')
+                    .uk-width-expand
+                    span.cat-txt DESIGN
+                    .uk-width-auto.uk-text-right.uk-text-muted
+                    span(data-uk-icon='icon:clock; ratio: 0.8')
+                    |  2 days.
+                .uk-card-media
+                .uk-inline-clip.uk-transition-toggle(tabindex='0')
+                    img.lazy(data-src='https://picsum.photos/400/570/?random=3', data-width='400', data-height='570', data-uk-img='', alt='', src='img/transp.gif')
+                    .uk-transition-slide-bottom.uk-position-bottom.uk-overlay.uk-overlay-primary
+                    span(data-uk-icon='icon:heart; ratio: 0.8')
+                    |  12.345 
+                    span(data-uk-icon='icon:comment; ratio: 0.8')
+                    |  12.345
+                .uk-card-body
+                h6.uk-margin-small-bottom.uk-margin-remove-adjacent.uk-text-bold HOW TO USE TYPOGRAPHY IN DESIGN
+                p.uk-text-small.uk-text-muted Duis aute irure dolor in reprehenderit in voluptate velit
+                .uk-card-footer
+                .uk-grid.uk-grid-small.uk-grid-divider.uk-flex.uk-flex-middle(data-uk-grid='')
+                    .uk-width-expand.uk-text-small
+                    | John Doe
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Twitter', data-uk-icon='icon:twitter; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Instagram', data-uk-icon='icon:instagram; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Behance', data-uk-icon='icon:behance; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Pinterest', data-uk-icon='icon:pinterest; ratio: 0.8')
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link.drag-icon(data-uk-tooltip='title: Drag this card', href='#', data-uk-icon='icon:move; ratio: 1')
+            // /card
+            // card
+            .nature-card(data-tags='wildlife in the uco valley - photograhy outdoor')
+            .uk-card.uk-card-small.uk-card-default
+                .uk-card-header
+                .uk-grid.uk-grid-small.uk-text-small(data-uk-grid='')
+                    .uk-width-expand
+                    span.cat-txt Nature / Outdoor
+                    .uk-width-auto.uk-text-right.uk-text-muted
+                    span(data-uk-icon='icon:clock; ratio: 0.8')
+                    |  2 days.
+                .uk-card-media
+                .uk-inline-clip.uk-transition-toggle(tabindex='0')
+                    img.lazy(data-src='https://picsum.photos/400/300/?random=3', data-width='400', data-height='300', data-uk-img='', alt='', src='img/transp.gif')
+                    .uk-transition-slide-bottom.uk-position-bottom.uk-overlay.uk-overlay-primary
+                    span(data-uk-icon='icon:heart; ratio: 0.8')
+                    |  12.345 
+                    span(data-uk-icon='icon:comment; ratio: 0.8')
+                    |  12.345
+                .uk-card-body
+                h6.uk-margin-small-bottom.uk-margin-remove-adjacent.uk-text-bold WILDLIFE IN THE UCO VALLEY
+                p.uk-text-small.uk-text-muted Duis aute irure dolor in reprehenderit in voluptate velit
+                .uk-card-footer
+                .uk-grid.uk-grid-small.uk-grid-divider.uk-flex.uk-flex-middle(data-uk-grid='')
+                    .uk-width-expand.uk-text-small
+                    | John Doe
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Twitter', data-uk-icon='icon:twitter; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Instagram', data-uk-icon='icon:instagram; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Behance', data-uk-icon='icon:behance; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Pinterest', data-uk-icon='icon:pinterest; ratio: 0.8')
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link.drag-icon(data-uk-tooltip='title: Drag this card', href='#', data-uk-icon='icon:move; ratio: 1')
+            // /card
+            // card
+            .nature-card(data-tags='on top of the mountains - nature outdoor')
+            .uk-card.uk-card-small.uk-card-default
+                .uk-card-header
+                .uk-grid.uk-grid-small.uk-text-small(data-uk-grid='')
+                    .uk-width-expand
+                    span.cat-txt Nature / Outdoor
+                    .uk-width-auto.uk-text-right.uk-text-muted
+                    span(data-uk-icon='icon:clock; ratio: 0.8')
+                    |  3 days.
+                .uk-card-media
+                .uk-inline-clip.uk-transition-toggle(tabindex='0')
+                    img.lazy(data-src='https://picsum.photos/400/530/?random=8', data-width='400', data-height='530', data-uk-img='', alt='', src='img/transp.gif')
+                    .uk-transition-slide-bottom.uk-position-bottom.uk-overlay.uk-overlay-primary
+                    span(data-uk-icon='icon:heart; ratio: 0.8')
+                    |  12.345 
+                    span(data-uk-icon='icon:comment; ratio: 0.8')
+                    |  12.345
+                .uk-card-body
+                h6.uk-margin-small-bottom.uk-margin-remove-adjacent.uk-text-bold ON TOP OF THE MOUNTAINS
+                p.uk-text-small.uk-text-muted Duis aute irure dolor in reprehenderit in voluptate velit
+                .uk-card-footer
+                .uk-grid.uk-grid-small.uk-grid-divider.uk-flex.uk-flex-middle(data-uk-grid='')
+                    .uk-width-expand.uk-text-small
+                    | John Doe
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Twitter', data-uk-icon='icon:twitter; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Instagram', data-uk-icon='icon:instagram; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Behance', data-uk-icon='icon:behance; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Pinterest', data-uk-icon='icon:pinterest; ratio: 0.8')
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link.drag-icon(data-uk-tooltip='title: Drag this card', href='#', data-uk-icon='icon:move; ratio: 1')
+            // /card
+            // card
+            .design-card(data-tags='how to create a custom color palette - design')
+            .uk-card.uk-card-small.uk-card-default
+                .uk-card-header
+                .uk-grid.uk-grid-small.uk-text-small(data-uk-grid='')
+                    .uk-width-expand
+                    span.cat-txt Design
+                    .uk-width-auto.uk-text-right.uk-text-muted
+                    span(data-uk-icon='icon:clock; ratio: 0.8')
+                    |  4 days.
+                .uk-card-media
+                .uk-inline-clip.uk-transition-toggle(tabindex='0')
+                    img.lazy(data-src='https://picsum.photos/400/180/?random=2', data-width='400', data-height='180', data-uk-img='', alt='', src='img/transp.gif')
+                    .uk-transition-slide-bottom.uk-position-bottom.uk-overlay.uk-overlay-primary
+                    span(data-uk-icon='icon:heart; ratio: 0.8')
+                    |  12.345 
+                    span(data-uk-icon='icon:comment; ratio: 0.8')
+                    |  12.345
+                .uk-card-body
+                h6.uk-margin-small-bottom.uk-margin-remove-adjacent.uk-text-bold HOW TO CREATE CUSTOM COLOR PALETTE
+                p.uk-text-small.uk-text-muted Duis aute irure dolor in reprehenderit in voluptate velit
+                .uk-card-footer
+                .uk-grid.uk-grid-small.uk-grid-divider.uk-flex.uk-flex-middle(data-uk-grid='')
+                    .uk-width-expand.uk-text-small
+                    | John Doe
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Twitter', data-uk-icon='icon:twitter; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Instagram', data-uk-icon='icon:instagram; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Behance', data-uk-icon='icon:behance; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Pinterest', data-uk-icon='icon:pinterest; ratio: 0.8')
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link.drag-icon(data-uk-tooltip='title: Drag this card', href='#', data-uk-icon='icon:move; ratio: 1')
+            // /card
+            // card
+            .nature-card(data-tags='wildcats in thailand - nature outdoor')
+            .uk-card.uk-card-small.uk-card-default
+                .uk-card-header
+                .uk-grid.uk-grid-small.uk-text-small(data-uk-grid='')
+                    .uk-width-expand
+                    span.cat-txt Nature / Outdoor
+                    .uk-width-auto.uk-text-right.uk-text-muted
+                    span(data-uk-icon='icon:clock; ratio: 0.8')
+                    |  1 week.
+                .uk-card-media
+                .uk-inline-clip.uk-transition-toggle(tabindex='0')
+                    img.lazy(data-src='https://picsum.photos/400/220/?random=7', data-width='400', data-height='220', data-uk-img='', alt='', src='img/transp.gif')
+                    .uk-transition-slide-bottom.uk-position-bottom.uk-overlay.uk-overlay-primary
+                    span(data-uk-icon='icon:heart; ratio: 0.8')
+                    |  12.345 
+                    span(data-uk-icon='icon:comment; ratio: 0.8')
+                    |  12.345
+                .uk-card-body
+                h6.uk-margin-small-bottom.uk-margin-remove-adjacent.uk-text-bold WILDCATS IN THAILAND
+                p.uk-text-small.uk-text-muted Duis aute irure dolor in reprehenderit in voluptate velit
+                .uk-card-footer
+                .uk-grid.uk-grid-small.uk-grid-divider.uk-flex.uk-flex-middle(data-uk-grid='')
+                    .uk-width-expand.uk-text-small
+                    | John Doe
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Twitter', data-uk-icon='icon:twitter; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Instagram', data-uk-icon='icon:instagram; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Behance', data-uk-icon='icon:behance; ratio: 0.8')
+                    a.uk-icon-link(href='#', data-uk-tooltip='title: Pinterest', data-uk-icon='icon:pinterest; ratio: 0.8')
+                    .uk-width-auto.uk-text-right
+                    a.uk-icon-link.drag-icon(data-uk-tooltip='title: Drag this card', href='#', data-uk-icon='icon:move; ratio: 1')
+            // /card
+            // /CARDS WRAPPER
+            // FOOTER
+            footer#site-foot.uk-section.uk-section-secondary.uk-section-xsmall
+            .uk-container.uk-text-small.uk-text-center
+                a(href='https://github.com/zzseba78/Kick-Off') Created by KickOff
+                |  | Built with 
+                a(href='http://getuikit.com', title='Visit UIkit 3 site', target='_blank', data-uk-tooltip='')
+                span(data-uk-icon='uikit')
+            // /FOOTER
+            // OFFCANVAS
+            #offcanvas-nav(data-uk-offcanvas='flip: true; overlay: true')
+            .uk-offcanvas-bar.uk-offcanvas-bar-animation.uk-offcanvas-slide
+                button.uk-offcanvas-close.uk-close.uk-icon(type='button', data-uk-close='')
+                ul.uk-nav.uk-nav-default
+                li.uk-active
+                    a(href='#') Active
+                li.uk-parent
+                    a(href='#') Parent
+                    ul.uk-nav-sub
+                    li
+                        a(href='#') Sub item
+                    li
+                        a(href='#') Sub item
+                li.uk-nav-header Header
+                li
+                    a(href='#js-options')
+                    span.uk-margin-small-right.uk-icon(data-uk-icon='icon: table')
+                    |  Item
+                li
+                    a(href='#')
+                    span.uk-margin-small-right.uk-icon(data-uk-icon='icon: thumbnails')
+                    |  Item
+                li.uk-nav-divider
+                li
+                    a(href='#')
+                    span.uk-margin-small-right.uk-icon(data-uk-icon='icon: trash')
+                    |  Item
+                h3 Title
+                p
+                | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
