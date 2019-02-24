@@ -6,7 +6,7 @@ date: 2016-02-19
 category: "Blog"
 tag: []
 description: Despite its rich history stretching back thousands of years, Iran still lies off the beaten track for most travellers. The joy of travelling in one of the friendliest nations on the planet is the feeling of its yet-to-be-discovered uniqueness.
-image: "/images/posts/monastery-st-stephanos-western-iran.jpg"
+image: "/z-media/images/posts/monastery-st-stephanos-western-iran.jpg"
 image-bg: /photos/posts/vank-cathedral-esfahan-iran-a194de8d8608-1024x716.jpg
 image-sm: /photos/posts/vank-cathedral-esfahan-iran-a194de8d8608-1024x716.jpg
 ---

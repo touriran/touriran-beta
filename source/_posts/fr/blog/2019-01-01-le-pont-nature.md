@@ -5,7 +5,7 @@ date: 2019-01-01 13:45:36 +0000
 category: "Blog"
 tag: []
 description: A 26 ans, Leila Araghian a été désignée lauréate du concours pour la conception d’un pont au-dessus d’une vaste autoroute urbaine séparant deux des plus grands parcs de Téhéran.
-image: "/images/posts/Le-Pont-Nature.png"
+image: "/z-media/images/posts/Le-Pont-Nature.png"
 image-bg: "/images/posts/Le-Pont-Nature.png"
 image-sm: "/images/posts/Le-Pont-Nature.png"
 ---

@@ -5,7 +5,7 @@ price: 11
 oldPrice: 12
 isNotAvailable: false
 image: 
-    medium: "/images/products/new/water-sweetening.jpeg"
+    medium: "/z-media/images/products/new/water-sweetening.jpeg"
 tag: []
 category: "Products"
 statuses: [ ]

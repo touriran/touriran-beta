@@ -5,7 +5,7 @@ date: 2016-02-18
 category: "Blog"
 tag: []
 description: Leave the bright lights and tourist delights of Esfahan and Shiraz far behind to track down astonishing millennia-old relics among the dusty wilds of ancient Persia.
-image: "/images/posts/vank-cathedral-esfahan-iran.jpg"
+image: "/z-media/images/posts/vank-cathedral-esfahan-iran.jpg"
 image-bg: /photos/posts/monastery-st-stephanos-western-iran-8b7712fa7950.jpg
 image-sm: /photos/posts/monastery-st-stephanos-western-iran-8b7712fa7950.jpg
 ---

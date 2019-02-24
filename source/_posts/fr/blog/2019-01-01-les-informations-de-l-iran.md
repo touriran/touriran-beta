@@ -3,7 +3,7 @@ title: "A Propos de L'Iran"
 date: 2019-01-01 17:30:05 +0330
 description: "Moyen-Orient, au bord de la mer d’Oman, du Golfe Persique et de La mer Caspienne, entre L’Irak et le Pakistan"
 category: [Blog]
-image: "/images/posts/monastery-st-stephanos-western-iran.jpg"
+image: "/z-media/images/posts/monastery-st-stephanos-western-iran.jpg"
 image-bg: "/images/posts/monastery-st-stephanos-western-iran.jpg"
 image-sm: "/images/posts/monastery-st-stephanos-western-iran.jpg"
 ---

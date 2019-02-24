@@ -6,9 +6,9 @@ date: 2016-02-19
 category: "Blog"
 tag: []
 description: Despite its rich history stretching back thousands of years, Iran still lies off the beaten track for most travellers. The joy of travelling in one of the friendliest nations on the planet is the feeling of its yet-to-be-discovered uniqueness.
-image: "/images/posts/monastery-st-stephanos-western-iran.jpg"
-image-bg: /photos/posts/vank-cathedral-esfahan-iran-a194de8d8608-1024x716.jpg
-image-sm: /photos/posts/vank-cathedral-esfahan-iran-a194de8d8608-1024x716.jpg
+image: "/z-media/images/posts/monastery-st-stephanos-western-iran.jpg"
+image-bg: /z-media/photos/posts/vank-cathedral-esfahan-iran-a194de8d8608-1024x716.jpg
+image-sm: /z-media/photos/posts/vank-cathedral-esfahan-iran-a194de8d8608-1024x716.jpg
 ---
 Etsy squid occupy pop-up. Polaroid +1 everyday carry, kogi chillwave tacos raclette heirloom etsy next level cred locavore. Blog street art DIY, pug crucifix asymmetrical chicharrones. Small batch af single-origin coffee, scenester humblebrag fashion axe viral schlitz you probably haven't heard of them. Kickstarter synth poutine brunch hoodie. Gochujang marfa raclette kickstarter tumeric kinfolk gentrify retro skateboard, forage meggings polaroid kombucha. Tilde mlkshk fam meggings.
 

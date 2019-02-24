@@ -5,7 +5,7 @@ price: 11
 oldPrice: 12
 isNotAvailable: false
 image: 
-    medium: "/images/products/new/Khatam-Phone.jpeg"
+    medium: "/z-media/images/products/new/Khatam-Phone.jpeg"
 tag: []
 category: "Products"
 statuses: []

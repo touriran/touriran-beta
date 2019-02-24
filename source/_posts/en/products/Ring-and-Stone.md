@@ -5,7 +5,7 @@ price: 11
 oldPrice: 12
 isNotAvailable: false
 image: 
-    medium: "/images/products/new/Ring2.jpeg"
+    medium: "/z-media/images/products/new/Ring2.jpeg"
 tag: []
 category: "Products"
 statuses: []

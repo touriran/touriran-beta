@@ -5,7 +5,7 @@ price: 11
 oldPrice: 12
 isNotAvailable: false
 image: 
-    medium: "/images/products/new/plate.jpg"
+    medium: "/z-media/images/products/new/plate.jpg"
 tag: []
 category: "Products"
 statuses: ["Trade-In"]

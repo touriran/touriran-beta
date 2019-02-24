@@ -5,7 +5,7 @@ price: 11
 oldPrice: 12
 isNotAvailable: false
 image: 
-    medium: "/images/products/new/Persian-Carpet.jpeg"
+    medium: "/z-media/images/products/new/Persian-Carpet.jpeg"
 tag: []
 category: "Products"
 statuses: [ "new"]
