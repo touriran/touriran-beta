@@ -1,32 +1,26 @@
 #Header
 header:
   address: "Tehran, Iran"
-  office: "Office in Tehran"
+  office: "Büro in Teheran"
   storeName: "Tour Iran Organization"
-  openingHours: 'Daily 10:00–22:00'
+  openingHours: 'Täglich 10: 00–22: 00 Uhr'
 
 footer:
   developedby: Developed by Mohsen Khanpour
-  copyright: All rights reserved by Tour Iran
+  copyright: Alle Rechte sind der Tour Iran vorbehalten
   subscribe: Subscribe for updates
   subscribetext: Be aware of new products and special offers.
   left:
-    destinations: "Destinations"
-    spots: "Spots"
-    interests: "Interests"
-    tours: "Tours"
-    information: "Information"
+    destinations: "Reiseziele"
+    spots: "Flecken"
+    interests: "Interessen"
+    tours: "Touren"
+    information: "Informationen"
   right:
-    about: "About"
-    contacts: "Contacts"
+    about: "Über"
+    contacts: "Kontakte"
     blog: "Blog"
-    news: "News"
-
-toolbarMenu:
-  news: "News"
-  faq: "FAQ"
-  delivery: "Delivery"
-
+    news: "Nachrichten"
 #Main:
 Catalog: Catalog
 Partners: Brands
