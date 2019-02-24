@@ -12,6 +12,7 @@ language:
   - en
   - fr
   - de
+  - jp
   - ar
   - fa
 timezone:
@@ -33,11 +34,11 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 exclude:   
-  - "scripts/script.js"
-  - "scripts/**"
+  - "x-assets/scripts/script.js"
+  - "x-assets/scripts/**"
 skip_render:   
-  - "scripts/script.js"
-  - "scripts/**"
+  - "x-assets/scripts/script.js"
+  - "x-assets/scripts/**"
 
 # Writing
 new_post_name: :title.md # File name of new posts

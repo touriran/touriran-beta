@@ -71,7 +71,7 @@ tag: Tag
 #Style
 lang: en
 direction: ltr
-style: /x-assets/styles/style-ltr.css
+style: /styles/style-ltr.css
 data: ../data/_data_en
 
 #UIKit

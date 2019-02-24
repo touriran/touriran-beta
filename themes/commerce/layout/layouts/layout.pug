@@ -16,13 +16,13 @@ block vars
   - var pagee
 
 //- Template
-html(lang="en" dir=__('direction'))
+html(lang=__('lang') dir=__('direction'))
   head
     include ../partials/_head
     link(rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,500")
     link(rel="stylesheet" href=__('style'))
-    script(src="/scripts/uikit.js")
-    script(src="/scripts/uikit-icons.js")
+    script(src="/x-assets/scripts/uikit.js")
+    script(src="/x-assets/scripts/uikit-icons.js")
     block title
 
 
@@ -30,7 +30,7 @@ html(lang="en" dir=__('direction'))
     div.uk-offcanvas-content
       block index
       block pagination
-    script(src="/scripts/script.js")
+    script(src="/x-assets/scripts/script.js")
     script(src="//maps.googleapis.com/maps/api/js?key=AIzaSyClyjCemJi4m2q78gNeGkhlckpdH1hzTYA&callback=initMap"
            async
            defer)

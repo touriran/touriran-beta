@@ -6,17 +6,16 @@ var gulp = require('gulp'),
 // Scripts
 
 gulp.task('scripts', function () {
-  return gulp.src('source/scripts/*.js')
+  return gulp.src('source/x-assets/scripts/*.js')
     .pipe(include({
       extensions: 'js',
       hardFail: true,
       includePaths: [
-        __dirname + '/node_modules',
-        __dirname + '/src/js'
+        __dirname + '/node_modules'
       ]
     }))
     .pipe(jsmin())
-    .pipe(gulp.dest('public/scripts'));
+    .pipe(gulp.dest('public/x-assets/scripts'));
 });
 
 //Default 
