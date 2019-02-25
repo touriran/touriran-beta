@@ -37,19 +37,44 @@ navbarMenu:
   about: "About"
   contacts: "Contacts"
 
-#Style
-lang: fr
-direction: ltr
-style: /x-assets/styles/style-ltr.css
-data: ../data/_data_en
-
-#UIKit
-uikit:
-  left: left
-  right: right
-  previous: previous
-  next: next
-
+discover:
+  spots: 
+    title: "Spots"
+    islands: "Islands"
+    beaches: "Beaches"
+    deserts: "Deserts"
+    forests: "Forests"
+    villages: "Villages"
+    tombs-shrines: "Tombs and Shrines"
+  interests:
+    title: "Things to Do"
+    art: "Art & Culture"
+    history: "History"
+    nature: "Nature"
+    religion: "Religion"
+    shopping: "Shopping"
+    food: "Food and Drinks"
+    health: "Health"
+    action: "Action and Adventure"
+  events:
+    title: "Events"
+    exhibitions: "Exhibitions"
+    festivals: "Festivals"
+    holidays: "National Holidays"
+    religious: "Religious Events"
+  seasons:
+    title: "Seasons"
+    spring: "Spring"
+    summer: "Summer"
+    fall: "Fall"
+    winter: "Winter"
+  information:
+    title: "Information"
+    visa: "Getting Visa"
+    firstTime: "First time in Iran?"
+    accomodation: "Accomodation"
+    transportation: "Transportation"
+    weather: "Weather Information"
 
 
 #Main:
@@ -92,3 +117,17 @@ powered_by: Powered by
 rss_feed: RSS Feed
 category: Category
 tag: Tag
+
+
+#Style
+lang: fr
+direction: ltr
+style: /x-assets/styles/style-ltr.css
+data: ../data/_data_en
+
+#UIKit
+uikit:
+  left: left
+  right: right
+  previous: previous
+  next: next

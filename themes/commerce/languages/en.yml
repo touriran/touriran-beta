@@ -1,3 +1,9 @@
+#Home Page About
+about:
+  header: "About Us"
+  text: "We are Tour Iran group. We provide information and guides for tourists."
+  motto: "Have a memorable visit to Iran with us!"
+
 #Header
 header:
   address: "Tehran, Iran"
@@ -5,11 +11,12 @@ header:
   storeName: "Tour Iran Organization"
   openingHours: 'Daily 10:00–22:00'
 
+#Footer 
 footer:
-  developedby: Developed by Mohsen Khanpour
-  copyright: All rights reserved by Tour Iran
-  subscribe: Subscribe for updates
-  subscribetext: Be aware of new products and special offers.
+  developedby: "Developed by Mohsen Khanpour"
+  copyright: "All rights reserved by Tour Iran"
+  subscribe: "Subscribe for updates"
+  subscribetext: "Be aware of new products and special offers."
   left:
     destinations: "Destinations"
     spots: "Spots"
@@ -76,11 +83,14 @@ discover:
     transportation: "Transportation"
     weather: "Weather Information"
 
+categories:
+  tours: "Tours"
+  souvenirs: "Souvenirs"
+  accomodation: "Accomodation"
+  information: "Information"
+  spots: "Spots"
+
 #Main:
-Catalog: Catalog
-Partners: Brands
-Pages: Pages
-Blog: Blog
 Trending: Trending Items
 ShopAll: See more
 PartnersAll: See all partners
@@ -88,10 +98,7 @@ AllArticles: See all articles
 LatestNews: Latest News
 ReadMore: Read More
 
-about:
-  header: About Us
-  text: "We are Tour Iran group. Our team has yeras of experience in architecture, internal design and decoration, and construction. Our slogan is:"
-  motto: The place you live is more beautiful with change.
+
 
 #Expressions:
 see all categories: see all categories

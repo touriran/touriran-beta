@@ -1,22 +1,88 @@
-#Style:
-lang: ar
-direction: rtl
-style: /x-assets/styles/style-rtl.css
-data: ../data/_data_ar
+#Homepage About
+about:
+  header: "درباره ما"
+  text: "ما گروه تور ایران هستیم و در زمینه جذب گردشگر در ایران فعالیت می‌کنیم"
+  motto: "با ما تجربه بی نظیری در ایران را تجربه کنید"
 
+#Header
+header:
+  address: "تهران، ایران"
+  office: "دفتر تهران"
+  storeName: "تور ایران"
+  openingHours: 'هر روز از ساعت ۸ تا ۲۰'
+#Footer
+footer:
+  developedby: "طراحی و توسعه توسط محسن خانپور"
+  copyright: "کلیه حقوق این سایت متعلق به تور ایران می باشد"
+  subscribe: "اشتراک برای به روز رسانی"
+  subscribetext: "از پیشنهادات ویژه آگاه شوید"
+  left:
+    destinations: "مقاصد"
+    spots: "نقاط دیدنی"
+    interests: "فعالیت‌ها"
+    tours: "تورها"
+    information: "اطلاعات"
+  right:
+    about: "درباره"
+    contacts: "مخاطب"
+    blog: "وبلاگ"
+    news: "اخبار"
 
-#UIKit
-uikit:
-  left: right
-  right: left
-  previous: next
-  next: previous
+toolbarMenu:
+  news: "اخبار"
+  faq: "سوالات متداول"
+  delivery: "تحویل"
 
-#Main:
-Catalog: فهرس
-Partners: شركائنا
-Pages: صفحات
-Blog: مدونة
+navbarMenu:
+  discover: "كشف کنید"
+  destinations: "مقاصد"
+  pages: 
+    pages: "صفحات"
+    delivery: "تحویل"
+  blog: "وبلاگ"
+  about: "درباره"
+  contacts: "ارتباط با ما"
+
+discover:
+  spots: 
+    title: "بگردید"
+    islands: "جزایر"
+    beaches: "سواحل"
+    deserts: "بیابان ها"
+    forests: "جنگل ها"
+    villages: "روستاها"
+    tombs-shrines: "گروگان ها و حرمسرا"
+  interests:
+    title: "فعالیت‌ها"
+    art: "هنر و فرهنگ"
+    history: "تاریخ"
+    nature: "طبیعت"
+    religion: "دین"
+    shopping: "خريد كردن"
+    food: "غذا و نوشیدنی"
+    health: "سلامتی"
+    action: "اقدام و ماجراجویی"
+  events:
+    title: "مناسبت ها"
+    exhibitions: "نمایشگاه ها"
+    festivals: "جشنواره ها"
+    holidays: "تعطیلات ملی"
+    religious: "رویدادهای مذهبی"
+  seasons:
+    title: "فصل ها"
+    spring: "بهار"
+    summer: "تابستان"
+    fall: "پاییز"
+    winter: "زمستان"
+  information:
+    title: "اطلاعات"
+    visa: "گرفتن گذرنامه"
+    firstTime: "اولین بار در ایران؟"
+    accomodation: "اقامت"
+    transportation: "حمل و نقل"
+    weather: "اطلاعات هواشناسی"
+
+#Main
 Trending: العناصر المتداولة
 ShopAll: شاهد المزيد
 PartnersAll: جميع شركائنا
@@ -24,16 +90,8 @@ AllArticles: انظر جميع المقالات
 LatestNews: أحدث الأخبار
 ReadMore: قراءة المزيد
 
-about:
-  header: معلومات عنا
-  text: " :نحن مجموعه الشركه المستوى الذهبي و مهندسين و الموظفين الذين لديهم الخبره الكافيه في مجال عملهم المعماري لديكورات الداخليه و الخارجيه إعاده البناء  والهدف من شركتنا اجمل الديكورات و اَي من التصاميم الذي يرضيكم و نعمل ونجيد العمل مماثلا لتفكيركم هذا هو شعارنا"
-  motto: مقركم و مكان عيشكم معاً الى الاحسن
 
-footer:
-  developedby: تصمیم بواسطه محسن خانپور
-  copyright: جميع الحقوق محفوظة لمستوى الذهب المستوى
-  subscribe: اشترك للحصول على التحديثات
-  subscribetext: كن على علم بالمنتجات الجديدة والعروض الخاصة.
+
 
 
 #Expressions:
@@ -57,3 +115,17 @@ powered_by: Propulsé par
 rss_feed: Flux RSS
 category: Catégorie
 tag: Mot-clé
+
+#Style:
+lang: ar
+direction: rtl
+style: /x-assets/styles/style-rtl.css
+data: ../data/_data_ar
+
+
+#UIKit
+uikit:
+  left: right
+  right: left
+  previous: next
+  next: previous

@@ -1,22 +1,90 @@
-#Style:
-lang: ar
-direction: rtl
-style: /x-assets/styles/style-rtl.css
-data: ../data/_data_ar
+#Home Page About
+about:
+  header: "معلومات عنا"
+  text: "نحن مجموعة جولة إيران. نحن نقدم معلومات وأدلة للسياح."
+  motto: "قم بزيارة لا تنسى إلى إيران معنا!"
 
+#Header
+header:
+  address: "طهران ، إيران"
+  office: "مكتب في طهران"
+  storeName: "جولة في منظمة ايران"
+  openingHours: 'يوميًا من الساعة 10 صباحًا حتى الساعة 10 مساءً'
 
-#UIKit
-uikit:
-  left: right
-  right: left
-  previous: next
-  next: previous
+#Footer
+footer:
+  developedby: Developed by Mohsen Khanpour
+  copyright: All rights reserved by Tour Iran
+  subscribe: Subscribe for updates
+  subscribetext: Be aware of new products and special offers.
+  left:
+    destinations: "الأماكن"
+    spots: "بقع"
+    interests: "الإهتمامات"
+    tours: "جولات"
+    information: "معلومات"
+  right:
+    about: "حول"
+    contacts: "جهات الاتصال"
+    blog: "مدونة"
+    news: "أخبار"
+
+toolbarMenu:
+  news: "أخبار"
+  faq: "التعليمات"
+  delivery: "توصيل"
+
+navbarMenu:
+  discover: "اكتشف"
+  destinations: "الأماكن"
+  pages: 
+    pages: "صفحات"
+    delivery: "توصيل"
+  blog: "مدونة"
+  about: "حول"
+  contacts: "جهات الاتصال"
+
+discover:
+  spots: 
+    title: "بقع"
+    islands: "الجزر"
+    beaches: "الشواطئ"
+    deserts: "الصحاري"
+    forests: "الغابات"
+    villages: "القرى"
+    tombs-shrines: "المقابر والأضرحة"
+  interests:
+    title: "الأشياء الذي ينبغي فعلها"
+    art: "ثقافة الفن"
+    history: "التاريخ"
+    nature: "طبيعة"
+    religion: "دين"
+    shopping: "التسوق"
+    food: "الطعام و الشراب"
+    health: "الصحة"
+    action: "الحركة والمغامرة"
+  events:
+    title: "أحداث"
+    exhibitions: "المعارض"
+    festivals: "المهرجانات"
+    holidays: "الاعياد الوطنية"
+    religious: "أحداث دينية"
+  seasons:
+    title: "مواسم"
+    spring: "ربيع"
+    summer: "الصيف"
+    fall: "خريف"
+    winter: "شتاء"
+  information:
+    title: "معلومات"
+    visa: "الحصول على تأشيرة"
+    firstTime: "أول مرة في إيران؟"
+    accomodation: "الإقامة"
+    transportation: "وسائل النقل"
+    weather: "معلومات الطقس"
+
 
 #Main:
-Catalog: فهرس
-Partners: شركائنا
-Pages: صفحات
-Blog: مدونة
 Trending: العناصر المتداولة
 ShopAll: شاهد المزيد
 PartnersAll: جميع شركائنا
@@ -24,16 +92,8 @@ AllArticles: انظر جميع المقالات
 LatestNews: أحدث الأخبار
 ReadMore: قراءة المزيد
 
-about:
-  header: معلومات عنا
-  text: " :نحن مجموعه الشركه المستوى الذهبي و مهندسين و الموظفين الذين لديهم الخبره الكافيه في مجال عملهم المعماري لديكورات الداخليه و الخارجيه إعاده البناء  والهدف من شركتنا اجمل الديكورات و اَي من التصاميم الذي يرضيكم و نعمل ونجيد العمل مماثلا لتفكيركم هذا هو شعارنا"
-  motto: مقركم و مكان عيشكم معاً الى الاحسن
 
-footer:
-  developedby: تصمیم بواسطه محسن خانپور
-  copyright: جميع الحقوق محفوظة لمستوى الذهب المستوى
-  subscribe: اشترك للحصول على التحديثات
-  subscribetext: كن على علم بالمنتجات الجديدة والعروض الخاصة.
+
 
 
 #Expressions:
@@ -57,3 +117,19 @@ powered_by: Propulsé par
 rss_feed: Flux RSS
 category: Catégorie
 tag: Mot-clé
+
+
+#Langugage Style: DO NOT TRANSLATE 
+#Style:
+lang: ar
+direction: rtl
+style: /x-assets/styles/style-rtl.css
+data: ../data/_data_ar
+
+
+#UIKit
+uikit:
+  left: right
+  right: left
+  previous: next
+  next: previous

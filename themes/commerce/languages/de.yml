@@ -1,26 +1,26 @@
 #Header
 header:
   address: "Tehran, Iran"
-  office: "Büro in Teheran"
+  office: "Office in Tehran"
   storeName: "Tour Iran Organization"
-  openingHours: 'Täglich 10: 00–22: 00 Uhr'
+  openingHours: 'Daily 10:00–22:00'
 
 footer:
   developedby: Developed by Mohsen Khanpour
-  copyright: "Alle Rechte sind der Tour Iran vorbehalten"
+  copyright: All rights reserved by Tour Iran
   subscribe: Subscribe for updates
   subscribetext: Be aware of new products and special offers.
   left:
-    destinations: "Reiseziele"
-    spots: "Flecken"
-    interests: "Interessen"
-    tours: "Touren"
-    information: "Informationen"
+    destinations: "Destinations"
+    spots: "Spots"
+    interests: "Interests"
+    tours: "Tours"
+    information: "Information"
   right:
-    about: "Über"
-    contacts: "Kontakte"
+    about: "About"
+    contacts: "Contacts"
     blog: "Blog"
-    news: "Nachrichten"
+    news: "News"
 
 toolbarMenu:
   news: "News"
@@ -36,6 +36,46 @@ navbarMenu:
   blog: "Blog"
   about: "About"
   contacts: "Contacts"
+
+discover:
+  spots: 
+    title: "Spots"
+    islands: "Islands"
+    beaches: "Beaches"
+    deserts: "Deserts"
+    forests: "Forests"
+    villages: "Villages"
+    tombs-shrines: "Tombs and Shrines"
+  interests:
+    title: "Things to Do"
+    art: "Art & Culture"
+    history: "History"
+    nature: "Nature"
+    religion: "Religion"
+    shopping: "Shopping"
+    food: "Food and Drinks"
+    health: "Health"
+    action: "Action and Adventure"
+  events:
+    title: "Events"
+    exhibitions: "Exhibitions"
+    festivals: "Festivals"
+    holidays: "National Holidays"
+    religious: "Religious Events"
+  seasons:
+    title: "Seasons"
+    spring: "Spring"
+    summer: "Summer"
+    fall: "Fall"
+    winter: "Winter"
+  information:
+    title: "Information"
+    visa: "Getting Visa"
+    firstTime: "First time in Iran?"
+    accomodation: "Accomodation"
+    transportation: "Transportation"
+    weather: "Weather Information"
+
 
 #Main:
 Catalog: Catalog
