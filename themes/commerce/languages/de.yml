@@ -1,80 +1,86 @@
+#Home Page About
+about:
+  header: "Über uns"
+  text: "Wir sind eine Tour Iran Gruppe. Wir bieten Informationen und Anleitungen für Touristen."
+  motto: "Machen Sie einen unvergesslichen Besuch im Iran mit uns!"
+
 #Header
 header:
-  address: "Tehran, Iran"
-  office: "Office in Tehran"
-  storeName: "Tour Iran Organization"
-  openingHours: 'Daily 10:00–22:00'
+  address: "Teheran, Iran"
+  office: "Büro in Teheran"
+  storeName: "Tour Iran Organisation"
+  openingHours: 'Täglich 08:00 – 20:00 Uhr'
 
 footer:
-  developedby: Developed by Mohsen Khanpour
-  copyright: All rights reserved by Tour Iran
-  subscribe: Subscribe for updates
-  subscribetext: Be aware of new products and special offers.
+  developedby: "Entwickelt B Mohsen Khanpur"
+  copyright: "Alle Rechte sind der Tour Iran vorbehalten"
+  subscribe: "Abonnieren Sie Updates"
+  subscribetext: "Be aware of new products and special offers."
   left:
     destinations: "Destinations"
-    spots: "Spots"
-    interests: "Interests"
-    tours: "Tours"
+    spots: "Flecken"
+    interests: "Interessen"
+    tours: "Touren"
     information: "Information"
   right:
-    about: "About"
-    contacts: "Contacts"
+    about: "Über"
+    contacts: "Kontakte"
     blog: "Blog"
-    news: "News"
+    news: "Nachrichten"
 
 toolbarMenu:
-  news: "News"
+  news: "Nachrichten"
   faq: "FAQ"
-  delivery: "Delivery"
+  delivery: "Lieferung"
 
 navbarMenu:
-  discover: "Discover"
-  destinations: "Destinations"
+  discover: "Entdecken"
+  destinations: "Reiseziele"
   pages: 
-    pages: "Pages"
-    delivery: "Delivery"
+    title: "Seiten"
+    delivery: "Lieferung"
   blog: "Blog"
-  about: "About"
-  contacts: "Contacts"
+  about: "Über"
+  contacts: "Kontakte"
 
 discover:
   spots: 
-    title: "Spots"
-    islands: "Islands"
-    beaches: "Beaches"
-    deserts: "Deserts"
-    forests: "Forests"
-    villages: "Villages"
-    tombs-shrines: "Tombs and Shrines"
+    title: "Flecken"
+    islands: "Inseln"
+    beaches: "Strände"
+    deserts: "Wüsten"
+    forests: "Wälder"
+    villages: "Dörfer"
+    tombs-shrines: "Gräber und Schreine"
   interests:
-    title: "Things to Do"
-    art: "Art & Culture"
-    history: "History"
-    nature: "Nature"
+    title: "Dinge die zu tun sind"
+    art: "Kunstkultur"
+    history: "Geschichte"
+    nature: "Natur"
     religion: "Religion"
-    shopping: "Shopping"
-    food: "Food and Drinks"
-    health: "Health"
-    action: "Action and Adventure"
+    shopping: "Einkaufen"
+    food: "Essen und Trinken"
+    health: "Gesundheit"
+    action: "Action und Abenteuer"
   events:
-    title: "Events"
-    exhibitions: "Exhibitions"
+    title: "Veranstaltungen"
+    exhibitions: "Ausstellungen"
     festivals: "Festivals"
-    holidays: "National Holidays"
-    religious: "Religious Events"
+    holidays: "Nationalfeiertage"
+    religious: "Religiöse Ereignisse"
   seasons:
-    title: "Seasons"
-    spring: "Spring"
-    summer: "Summer"
+    title: "Jahreszeiten"
+    spring: "Frühling"
+    summer: "Sommer"
     fall: "Fall"
     winter: "Winter"
   information:
     title: "Information"
-    visa: "Getting Visa"
-    firstTime: "First time in Iran?"
-    accomodation: "Accomodation"
-    transportation: "Transportation"
-    weather: "Weather Information"
+    visa: "Visum bekommen"
+    firstTime: "Zum ersten Mal im Iran?"
+    accomodation: "Unterkunft"
+    transportation: "Transport"
+    weather: "Wetterinformationen"
 
 
 #Main:
@@ -88,11 +94,6 @@ PartnersAll: See all partners
 AllArticles: See all articles
 LatestNews: Latest News
 ReadMore: Read More
-
-about:
-  header: About Us
-  text: "We are Tour Iran group. Our team has yeras of experience in architecture, internal design and decoration, and construction. Our slogan is:"
-  motto: The place you live is more beautiful with change.
 
 #Expressions:
 see all categories: see all categories
@@ -119,10 +120,10 @@ tag: Tag
 
 #Langugage Style: DO NOT TRANSLATE
 #Style
-lang: "en"
+lang: de
 direction: ltr
 style: /x-assets/styles/style-ltr.css
-data: ../data/_data_en
+data: ../data/_data
 
 #UIKit
 uikit:

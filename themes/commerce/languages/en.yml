@@ -38,7 +38,7 @@ navbarMenu:
   discover: "Discover"
   destinations: "Destinations"
   pages: 
-    pages: "Pages"
+    title: "Pages"
     delivery: "Delivery"
   blog: "Blog"
   about: "About"
@@ -85,10 +85,12 @@ discover:
 
 categories:
   tours: "Tours"
+  activities: "Things to Do"
   souvenirs: "Souvenirs"
+  spots: "Spots"
   accomodation: "Accomodation"
   information: "Information"
-  spots: "Spots"
+
 
 #Main:
 Trending: Trending Items
@@ -102,7 +104,7 @@ ReadMore: Read More
 
 #Expressions:
 see all categories: see all categories
-categories: Categories
+
 search: Search
 tags: Tags
 tagcloud: Tag Cloud
@@ -128,7 +130,7 @@ tag: Tag
 lang: en
 direction: ltr
 style: /x-assets/styles/style-ltr.css
-data: ../data/_data_en
+data: ../data/_data
 
 #UIKit
 uikit:

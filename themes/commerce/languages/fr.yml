@@ -3,7 +3,7 @@ header:
   address: "Tehran, Iran"
   office: "Office in Tehran"
   storeName: "Tour Iran Organization"
-  openingHours: 'Daily 10:00–22:00'
+  openingHours: 'Daily 08:00 – 20:00'
 
 footer:
   developedby: Developed by Mohsen Khanpour
@@ -31,7 +31,7 @@ navbarMenu:
   discover: "Discover"
   destinations: "Destinations"
   pages: 
-    pages: "Pages"
+    title: "Pages"
     delivery: "Delivery"
   blog: "Blog"
   about: "About"
@@ -123,7 +123,7 @@ tag: Tag
 lang: fr
 direction: ltr
 style: /x-assets/styles/style-ltr.css
-data: ../data/_data_en
+data: ../data/_data
 
 #UIKit
 uikit:

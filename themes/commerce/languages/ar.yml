@@ -9,14 +9,14 @@ header:
   address: "طهران ، إيران"
   office: "مكتب في طهران"
   storeName: "جولة في منظمة ايران"
-  openingHours: 'يوميًا من الساعة 10 صباحًا حتى الساعة 10 مساءً'
+  openingHours: 'يوميًا من الساعة 8 صباحًا حتى الساعة 8 مساءً'
 
 #Footer
 footer:
-  developedby: Developed by Mohsen Khanpour
-  copyright: All rights reserved by Tour Iran
-  subscribe: Subscribe for updates
-  subscribetext: Be aware of new products and special offers.
+  developedby: "طور بواسطة محسن خان بور"
+  copyright: "جميع الحقوق محفوظة من جولة ايران"
+  subscribe: "اشترك للحصول على التحديثات"
+  subscribetext: "كن على علم بالمنتجات الجديدة والعروض الخاصة."
   left:
     destinations: "الأماكن"
     spots: "بقع"
@@ -38,7 +38,7 @@ navbarMenu:
   discover: "اكتشف"
   destinations: "الأماكن"
   pages: 
-    pages: "صفحات"
+    title: "صفحات"
     delivery: "توصيل"
   blog: "مدونة"
   about: "حول"
@@ -124,7 +124,7 @@ tag: Mot-clé
 lang: ar
 direction: rtl
 style: /x-assets/styles/style-rtl.css
-data: ../data/_data_ar
+data: ../data/_data
 
 
 #UIKit

@@ -37,7 +37,7 @@ navbarMenu:
   discover: "كشف کنید"
   destinations: "مقاصد"
   pages: 
-    pages: "صفحات"
+    title: "صفحات"
     delivery: "تحویل"
   blog: "وبلاگ"
   about: "درباره"
@@ -117,10 +117,10 @@ category: Catégorie
 tag: Mot-clé
 
 #Style:
-lang: ar
+lang: fa
 direction: rtl
 style: /x-assets/styles/style-rtl.css
-data: ../data/_data_ar
+data: ../data/_data
 
 
 #UIKit
