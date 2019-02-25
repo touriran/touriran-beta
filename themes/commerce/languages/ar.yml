@@ -83,6 +83,14 @@ discover:
     transportation: "وسائل النقل"
     weather: "معلومات الطقس"
 
+categories:
+  tours: "جولات"
+  activities: "الأشياء الذي ينبغي فعلها"
+  souvenirs: "تحية"
+  spots: "بقع"
+  accomodation: "الإقامة"
+  information: "معلومات"
+
 
 #Main:
 Trending: العناصر المتداولة
@@ -93,12 +101,8 @@ LatestNews: أحدث الأخبار
 ReadMore: قراءة المزيد
 
 
-
-
-
 #Expressions:
 see all categories: انظر جميع الفئات
-categories: Catégories
 search: Rechercher
 tags: Mot-clés
 tagcloud: Nuage de mot-clés

@@ -1,87 +1,97 @@
+#Home Page About
+about:
+  header: "À propos de nous"
+  text: "Nous sommes un groupe de Tour Iran. Nous fournissons des informations et des guides pour les touristes."
+  motto: "Passez une visite mémorable en Iran avec nous!"
+
 #Header
 header:
-  address: "Tehran, Iran"
-  office: "Office in Tehran"
+  address: "Téhéran, Iran"
+  office: "Bureau à Téhéran"
   storeName: "Tour Iran Organization"
-  openingHours: 'Daily 08:00 – 20:00'
+  openingHours: 'Tous les jours de 08h00 à 20h00'
 
 footer:
-  developedby: Developed by Mohsen Khanpour
-  copyright: All rights reserved by Tour Iran
-  subscribe: Subscribe for updates
-  subscribetext: Be aware of new products and special offers.
+  developedby: Développé B Mohsen Khanpur
+  copyright: Tous droits réservés par Tour Iran
+  subscribe: Abonnez-vous pour les mises à jour
+  subscribetext: Soyez au courant des nouveaux produits et des offres spéciales.
   left:
     destinations: "Destinations"
     spots: "Spots"
-    interests: "Interests"
+    interests: "Intérêts"
     tours: "Tours"
     information: "Information"
   right:
-    about: "About"
+    about: "Sur"
     contacts: "Contacts"
     blog: "Blog"
-    news: "News"
+    news: "Nouvelles"
 
 toolbarMenu:
-  news: "News"
+  news: "Nouvelles"
   faq: "FAQ"
-  delivery: "Delivery"
+  delivery: "Livraison"
 
 navbarMenu:
-  discover: "Discover"
+  discover: "Découvrir"
   destinations: "Destinations"
   pages: 
     title: "Pages"
-    delivery: "Delivery"
+    delivery: "Livraison"
   blog: "Blog"
-  about: "About"
+  about: "Sur"
   contacts: "Contacts"
 
 discover:
   spots: 
     title: "Spots"
-    islands: "Islands"
-    beaches: "Beaches"
-    deserts: "Deserts"
-    forests: "Forests"
+    islands: "îles"
+    beaches: "Des plages"
+    deserts: "Déserts"
+    forests: "Les forêts"
     villages: "Villages"
-    tombs-shrines: "Tombs and Shrines"
+    tombs-shrines: "Tombeaux et sanctuaires"
   interests:
-    title: "Things to Do"
+    title: "Choses à faire"
     art: "Art & Culture"
-    history: "History"
+    history: "L'histoire"
     nature: "Nature"
     religion: "Religion"
-    shopping: "Shopping"
-    food: "Food and Drinks"
-    health: "Health"
-    action: "Action and Adventure"
+    shopping: "Achats"
+    food: "Nourriture et boissons"
+    health: "Santé"
+    action: "Action et aventure"
   events:
-    title: "Events"
-    exhibitions: "Exhibitions"
+    title: "Événements"
+    exhibitions: "Des expositions"
     festivals: "Festivals"
-    holidays: "National Holidays"
-    religious: "Religious Events"
+    holidays: "Jours fériés"
+    religious: "Événements religieux"
   seasons:
-    title: "Seasons"
-    spring: "Spring"
-    summer: "Summer"
-    fall: "Fall"
-    winter: "Winter"
+    title: "Saisons"
+    spring: "Printemps"
+    summer: "Été"
+    fall: "Tomber"
+    winter: "Hiver"
   information:
     title: "Information"
-    visa: "Getting Visa"
-    firstTime: "First time in Iran?"
-    accomodation: "Accomodation"
-    transportation: "Transportation"
-    weather: "Weather Information"
+    visa: "Obtenir un visa"
+    firstTime: "Première fois en Iran?"
+    accomodation: "Hébergement"
+    transportation: "Transport"
+    weather: "Information météo"
 
+categories:
+  tours: "Tours"
+  activities: "Choses à faire"
+  souvenirs: "Souvenirs"
+  spots: "Spots"
+  accomodation: "Hébergement"
+  information: "Information"
 
 #Main:
-Catalog: Catalog
-Partners: Brands
-Pages: Pages
-Blog: Blog
+
 Trending: Trending Items
 ShopAll: See more
 PartnersAll: See all partners
@@ -89,16 +99,13 @@ AllArticles: See all articles
 LatestNews: Latest News
 ReadMore: Read More
 
-about:
-  header: About Us
-  text: "We are Golden Level Trade commercial group. Our team has yeras of experience in architecture, internal design and decoration, and construction. Our slogan is:"
-  motto: The place you live is more beautiful with change.
+
 
 
 
 #Expressions:
 see all categories: see all categories
-categories: Categories
+
 search: Search
 tags: Tags
 tagcloud: Tag Cloud

@@ -1,0 +1,73 @@
+[
+    {
+        "type": "Group",
+        "name": "lang",
+        "parent_id": null,
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "Bh0I59Us1oNCzugX"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\layout\\data\\_data.pug",
+        "parent_id": null,
+        "fsPath": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\layout\\data\\_data.pug",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "8vked7fcM3x9JBqA"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\ar.yml",
+        "parent_id": "Bh0I59Us1oNCzugX",
+        "fsPath": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\ar.yml",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "HVcGPI0jNDOe96dt"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\de.yml",
+        "parent_id": "Bh0I59Us1oNCzugX",
+        "fsPath": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\de.yml",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "XTxL6qMCZoY5drNp"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\en.yml",
+        "parent_id": "Bh0I59Us1oNCzugX",
+        "fsPath": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\en.yml",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "WyX9KVu74qOvjH3x"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\fa.yml",
+        "parent_id": "Bh0I59Us1oNCzugX",
+        "fsPath": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\fa.yml",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "Z8Xx3sv9RuN7y4KW"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\fr.yml",
+        "parent_id": "Bh0I59Us1oNCzugX",
+        "fsPath": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\fr.yml",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "Bxzs5SY2A3LO4pJN"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\jp.yml",
+        "parent_id": "Bh0I59Us1oNCzugX",
+        "fsPath": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\jp.yml",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "MPQLy8bDN0vlUmOA"
+    }
+]

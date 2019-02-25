@@ -1,87 +1,96 @@
+#Home Page About
+about:
+  header: "私たちに関しては"
+  text: "私たちはツアーイラングループです。私たちは観光客のための情報とガイドを提供します。"
+  motto: "私たちと一緒にイランへの思い出に残る訪問をしてください！"
+
 #Header
 header:
-  address: "Tehran, Iran"
-  office: "Office in Tehran"
-  storeName: "Tour Iran Organization"
-  openingHours: 'Daily 08:00 – 20:00'
+  address: "テヘラン、イラン"
+  office: "テヘランの事務所"
+  storeName: "ツアーイラン組織"
+  openingHours: '毎日08：00〜20：00'
 
 footer:
-  developedby: Developed by Mohsen Khanpour
-  copyright: All rights reserved by Tour Iran
-  subscribe: Subscribe for updates
-  subscribetext: Be aware of new products and special offers.
+  developedby: " Mohsen Khanpurを開発しました"
+  copyright: "ツアーイランに帰属するすべての権利"
+  subscribe: "更新を購読する"
+  subscribetext: "新製品や特別オファーに注意してください。"
   left:
-    destinations: "Destinations"
-    spots: "Spots"
-    interests: "Interests"
-    tours: "Tours"
-    information: "Information"
+    destinations: "行き先"
+    spots: "スポット"
+    interests: "興味"
+    tours: "ツアー"
+    information: "情報"
   right:
-    about: "About"
-    contacts: "Contacts"
-    blog: "Blog"
-    news: "News"
+    about: "約"
+    contacts: "連絡先"
+    blog: "ブログ"
+    news: "ニュース"
 
 toolbarMenu:
-  news: "News"
-  faq: "FAQ"
-  delivery: "Delivery"
+  news: "ニュース"
+  faq: "よくある質問"
+  delivery: "配達"
 
 navbarMenu:
-  discover: "Discover"
-  destinations: "Destinations"
+  discover: "発見"
+  destinations: "行き先"
   pages: 
-    title: "Pages"
-    delivery: "Delivery"
-  blog: "Blog"
-  about: "About"
-  contacts: "Contacts"
+    title: "ページ数"
+    delivery: "配達"
+  blog: "ブログ"
+  about: "約"
+  contacts: "連絡先"
 
 discover:
   spots: 
-    title: "Spots"
-    islands: "Islands"
-    beaches: "Beaches"
-    deserts: "Deserts"
-    forests: "Forests"
-    villages: "Villages"
-    tombs-shrines: "Tombs and Shrines"
+    title: "スポット"
+    islands: "島"
+    beaches: "ビーチ"
+    deserts: "砂漠"
+    forests: "森林"
+    villages: "村落"
+    tombs-shrines: "墓と神社"
   interests:
-    title: "Things to Do"
-    art: "Art & Culture"
-    history: "History"
-    nature: "Nature"
-    religion: "Religion"
-    shopping: "Shopping"
-    food: "Food and Drinks"
-    health: "Health"
-    action: "Action and Adventure"
+    title: "やる事"
+    art: "芸術と文化"
+    history: "歴史"
+    nature: "自然"
+    religion: "宗教"
+    shopping: "ショッピング"
+    food: "食べ物や飲み物"
+    health: "健康"
+    action: "アクションとアドベンチャー"
   events:
-    title: "Events"
-    exhibitions: "Exhibitions"
-    festivals: "Festivals"
-    holidays: "National Holidays"
-    religious: "Religious Events"
+    title: "イベント"
+    exhibitions: "展示会"
+    festivals: "祭り"
+    holidays: "国民の祝日"
+    religious: "宗教イベント"
   seasons:
-    title: "Seasons"
-    spring: "Spring"
-    summer: "Summer"
-    fall: "Fall"
-    winter: "Winter"
+    title: "季節"
+    spring: "春"
+    summer: "夏"
+    fall: "秋"
+    winter: "冬"
   information:
-    title: "Information"
-    visa: "Getting Visa"
-    firstTime: "First time in Iran?"
-    accomodation: "Accomodation"
-    transportation: "Transportation"
-    weather: "Weather Information"
+    title: "情報"
+    visa: "ビザ取得"
+    firstTime: "イランで初めてですか？"
+    accomodation: "ご宿泊"
+    transportation: "交通手段"
+    weather: "気象情報"
 
+categories:
+  tours: "ツアー"
+  activities: "やる事"
+  souvenirs: "メモワール"
+  spots: "スポット"
+  accomodation: "ご宿泊"
+  information: "情報"
 
 #Main:
-Catalog: Catalog
-Partners: Brands
-Pages: Pages
-Blog: Blog
 Trending: Trending Items
 ShopAll: See more
 PartnersAll: See all partners
@@ -89,14 +98,9 @@ AllArticles: See all articles
 LatestNews: Latest News
 ReadMore: Read More
 
-about:
-  header: About Us
-  text: "We are Tour Iran group. Our team has yeras of experience in architecture, internal design and decoration, and construction. Our slogan is:"
-  motto: The place you live is more beautiful with change.
-
 #Expressions:
 see all categories: see all categories
-categories: Categories
+
 search: Search
 tags: Tags
 tagcloud: Tag Cloud

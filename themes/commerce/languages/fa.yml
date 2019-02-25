@@ -90,13 +90,17 @@ AllArticles: انظر جميع المقالات
 LatestNews: أحدث الأخبار
 ReadMore: قراءة المزيد
 
-
-
+categories:
+  tours: "تورها"
+  activities: "فعالیت‌ها"
+  souvenirs: "سوغات"
+  spots: "مکان‌های دیدنی"
+  accomodation: "اقامت"
+  information: "اطلاعات"
 
 
 #Expressions:
 see all categories: انظر جميع الفئات
-categories: Catégories
 search: Rechercher
 tags: Mot-clés
 tagcloud: Nuage de mot-clés

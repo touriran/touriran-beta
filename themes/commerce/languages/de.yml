@@ -80,14 +80,19 @@ discover:
     firstTime: "Zum ersten Mal im Iran?"
     accomodation: "Unterkunft"
     transportation: "Transport"
-    weather: "Wetterinformationen"
+    weather: "Wetter informationen"
+
+categories:
+  tours: "Touren"
+  activities: "Dinge die zu tun sind"
+  souvenirs: "Erinnerungen"
+  spots: "Flecken"
+  accomodation: "Unterkunft"
+  information: "Information"
 
 
 #Main:
-Catalog: Catalog
-Partners: Brands
-Pages: Pages
-Blog: Blog
+
 Trending: Trending Items
 ShopAll: See more
 PartnersAll: See all partners
@@ -97,7 +102,7 @@ ReadMore: Read More
 
 #Expressions:
 see all categories: see all categories
-categories: Categories
+
 search: Search
 tags: Tags
 tagcloud: Tag Cloud
