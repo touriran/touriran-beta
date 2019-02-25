@@ -1,0 +1,51 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: directory
+  path: source/_posts/en
+  label: English
+  create: documents
+  match: "**/*"
+- type: directory
+  path: source/_posts/fr
+  label: French
+  create: documents
+  match: "**/*"
+- type: directory
+  path: source/_posts/de
+  label: German
+  create: documents
+  match: "**/*"
+- type: directory
+  path: source/_posts/jp
+  label: Japanese
+  create: documents
+  match: "**/*"
+- type: directory
+  path: source/_posts/fa
+  label: Persian
+  create: documents
+  match: "**/*"
+- type: directory
+  path: source/_posts/ar
+  label: Arabic
+  create: all
+  match: "**/*"
+- type: jekyll-pages
+  label: Pages
+  create: all
+upload_dir: source/z-media/uploads
+public_path: "/z-media/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_command: npm run build
+  publish_command: bundle exec jekyll build -d _site
+  publish_env:
+  - JEKYLL_ENV=production
+  preview_output_directory: public
+  output_directory: _site
