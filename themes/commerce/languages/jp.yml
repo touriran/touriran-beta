@@ -1,6 +1,6 @@
 #Header
 header:
-  address: "Tehran, Iran"
+  address: "テヘラン、イラン"
   office: "Office in Tehran"
   storeName: "Tour Iran Organization"
   openingHours: 'Daily 10:00–22:00'
@@ -11,21 +11,21 @@ footer:
   subscribe: Subscribe for updates
   subscribetext: Be aware of new products and special offers.
   left:
-    destinations: "Destinations"
-    spots: "Spots"
-    interests: "Interests"
-    tours: "Tours"
-    information: "Information"
+    destinations: "行き先"
+    spots: "スポット"
+    interests: "興味"
+    tours: "ツアー"
+    information: "情報"
   right:
-    about: "About"
-    contacts: "Contacts"
-    blog: "Blog"
-    news: "News"
+    about: "約"
+    contacts: "連絡先"
+    blog: "ブログ"
+    news: "ニュース"
 
 toolbarMenu:
-  news: "News"
-  faq: "FAQ"
-  delivery: "Delivery"
+  news: "ニュース"
+  faq: "よくある質問"
+  delivery: "配達"
 
 navbarMenu:
   discover: "Discover"

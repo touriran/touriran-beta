@@ -1,7 +1,7 @@
 #Style:
 lang: ar
 direction: rtl
-style: /styles/style-rtl.css
+style: /x-assets/styles/style-rtl.css
 data: ../data/_data_ar
 
 

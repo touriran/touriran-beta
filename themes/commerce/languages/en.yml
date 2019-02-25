@@ -36,6 +36,46 @@ navbarMenu:
   blog: "Blog"
   about: "About"
   contacts: "Contacts"
+
+discover:
+  spots: 
+    title: "Spots"
+    islands: "Islands"
+    beaches: "Beaches"
+    deserts: "Deserts"
+    forests: "Forests"
+    villages: "Villages"
+    tombs-shrines: "Tombs and Shrines"
+  interests:
+    title: "Things to Do"
+    art: "Art & Culture"
+    history: "History"
+    nature: "Nature"
+    religion: "Religion"
+    shopping: "Shopping"
+    food: "Food and Drinks"
+    health: "Health"
+    action: "Action and Adventure"
+  events:
+    title: "Events"
+    exhibitions: "Exhibitions"
+    festivals: "Festivals"
+    holidays: "National Holidays"
+    religious: "Religious Events"
+  seasons:
+    title: "Seasons"
+    spring: "Spring"
+    summer: "Summer"
+    fall: "Fall"
+    winter: "Winter"
+  information:
+    title: "Information"
+    visa: "Getting Visa"
+    firstTime: "First time in Iran?"
+    accomodation: "Accomodation"
+    transportation: "Transportation"
+    weather: "Weather Information"
+
 #Main:
 Catalog: Catalog
 Partners: Brands
