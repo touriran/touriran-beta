@@ -90,22 +90,21 @@ categories:
   accomodation: "Hébergement"
   information: "Information"
 
-#Main:
-
-Trending: Trending Items
-ShopAll: See more
-PartnersAll: See all partners
-AllArticles: See all articles
-LatestNews: Latest News
-ReadMore: Read More
-
-
-
-
+#General:
+general: 
+  readMore: "Read More"
+  allCategories: "See all categories"
+  latestTours: "Latest Tours"
+  allTours: "See all tours"
+  destinations: "Destinations"
+  allDestinations: "See all destinations"
+  blog: "Blog"
+  allBlog: "See all articles"
+  news: "News"
+  latestNews: "Latest News"
+  
 
 #Expressions:
-see all categories: see all categories
-
 search: Search
 tags: Tags
 tagcloud: Tag Cloud

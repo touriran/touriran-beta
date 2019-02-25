@@ -78,13 +78,13 @@ block default
                   div.uk-text-meta.uk-text-xsmall.uk-text-truncate= category.comment
 
       div.uk-margin.uk-text-center
-        +link-to-all(__('see all categories'), "catalog.html")
+        +link-to-all(__('general.allCategories'), "catalog.html")
 
-  //- Trending
+  //- Tours
   section.uk-section.uk-section-small
     div.uk-container
 
-      h2.uk-text-center=__('Trending')
+      h2.uk-text-center=__('general.latestTours')
 
       div.uk-card.uk-card-default.tm-ignore-container
         div(class="uk-grid-collapse " +
@@ -100,15 +100,15 @@ block default
             - count++;
 
       div.uk-margin.uk-text-center
-        +link-to-all(__('ShopAll'), "subcategory.html")
+        +link-to-all(__('general.allTours'), "subcategory.html")
 
   //- Brands
-  //-section.uk-section.uk-section-default.uk-section-small
+  section.uk-section.uk-section-default.uk-section-small
     div.uk-container
 
-      h2.uk-text-center=__('Partners')
+      h2.uk-text-center=__('general.destinations')
 
-      div.uk-margin-medium-top(uk-slider="finite: true")
+      div.uk-margin-medium-top(uk-slider="finite: false")
         div.uk-position-relative
           div.uk-grid-small.uk-flex-middle(uk-grid)
 
@@ -144,14 +144,14 @@ block default
                  "uk-hidden@m")
 
       div.uk-margin.uk-text-center
-        +link-to-all(__('PartnersAll'), "brands.html")
+        +link-to-all(__('general.allDestinations'), "brands.html")
 
   //- Blog
   - var blogArticles = site.categories.findOne( {name: 'Blog'} ).posts.find({lang: __('lang')}).sort('date', -1).limit(2);
   section.uk-section.uk-section-small
     div.uk-container
 
-      h2.uk-text-center=__('Blog')
+      h2.uk-text-center=__('general.blog')
 
       div(class="uk-grid-medium " +
                 "uk-grid-match " +
@@ -164,7 +164,7 @@ block default
             +article(article)
 
       div.uk-margin.uk-text-center
-        +link-to-all(__('AllArticles'), "blog.html")
+        +link-to-all(__('general.allBlog'), "blog.html")
 
   //- About & News
   section.uk-section.uk-section-default.uk-section-small
@@ -184,14 +184,14 @@ block default
           p=__('about.text')
           p=__('about.motto')
           div(class=`${__('direction')=='ltr' ? 'uk-text-left@s' : 'uk-text-right@s'}` uk-text-center)
-            +link-to-all(__('ReadMore'), "about.html")
+            +link-to-all(__('general.readMore'), "about.html")
 
         //- News
         section
           if (__('direction')=="ltr")
-            h2(class="uk-text-center uk-text-left@s")= __('LatestNews')
+            h2(class="uk-text-center uk-text-left@s")= __('general.news')
           else if (__('direction')=="rtl")   
-            h2(class="uk-text-center uk-text-right@s")= __('LatestNews')
+            h2(class="uk-text-center uk-text-right@s")= __('general.news')
 
           - var newsArticles = site.categories.findOne( {name: 'News'} ).posts.find({lang: __('lang')}).limit(2).sort('date', -1);
           
@@ -211,7 +211,7 @@ block default
                         div.uk-margin-xsmall-top.uk-text-small!= article.description
 
             div(class=`${__('direction')=='ltr' ? 'uk-text-left@s' : 'uk-text-right@s'}` uk-margin uk-text-center)
-              +link-to-all(__('LatestNews'), "news.html")
+              +link-to-all(__('general.latestNews'), "news.html")
 
   //- Subscribe
   section.uk-section.uk-section-primary.uk-section-small.uk-light
@@ -219,7 +219,7 @@ block default
 
         div.uk-text-center
           div.uk-h2.uk-margin-remove= __('footer.subscribe')
-          div= __('footer.subscribetext')
+          div= __('footer.subscribeText')
 
         div.uk-margin
           form

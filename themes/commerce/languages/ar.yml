@@ -91,18 +91,21 @@ categories:
   accomodation: "الإقامة"
   information: "معلومات"
 
-
-#Main:
-Trending: العناصر المتداولة
-ShopAll: شاهد المزيد
-PartnersAll: جميع شركائنا
-AllArticles: انظر جميع المقالات
-LatestNews: أحدث الأخبار
-ReadMore: قراءة المزيد
+#General:
+general: 
+  readMore: "Read More"
+  allCategories: "See all categories"
+  latestTours: "Latest Tours"
+  allTours: "See all tours"
+  destinations: "Destinations"
+  allDestinations: "See all destinations"
+  blog: "Blog"
+  allBlog: "See all articles"
+  news: "News"
+  latestNews: "Latest News"
 
 
 #Expressions:
-see all categories: انظر جميع الفئات
 search: Rechercher
 tags: Mot-clés
 tagcloud: Nuage de mot-clés

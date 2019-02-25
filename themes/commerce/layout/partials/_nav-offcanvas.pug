@@ -20,7 +20,7 @@ div#nav-offcanvas(uk-offcanvas= __('direction')=="rtl" ? 'overlay: true; flip: t
                     li: a(href="subcategory.html")= category.name
                   if item.name === "Catalog"
                     li.uk-text-center
-                      +link-to-all(__('see all categories'), item.href)
+                      +link-to-all(__('general.allCategories'), item.href)
                   if item.name === "Brands"
                     li.uk-text-center
                       +link-to-all('see all brands', item.href)
