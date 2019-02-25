@@ -27,6 +27,16 @@ toolbarMenu:
   faq: "FAQ"
   delivery: "Delivery"
 
+navbarMenu:
+  discover: "Discover"
+  destinations: "Destinations"
+  pages: 
+    pages: "Pages"
+    delivery: "Delivery"
+  blog: "Blog"
+  about: "About"
+  contacts: "Contacts"
+
 #Main:
 Catalog: Catalog
 Partners: Brands
@@ -71,7 +81,7 @@ tag: Tag
 #Style
 lang: en
 direction: ltr
-style: /styles/style-ltr.css
+style: /x-assets/styles/style-ltr.css
 data: ../data/_data_en
 
 #UIKit

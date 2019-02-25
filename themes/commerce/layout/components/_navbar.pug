@@ -31,7 +31,7 @@ div.uk-navbar-container.tm-navbar-container(uk-sticky="cls-active: tm-navbar-con
                             "pos: bottom-justify;" +
                             "flip: x")
 
-                  if item.name === __('Catalog')
+                  if item.name === __('navbarMenu.discover')
                     div.uk-container(dir="ltr")
                       ul.uk-navbar-dropdown-grid.uk-child-width-1-5(uk-grid)
                         each category in item.items
@@ -51,7 +51,7 @@ div.uk-navbar-container.tm-navbar-container(uk-sticky="cls-active: tm-navbar-con
                                     li
                                       a(href="subcategory.html")= subcategory
 
-                  if item.name === __('Partners')
+                  if item.name === __('navbarMenu.destinations')
                     div.uk-container.uk-container-small.uk-margin-top.uk-margin-bottom
                       ul.uk-grid-small.uk-child-width-1-6(uk-grid)
                         each brand in item.items

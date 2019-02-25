@@ -1,7 +1,46 @@
+#Header
+header:
+  address: "Tehran, Iran"
+  office: "Office in Tehran"
+  storeName: "Tour Iran Organization"
+  openingHours: 'Daily 10:00–22:00'
+
+footer:
+  developedby: Developed by Mohsen Khanpour
+  copyright: All rights reserved by Tour Iran
+  subscribe: Subscribe for updates
+  subscribetext: Be aware of new products and special offers.
+  left:
+    destinations: "Destinations"
+    spots: "Spots"
+    interests: "Interests"
+    tours: "Tours"
+    information: "Information"
+  right:
+    about: "About"
+    contacts: "Contacts"
+    blog: "Blog"
+    news: "News"
+
+toolbarMenu:
+  news: "News"
+  faq: "FAQ"
+  delivery: "Delivery"
+
+navbarMenu:
+  discover: "Discover"
+  destinations: "Destinations"
+  pages: 
+    pages: "Pages"
+    delivery: "Delivery"
+  blog: "Blog"
+  about: "About"
+  contacts: "Contacts"
+
 #Style
 lang: fr
 direction: ltr
-style: /styles/style-ltr.css
+style: /x-assets/styles/style-ltr.css
 data: ../data/_data_en
 
 #UIKit
@@ -10,6 +49,8 @@ uikit:
   right: right
   previous: previous
   next: next
+
+
 
 #Main:
 Catalog: Catalog
@@ -28,11 +69,7 @@ about:
   text: "We are Golden Level Trade commercial group. Our team has yeras of experience in architecture, internal design and decoration, and construction. Our slogan is:"
   motto: The place you live is more beautiful with change.
 
-footer:
-  developedby: Developed by Mohsen Khanpour
-  copyright: All rights reserved by Gold Level Trade
-  subscribe: Subscribe for updates
-  subscribetext: Be aware of new products and special offers.
+
 
 #Expressions:
 see all categories: see all categories

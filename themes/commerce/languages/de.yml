@@ -7,7 +7,7 @@ header:
 
 footer:
   developedby: Developed by Mohsen Khanpour
-  copyright: Alle Rechte sind der Tour Iran vorbehalten
+  copyright: "Alle Rechte sind der Tour Iran vorbehalten"
   subscribe: Subscribe for updates
   subscribetext: Be aware of new products and special offers.
   left:
@@ -21,6 +21,22 @@ footer:
     contacts: "Kontakte"
     blog: "Blog"
     news: "Nachrichten"
+
+toolbarMenu:
+  news: "News"
+  faq: "FAQ"
+  delivery: "Delivery"
+
+navbarMenu:
+  discover: "Discover"
+  destinations: "Destinations"
+  pages: 
+    pages: "Pages"
+    delivery: "Delivery"
+  blog: "Blog"
+  about: "About"
+  contacts: "Contacts"
+
 #Main:
 Catalog: Catalog
 Partners: Brands
@@ -63,9 +79,9 @@ tag: Tag
 
 #Langugage Style: DO NOT TRANSLATE
 #Style
-lang: en
+lang: "en"
 direction: ltr
-style: /styles/style-ltr.css
+style: /x-assets/styles/style-ltr.css
 data: ../data/_data_en
 
 #UIKit

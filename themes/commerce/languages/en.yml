@@ -27,6 +27,15 @@ toolbarMenu:
   faq: "FAQ"
   delivery: "Delivery"
 
+navbarMenu:
+  discover: "Discover"
+  destinations: "Destinations"
+  pages: 
+    pages: "Pages"
+    delivery: "Delivery"
+  blog: "Blog"
+  about: "About"
+  contacts: "Contacts"
 #Main:
 Catalog: Catalog
 Partners: Brands
