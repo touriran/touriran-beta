@@ -5,13 +5,35 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: source/_posts/jp
+  label: Japanese
+  create: documents
+  match: "**/*"
+- type: directory
+  path: source/_posts/ar
+  label: Arabic
+  create: all
+  match: "**/*"
+- type: directory
+  path: source/_posts/fa
+  label: Persian
+  create: documents
+  match: "**/*"
+- type: directory
+  path: source/_posts/de
+  label: German
+  create: documents
+  match: "**/*"
+- type: directory
+  path: source/_posts/fr
+  label: French
+  create: documents
+  match: "**/*"
+- type: directory
   path: source/_posts/en
   label: English
   create: documents
   match: "**/*"
-- type: jekyll-posts
-  label: Posts
-  create: all
 - type: jekyll-pages
   label: Pages
   create: all
