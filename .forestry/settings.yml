@@ -5,23 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: source/_posts/jp
-  label: Japanese
-  create: documents
-  match: "**/*"
-- type: directory
-  path: source/_posts/ar
-  label: Arabic
-  create: all
-  match: "**/*"
-- type: directory
-  path: source/_posts/fa
-  label: Persian
-  create: documents
-  match: "**/*"
-- type: directory
-  path: source/_posts/de
-  label: German
+  path: source/_posts/en
+  label: English
   create: documents
   match: "**/*"
 - type: directory
@@ -30,9 +15,24 @@ sections:
   create: documents
   match: "**/*"
 - type: directory
-  path: source/_posts/en
-  label: English
+  path: source/_posts/de
+  label: German
   create: documents
+  match: "**/*"
+- type: directory
+  path: source/_posts/jp
+  label: Japanese
+  create: documents
+  match: "**/*"
+- type: directory
+  path: source/_posts/fa
+  label: Persian
+  create: documents
+  match: "**/*"
+- type: directory
+  path: source/_posts/ar
+  label: Arabic
+  create: all
   match: "**/*"
 - type: jekyll-pages
   label: Pages
