@@ -16,7 +16,7 @@ footer:
   developedby: "طور بواسطة محسن خان بور"
   copyright: "جميع الحقوق محفوظة من جولة ايران"
   subscribe: "اشترك للحصول على التحديثات"
-  subscribetext: "كن على علم بالمنتجات الجديدة والعروض الخاصة."
+  subscribeText: "كن على علم بالمنتجات الجديدة والعروض الخاصة."
   left:
     destinations: "الأماكن"
     spots: "بقع"
@@ -86,6 +86,7 @@ discover:
 categories:
   tours: "جولات"
   activities: "الأشياء الذي ينبغي فعلها"
+  transportation: "وسائل النقل"
   souvenirs: "تحية"
   spots: "بقع"
   accomodation: "الإقامة"
@@ -93,17 +94,34 @@ categories:
 
 #General:
 general: 
-  readMore: "Read More"
-  allCategories: "See all categories"
-  latestTours: "Latest Tours"
-  allTours: "See all tours"
-  destinations: "Destinations"
-  allDestinations: "See all destinations"
-  blog: "Blog"
-  allBlog: "See all articles"
-  news: "News"
-  latestNews: "Latest News"
+  readMore: "قراءة المزيد"
+  allCategories: "انظر جميع الفئات"
+  latestTours: "أحدث الجولات"
+  allTours: "انظر جميع الجولات"
+  destinations: "الأماكن"
+  allDestinations: "انظر جميع الوجهات"
+  blog: "مدونة"
+  allBlog: "انظر جميع المقالات"
+  news: "أخبار"
+  latestNews: "أحدث الأخبار"
 
+#Advantages:
+advantages:
+  professional:
+    title: "المحترفين"
+    description: "لدينا أدلة سياحية معتمدة هنا لمساعدتك."
+  friendly:
+    title: "ودود"
+    description: "تعرف على إيران من جو ودي."
+  international: 
+    title: "دولي"
+    description: "يضم فريقنا أشخاصًا من دول مختلفة ، لذلك نعرف ثقافتك."
+  informative:
+    title: "غنيا بالمعلومات"
+    description: "لا تستمتع فقط بإقامتك في إيران ، بل توسع معرفتك بالثقافة الفارسية"
+  premium:
+    title: "علاوة"
+    description: "استمتع برحلة العمر مع جولاتنا الخاصة."
 
 #Expressions:
 search: Rechercher

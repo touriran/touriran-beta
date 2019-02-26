@@ -7,7 +7,7 @@ isNotAvailable: false
 image: 
     medium: "/z-media/images/products/new/engraved-logo.jpg"
 tag: []
-category: "Products"
+category: "Tour"
 statuses: [""]
 type: "Jewelry"
 description: 

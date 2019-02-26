@@ -7,7 +7,7 @@ isNotAvailable: false
 image: 
     medium: "/z-media/images/products/new/water-sweetening.jpeg"
 tag: []
-category: "Products"
+category: "Tour"
 statuses: [ ]
 type: "Carpets and Rugs"
 description: 

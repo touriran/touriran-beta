@@ -15,7 +15,7 @@ footer:
   developedby: "طراحی و توسعه توسط محسن خانپور"
   copyright: "کلیه حقوق این سایت متعلق به تور ایران می باشد"
   subscribe: "اشتراک برای به روز رسانی"
-  subscribetext: "از پیشنهادات ویژه آگاه شوید"
+  subscribeText: "از پیشنهادات ویژه آگاه شوید"
   left:
     destinations: "مقاصد"
     spots: "نقاط دیدنی"
@@ -86,24 +86,42 @@ categories:
   tours: "تورها"
   activities: "فعالیت‌ها"
   souvenirs: "سوغات"
+  transportation: "حمل و نقل"
   spots: "مکان‌های دیدنی"
   accomodation: "اقامت"
   information: "اطلاعات"
 
 #General:
 general: 
-  readMore: "Read More"
-  allCategories: "See all categories"
-  latestTours: "Latest Tours"
-  allTours: "See all tours"
-  destinations: "Destinations"
-  allDestinations: "See all destinations"
-  blog: "Blog"
-  allBlog: "See all articles"
-  news: "News"
-  latestNews: "Latest News"
+  readMore: "ادامه مطلب"
+  allCategories: "تمام دسته ها را ببینید"
+  latestTours: "آخرین تورها"
+  allTours: "تمام تورها را ببینید"
+  destinations: "مقصد"
+  allDestinations: "تمام مقاصد را ببینید"
+  blog: "وبلاگ"
+  allBlog: "تمام مقالات را ببینید"
+  news: "اخبار"
+  latestNews: "آخرین اخبار"
 
-    
+#Advantages:
+advantages:
+  professional:
+    title: "حرفه‌ای"
+    description: "راهنماهای راهنمایی گواهی شده ما برای کمک به شما هستند."
+  friendly:
+    title: "صمیمی"
+    description: "درباره ایران از یک محیط دوستانه مطلع شوید."
+  international: 
+    title: "بین المللی"
+    description: "تیم ما شامل افرادی از کشورهای مختلف می شود، بنابراین ما در مورد فرهنگ شما می دانیم."
+  informative:
+    title: "آموزنده"
+    description: "نه تنها لذت بردن از اقامت خود در ایران بلکه دانش خود را از فرهنگ فارسی گسترش می دهد"
+  premium:
+    title: "ویژه"
+    description: "یک سفر طولانی با تورهای ویژه ما داشته باشید."
+  
 #Expressions:
 search: Rechercher
 tags: Mot-clés

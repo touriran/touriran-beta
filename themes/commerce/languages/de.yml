@@ -15,7 +15,7 @@ footer:
   developedby: "Entwickelt B Mohsen Khanpur"
   copyright: "Alle Rechte sind der Tour Iran vorbehalten"
   subscribe: "Abonnieren Sie Updates"
-  subscribetext: "Be aware of new products and special offers."
+  subscribeText: "Be aware of new products and special offers."
   left:
     destinations: "Destinations"
     spots: "Flecken"
@@ -85,6 +85,7 @@ discover:
 categories:
   tours: "Touren"
   activities: "Dinge die zu tun sind"
+  transportation: "Transport"
   souvenirs: "Erinnerungen"
   spots: "Flecken"
   accomodation: "Unterkunft"
@@ -92,16 +93,34 @@ categories:
 
 #General:
 general: 
-  readMore: "Read More"
-  allCategories: "See all categories"
-  latestTours: "Latest Tours"
-  allTours: "See all tours"
-  destinations: "Destinations"
-  allDestinations: "See all destinations"
+  readMore: "Weiterlesen"
+  allCategories: "Alle Kategorien anzeigen"
+  latestTours: "Letzte Touren"
+  allTours: "Alle Touren anzeigen"
+  destinations: "Reiseziele"
+  allDestinations: "Alle Reiseziele anzeigen"
   blog: "Blog"
-  allBlog: "See all articles"
-  news: "News"
-  latestNews: "Latest News"
+  allBlog: "Alle Artikel anzeigen"
+  news: "Nachrichten"
+  latestNews: "Neuesten Nachrichten"
+
+#Advantages:
+advantages:
+  professional:
+    title: "Professionel"
+    description: "Unsere zertifizierten Reiseführer helfen Ihnen gerne weiter."
+  friendly:
+    title: "Freundlich"
+    description: "Lernen Sie den Iran in freundlicher Atmosphäre kennen."
+  international: 
+    title: "International"
+    description: "Unser Team besteht aus Menschen aus verschiedenen Ländern, damit wir Ihre Kultur kennen."
+  informative:
+    title: "Informative"
+    description: "Genießen Sie nicht nur Ihren Aufenthalt im Iran, sondern erweitern Sie auch Ihr Wissen über die persische Kultur"
+  premium:
+    title: "Prämie"
+    description: "Erleben Sie eine Reise mit unseren ganz besonderen Touren."
 
 #Expressions:
 search: Search

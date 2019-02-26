@@ -85,7 +85,7 @@ discover:
 
 categories:
   tours: "Tours"
-  activities: "Things to Do"
+  transportation: "Transportation"
   souvenirs: "Souvenirs"
   spots: "Spots"
   accomodation: "Accomodation"
@@ -105,7 +105,24 @@ general:
   news: "News"
   latestNews: "Latest News"
 
-
+#Advantages: 
+advantages:
+  professional:
+    title: "Professional"
+    description: "Our certified tour guides are here to help you."
+  friendly:
+    title: "Friendly"
+    description: "Learn about Iran from in a friendly atmosphere."
+  international: 
+    title: "International"
+    description: "Our team includes people from different countries, so we know about your culture."
+  informative:
+    title: "Informative"
+    description: "Not only enjoy your stay in Iran, but also expand your knowledge of Persian culture"
+  premium:
+    title: "Premium"
+    description: "Have a trip of a lifetime with our very special tours."
+  
 
 
 #Expressions:

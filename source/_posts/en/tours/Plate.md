@@ -7,7 +7,7 @@ isNotAvailable: false
 image: 
     medium: "/z-media/images/products/new/plate.jpg"
 tag: []
-category: "Products"
+category: "Tour"
 statuses: ["Trade-In"]
 type: "Handicrafts"
 description: 

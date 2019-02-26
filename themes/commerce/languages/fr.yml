@@ -15,7 +15,7 @@ footer:
   developedby: Développé B Mohsen Khanpur
   copyright: Tous droits réservés par Tour Iran
   subscribe: Abonnez-vous pour les mises à jour
-  subscribetext: Soyez au courant des nouveaux produits et des offres spéciales.
+  subscribeText: Soyez au courant des nouveaux produits et des offres spéciales.
   left:
     destinations: "Destinations"
     spots: "Spots"
@@ -86,23 +86,41 @@ categories:
   tours: "Tours"
   activities: "Choses à faire"
   souvenirs: "Souvenirs"
+  transportation: "Transport"
   spots: "Spots"
   accomodation: "Hébergement"
   information: "Information"
 
 #General:
 general: 
-  readMore: "Read More"
-  allCategories: "See all categories"
+  readMore: "Lire la suite"
+  allCategories: "Voir toutes les catégories"
   latestTours: "Latest Tours"
-  allTours: "See all tours"
+  allTours: "Voir tous les tours"
   destinations: "Destinations"
-  allDestinations: "See all destinations"
+  allDestinations: "Voir toutes les destinations"
   blog: "Blog"
-  allBlog: "See all articles"
-  news: "News"
-  latestNews: "Latest News"
+  allBlog: "Voir tous les articles"
+  news: "Nouvelles"
+  latestNews: "Dernières nouvelles"
   
+#Advantages:
+advantages:
+  professional:
+    title: "Professionnel"
+    description: "Nos guides touristiques certifiés sont là pour vous aider."
+  friendly:
+    title: "Amical"
+    description: "En savoir plus sur l'Iran dans une atmosphère amicale."
+  international: 
+    title: "International"
+    description: "Notre équipe comprend des personnes de différents pays, nous connaissons donc votre culture."
+  informative:
+    title: "Informatif"
+    description: "Profitez non seulement de votre séjour en Iran, mais élargissez également vos connaissances sur la culture perse"
+  premium:
+    title: "Prime"
+    description: "Faites un voyage de votre vie avec nos visites très spéciales."
 
 #Expressions:
 search: Search

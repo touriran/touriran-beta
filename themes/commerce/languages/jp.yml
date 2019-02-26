@@ -15,7 +15,7 @@ footer:
   developedby: " Mohsen Khanpurを開発しました"
   copyright: "ツアーイランに帰属するすべての権利"
   subscribe: "更新を購読する"
-  subscribetext: "新製品や特別オファーに注意してください。"
+  subscribeText: "新製品や特別オファーに注意してください。"
   left:
     destinations: "行き先"
     spots: "スポット"
@@ -86,22 +86,41 @@ categories:
   tours: "ツアー"
   activities: "やる事"
   souvenirs: "メモワール"
+  transportation: "交通手段"
   spots: "スポット"
   accomodation: "ご宿泊"
   information: "情報"
 
 #General:
 general: 
-  readMore: "Read More"
-  allCategories: "See all categories"
-  latestTours: "Latest Tours"
-  allTours: "See all tours"
-  destinations: "Destinations"
-  allDestinations: "See all destinations"
-  blog: "Blog"
-  allBlog: "See all articles"
-  news: "News"
-  latestNews: "Latest News"
+  readMore: "続きを読む"
+  allCategories: "すべてのカテゴリを見る"
+  latestTours: "最新のツアー"
+  allTours: "すべてのツアーを見る"
+  destinations: "行き先"
+  allDestinations: "目的地をすべて見る"
+  blog: "ブログ"
+  allBlog: "全ての記事を見る"
+  news: "ニュース"
+  latestNews: "最新ニュース"
+
+#Advantages:
+advantages:
+  professional:
+    title: "プロ"
+    description: "私たちの認定ツアーガイドはあなたを助けるためにここにあります。"
+  friendly:
+    title: "やさしい"
+    description: "フレンドリーな雰囲気の中からイランについて学びましょう。"
+  international: 
+    title: "国際"
+    description: "私たちのチームはさまざまな国からの人々を含んでいるので、私たちはあなたの文化について知っています。"
+  informative:
+    title: "有益な"
+    description: "イランでの滞在を楽しむだけでなく、ペルシャ文化に関する知識を広げることもできます。"
+  premium:
+    title: "プレミアム"
+    description: "私たちの非常に特別なツアーで一生の旅をします。"
   
 
 #Expressions:
