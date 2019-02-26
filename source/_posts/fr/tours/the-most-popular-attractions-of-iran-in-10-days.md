@@ -1,12 +1,13 @@
 ---
 title: Programme L'Iran en 09 jours
 date: 2019-01-01 17:08:30 +0330
-excerpt: 'Programme L''Iran en 09 jours: TEHERAN / CHIRAZ / YAZD / ISFAHAN / KACHAN'
-category: []
-image-bg: ''
-image-sm: ''
+description: 'Programme L''Iran en 09 jours: TEHERAN / CHIRAZ / YAZD / ISFAHAN / KACHAN'
+category: [Tour]
+image: 
+    medium: "/z-media/images/products/new/plate.jpg"
+tag: []
 layout: post
-
+type: "Tour"
 ---
 
 _TEHERAN / CHIRAZ / YAZD / ISFAHAN / KACHAN_

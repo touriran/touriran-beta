@@ -1,12 +1,17 @@
 ---
-title: Les incontournables de l’Iran en 15 jours
+title: "Les incontournables de l’Iran en 15 jours"
 date: 2019-01-01 17:12:17 +0330
-excerpt: 'Programme 13jours/ 12 Nuits 2019: TEHERAN / ISFHAN / YAZD / KERMAN / CHIRAZ'
-category: []
-image-bg: ''
-image-sm: ''
+price: 11
+oldPrice: 12
+isNotAvailable: false
+description: 'Programme 13jours/ 12 Nuits 2019: TEHERAN / ISFHAN / YAZD / KERMAN / CHIRAZ'
+category: "Tour"
+image: 
+    medium: "/z-media/images/products/new/plate.jpg"
+tag: []
+statuses: ["Popular"]
 layout: post
-
+type: "Tour"
 ---
 Programme 13jours/ 12 Nuits 2017 Sortie Chiraz
 

@@ -1,12 +1,17 @@
 ---
 title: Proggrame l'Iran en 13 Jours
 date: 2019-01-01 17:27:10 +0330
-excerpt: 'Programme 13jours 2019: TEHERAN / ISFHAN / YAZD / KERMAN / CHIRAZ'
-category: []
+description: 'Programme 13jours 2019: TEHERAN / ISFHAN / YAZD / KERMAN / CHIRAZ'
+category: [Tour]
 image-bg: ''
 image-sm: ''
 layout: post
-
+image: 
+    medium: "/z-media/images/products/new/plate.jpg"
+tag: []
+type: "Tour"
+price: 11
+oldPrice: 12
 ---
 Programme 13jours/ 12 Nuits 2017 Sortie Chiraz
 
