@@ -1,13 +1,5 @@
 [
     {
-        "type": "Group",
-        "name": "lang",
-        "parent_id": null,
-        "workspaceRoot": null,
-        "workspacePath": null,
-        "id": "Bh0I59Us1oNCzugX"
-    },
-    {
         "type": "File",
         "name": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\layout\\data\\_data.pug",
         "parent_id": null,
@@ -17,57 +9,39 @@
         "id": "8vked7fcM3x9JBqA"
     },
     {
-        "type": "File",
-        "name": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\ar.yml",
-        "parent_id": "Bh0I59Us1oNCzugX",
-        "fsPath": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\ar.yml",
+        "type": "Directory",
+        "name": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\layout",
+        "parent_id": null,
+        "fsPath": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\layout",
         "workspaceRoot": null,
         "workspacePath": null,
-        "id": "HVcGPI0jNDOe96dt"
+        "id": "VaoHFNijIXKvW19T"
     },
     {
-        "type": "File",
-        "name": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\de.yml",
-        "parent_id": "Bh0I59Us1oNCzugX",
-        "fsPath": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\de.yml",
+        "type": "Directory",
+        "name": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages",
+        "parent_id": null,
+        "fsPath": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages",
         "workspaceRoot": null,
         "workspacePath": null,
-        "id": "XTxL6qMCZoY5drNp"
+        "id": "bLxhCvqmHWkjt5aX"
     },
     {
-        "type": "File",
-        "name": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\en.yml",
-        "parent_id": "Bh0I59Us1oNCzugX",
-        "fsPath": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\en.yml",
+        "type": "Directory",
+        "name": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\source\\_posts",
+        "parent_id": null,
+        "fsPath": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\source\\_posts",
         "workspaceRoot": null,
         "workspacePath": null,
-        "id": "WyX9KVu74qOvjH3x"
+        "id": "hYkugTVQqKi6dUcs"
     },
     {
-        "type": "File",
-        "name": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\fa.yml",
-        "parent_id": "Bh0I59Us1oNCzugX",
-        "fsPath": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\fa.yml",
+        "type": "Directory",
+        "name": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\source\\z-media\\images",
+        "parent_id": null,
+        "fsPath": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\source\\z-media\\images",
         "workspaceRoot": null,
         "workspacePath": null,
-        "id": "Z8Xx3sv9RuN7y4KW"
-    },
-    {
-        "type": "File",
-        "name": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\fr.yml",
-        "parent_id": "Bh0I59Us1oNCzugX",
-        "fsPath": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\fr.yml",
-        "workspaceRoot": null,
-        "workspacePath": null,
-        "id": "Bxzs5SY2A3LO4pJN"
-    },
-    {
-        "type": "File",
-        "name": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\jp.yml",
-        "parent_id": "Bh0I59Us1oNCzugX",
-        "fsPath": "c:\\Users\\Mohsen\\Desktop\\projects\\Iran\\touriran-beta\\themes\\commerce\\languages\\jp.yml",
-        "workspaceRoot": null,
-        "workspacePath": null,
-        "id": "MPQLy8bDN0vlUmOA"
+        "id": "kI7dfvX09RxAnmKq"
     }
 ]
