@@ -1,5 +1,12 @@
-// Google Maps
+// Analytics
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-141215830-1');
+
+
+// Google Maps
 function initMap() {
   var elements = document.querySelectorAll('.js-map');
   Array.prototype.forEach.call(elements, function(el) {
