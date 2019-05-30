@@ -7,3 +7,4 @@ public/
 .deploy*/
 themes/themes/
 .trash/
+.travis.yml
