@@ -124,6 +124,10 @@ advantages:
     description: "Have a trip of a lifetime with our very special tours."
   
 
+#Tours
+tours:
+  title: "Tours"
+
 
 #Expressions:
 search: Search

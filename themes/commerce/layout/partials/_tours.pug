@@ -57,8 +57,9 @@ div.uk-grid-medium.uk-child-width-1-1(uk-grid)
                     "tm-products-grid " +
                     "js-products-grid"
               uk-grid)
-            each product in products
-              +product(product)
+            - var tourPosts = site.categories.findOne( {name: 'Tour'} ).posts.find({lang: __('lang')}).sort('date', -1).limit(4)
+            each tour in tourPosts.toArray()
+              +tour(tour)
 
         //- Load more
         div
