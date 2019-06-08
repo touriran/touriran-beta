@@ -36,7 +36,6 @@ code_dir: downloads/code
 i18n_dir: :lang
 exclude:   
   - "x-assets/scripts/**"
-  - "admin/**"
 skip_render:   
   - "admin/**"
   - "x-assets/scripts/**"
