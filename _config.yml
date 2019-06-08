@@ -36,9 +36,9 @@ code_dir: downloads/code
 i18n_dir: :lang
 exclude:   
   - "x-assets/scripts/**"
-  - "source/admin/**"
+  - "admin/**"
 skip_render:   
-  - "source/admin/**"
+  - "admin/**"
   - "x-assets/scripts/**"
 
 # Writing
