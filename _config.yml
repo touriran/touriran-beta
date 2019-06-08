@@ -35,10 +35,9 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 exclude:   
-  - "x-assets/scripts/script.js"
   - "x-assets/scripts/**"
 skip_render:   
-  - "x-assets/scripts/script.js"
+  - "source/admin/**"
   - "x-assets/scripts/**"
 
 # Writing
