@@ -1,0 +1,76 @@
+---
+label: Tour
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: number
+  name: price
+  label: price
+- type: text
+  name: priceDescription
+  label: priceDescription
+- type: boolean
+  name: isNotAvailable
+  label: isNotAvailable
+- type: field_group
+  name: image
+  label: image
+  fields:
+  - type: file
+    name: small
+    label: small
+  - type: file
+    name: medium
+    label: medium
+  - type: file
+    name: large
+    label: large
+- type: field_group_list
+  name: additionalImages
+  label: additionalImages
+  fields:
+  - type: file
+    name: small
+    label: small
+  - type: file
+    name: large
+    label: large
+- type: list
+  name: tag
+  label: tag
+- type: text
+  name: category
+  label: category
+- type: list
+  name: statuses
+  label: statuses
+- type: text
+  name: type
+  label: type
+- type: text
+  name: description
+  label: description
+- type: text
+  name: layout
+  label: layout
+- type: field_group
+  name: tourInfo
+  label: tourInfo
+  fields:
+  - type: text
+    name: Duration
+    label: Duration
+  - type: text
+    name: Start
+    label: Start
+  - type: text
+    name: End
+    label: End
+  - type: text
+    name: Weather
+    label: Weather
