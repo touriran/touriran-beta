@@ -5,7 +5,8 @@ db.json
 node_modules/
 public/
 .deploy*/
-themes/commerce2/
+themes/commerce.old/
+themes/research/
 .trash/
 .travis.yml
 yarn.lock
