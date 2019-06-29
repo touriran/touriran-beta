@@ -155,3 +155,7 @@ uikit:
   right: right
   previous: previous
   next: next
+
+#Breadcrumbs
+breadcrumbs:
+  tours: "Tours"

@@ -155,3 +155,8 @@ uikit:
   right: left
   previous: next
   next: previous
+  
+#Breadcrumbs
+breadcrumbs:
+  tours:  "تورها"
+  
