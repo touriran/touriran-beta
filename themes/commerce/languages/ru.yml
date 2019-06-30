@@ -18,141 +18,141 @@ footer:
   subscribe: "Подписаться на обновления"
   subscribeText: "Будьте в курсе новых продуктов и специальных предложений."
   left:
-    destinations: "Destinations"
-    spots: "Spots"
-    interests: "Interests"
-    tours: "Tours"
-    information: "Information"
+    destinations: "Направления"
+    spots: "Пятна"
+    interests: "интересы"
+    tours: "Туры"
+    information: "Информация"
   right:
-    about: "About"
-    contacts: "Contacts"
-    blog: "Blog"
-    news: "News"
+    about: "Около"
+    contacts: "контакты"
+    blog: "Блог"
+    news: "Новости"
 
 toolbarMenu:
-  news: "News"
-  faq: "FAQ"
-  delivery: "Delivery"
+  news: "Новости"
+  faq: "Часто задаваемые вопросы"
+  delivery: "Доставка"
 
 navbarMenu:
-  discover: "Discover"
-  destinations: "Destinations"
+  discover: "Обнаружить"
+  destinations: "Направления"
   pages: 
-    title: "Pages"
-    delivery: "Delivery"
-  blog: "Blog"
-  about: "About"
-  contacts: "Contacts"
+    title: "страницы"
+    delivery: "Доставка"
+  blog: "Блог"
+  about: "Около"
+  contacts: "контакты"
 
 discover:
   spots: 
-    title: "Spots"
-    islands: "Islands"
-    beaches: "Beaches"
-    deserts: "Deserts"
-    forests: "Forests"
-    villages: "Villages"
-    tombs-shrines: "Tombs and Shrines"
+    title: "Пятна"
+    islands: "острова"
+    beaches: "Пляжи"
+    deserts: "Пустыни"
+    forests: "леса"
+    villages: "деревни"
+    tombs-shrines: "Гробницы и Святыни"
   interests:
-    title: "Things to Do"
-    art: "Art & Culture"
-    history: "History"
-    nature: "Nature"
-    religion: "Religion"
-    shopping: "Shopping"
-    food: "Food and Drinks"
-    health: "Health"
-    action: "Action and Adventure"
+    title: "Список задач"
+    art: "Искусство и культура"
+    history: "история"
+    nature: "Природа"
+    religion: "религия"
+    shopping: "Покупка"
+    food: "Еда и напитки"
+    health: "Здоровье"
+    action: "Экшн и Приключения"
   events:
-    title: "Events"
-    exhibitions: "Exhibitions"
-    festivals: "Festivals"
-    holidays: "National Holidays"
-    religious: "Religious Events"
+    title: "События"
+    exhibitions: "выставки"
+    festivals: "Фестивали"
+    holidays: "Национальные праздники"
+    religious: "Религиозные События"
   seasons:
-    title: "Seasons"
-    spring: "Spring"
-    summer: "Summer"
-    fall: "Fall"
-    winter: "Winter"
+    title: "Сезоны"
+    spring: "весна"
+    summer: "Летом"
+    fall: "Осень"
+    winter: "зима"
   information:
-    title: "Information"
-    visa: "Getting Visa"
-    firstTime: "First time in Iran?"
-    accomodation: "Accomodation"
-    transportation: "Transportation"
-    weather: "Weather Information"
+    title: "Информация"
+    visa: "Получение визы"
+    firstTime: "Впервые в Иране?"
+    accomodation: "Размещение"
+    transportation: "Транспорт"
+    weather: "Информация о погоде"
 
 categories:
-  tours: "Tours"
-  transportation: "Transportation"
-  souvenirs: "Souvenirs"
-  spots: "Spots"
-  accomodation: "Accomodation"
-  information: "Information"
+  tours: "Туры"
+  transportation: "Транспорт"
+  souvenirs: "Напоминания"
+  spots: "Пятна"
+  accomodation: "Размещение"
+  information: "Информация"
 
 
 #General:
 general: 
-  readMore: "Read More"
-  allCategories: "See all categories"
-  latestTours: "Latest Tours"
-  allTours: "See all tours"
-  destinations: "Destinations"
-  allDestinations: "See all destinations"
-  blog: "Blog"
-  allBlog: "See all articles"
-  news: "News"
-  latestNews: "Latest News"
+  readMore: "Прочитайте больше"
+  allCategories: "Посмотреть все категории"
+  latestTours: "Последние туры"
+  allTours: "Посмотреть все туры"
+  destinations: "Направления"
+  allDestinations: "Посмотреть все направления"
+  blog: "Блог"
+  allBlog: "Смотреть все статьи"
+  news: "Новости"
+  latestNews: "Последние новости"
 
 #Advantages: 
 advantages:
   professional:
-    title: "Professional"
-    description: "Our certified tour guides are here to help you."
+    title: "профессиональный"
+    description: "Наши сертифицированные гиды здесь, чтобы помочь вам."
   friendly:
-    title: "Friendly"
-    description: "Learn about Iran from in a friendly atmosphere."
+    title: "Дружелюбный"
+    description: "Узнайте об Иране в дружеской атмосфере."
   international: 
-    title: "International"
-    description: "Our team includes people from different countries, so we know about your culture."
+    title: "Международный"
+    description: "Наша команда включает людей из разных стран, поэтому мы знаем о вашей культуре."
   informative:
-    title: "Informative"
-    description: "Not only enjoy your stay in Iran, but also expand your knowledge of Persian culture"
+    title: "Познавательный"
+    description: "Не только приятного пребывания в Иране, но и расширить свои знанияэра персидской культуры"
   premium:
-    title: "Premium"
-    description: "Have a trip of a lifetime with our very special tours."
+    title: "премия"
+    description: "Совершите путешествие на всю жизнь с нашими специальными турами."
   
 
 #Tours
 tours:
-  title: "Tours"
+  title: "Туры"
 
 
 #Expressions:
-search: Search
-tags: Tags
-tagcloud: Tag Cloud
-tweets: Tweets
-prev: Prev
-next: Next
-comment: Comments
-archive_a: Archives
-archive_b: "Archives: %s"
-page: Page %d
-recent_posts: Recent Posts
-newer: Newer
-older: Older
-share: Share
-powered_by: Powered by
-rss_feed: RSS Feed
-category: Category
-tag: Tag
+search: "Поиск"
+tags: "Теги"
+tagcloud: "Облако тегов"
+tweets: "твиты"
+prev: "Предыдущая"
+next: "следующий"
+comment: "Комментарии"
+archive_a: "архив"
+archive_b: "архив: %s"
+page: "страница %d"
+recent_posts: "Недавние Посты"
+newer: "Новее"
+older: "Старшая"
+share: "Поделиться"
+powered_by: "Питаться от"
+rss_feed: "Новостная лента"
+category: 'категория'
+tag: "Тег"
 
 
 #Langugage Style: DO NOT TRANSLATE
 #Style
-lang: en
+lang: ru
 direction: ltr
 style: /x-assets/styles/style-ltr.css
 data: ../data/_data
@@ -166,4 +166,4 @@ uikit:
 
 #Breadcrumbs
 breadcrumbs:
-  tours: "Tours"
+  tours: "Туры"

@@ -30,98 +30,98 @@ footer:
     news: "notizia"
 
 toolbarMenu:
-  news: "News"
+  news: "notizia"
   faq: "FAQ"
-  delivery: "Delivery"
+  delivery: "Consegna"
 
 navbarMenu:
-  discover: "Discover"
-  destinations: "Destinations"
+  discover: "Scoprire"
+  destinations: "Destinazioni"
   pages: 
-    title: "Pages"
-    delivery: "Delivery"
+    title: "pagine"
+    delivery: "Consegna"
   blog: "Blog"
-  about: "About"
+  about: "Di"
   contacts: "Contacts"
 
 discover:
   spots: 
-    title: "Spots"
-    islands: "Islands"
-    beaches: "Beaches"
-    deserts: "Deserts"
-    forests: "Forests"
-    villages: "Villages"
-    tombs-shrines: "Tombs and Shrines"
+    title: "macchie"
+    islands: "Isole"
+    beaches: "Spiagge"
+    deserts: "deserti"
+    forests: "foreste"
+    villages: "villaggi"
+    tombs-shrines: "Tombe e santuari"
   interests:
-    title: "Things to Do"
-    art: "Art & Culture"
-    history: "History"
-    nature: "Nature"
-    religion: "Religion"
+    title: "Cose da fare"
+    art: "Arte e cultura"
+    history: "Storia"
+    nature: "Natura"
+    religion: "Religione"
     shopping: "Shopping"
-    food: "Food and Drinks"
-    health: "Health"
-    action: "Action and Adventure"
+    food: "Cibo e bevande"
+    health: "Salute"
+    action: "Azionee avventura"
   events:
-    title: "Events"
-    exhibitions: "Exhibitions"
-    festivals: "Festivals"
-    holidays: "National Holidays"
-    religious: "Religious Events"
+    title: "eventi"
+    exhibitions: "Esposizioni"
+    festivals: "festival"
+    holidays: "Vacanze nazionali"
+    religious: "Eventi religiosi"
   seasons:
-    title: "Seasons"
-    spring: "Spring"
-    summer: "Summer"
-    fall: "Fall"
-    winter: "Winter"
+    title: "Le stagioni"
+    spring: "Primavera"
+    summer: "Estate"
+    fall: "Autunno"
+    winter: "Inverno"
   information:
-    title: "Information"
-    visa: "Getting Visa"
-    firstTime: "First time in Iran?"
-    accomodation: "Accomodation"
-    transportation: "Transportation"
-    weather: "Weather Information"
+    title: "Informazione"
+    visa: "Ottenere Visa"
+    firstTime: "La prima volta in Iran?"
+    accomodation: "Alloggio"
+    transportation: "Trasporti"
+    weather: "Informazioni meteorologiche"
 
 categories:
   tours: "Tours"
-  transportation: "Transportation"
-  souvenirs: "Souvenirs"
-  spots: "Spots"
-  accomodation: "Accomodation"
-  information: "Information"
+  transportation: "Trasporti"
+  souvenirs: "ricordi"
+  spots: "macchie"
+  accomodation: "Alloggio"
+  information: "Informazione"
 
 
 #General:
 general: 
-  readMore: "Read More"
-  allCategories: "See all categories"
-  latestTours: "Latest Tours"
-  allTours: "See all tours"
-  destinations: "Destinations"
-  allDestinations: "See all destinations"
+  readMore: "Leggi di più"
+  allCategories: "Vedi tutte le categorie"
+  latestTours: "Ultimi tour"
+  allTours: "Vedi tutti i tour"
+  destinations: "Destinazioni"
+  allDestinations: "Vedi tutte le destinazioni"
   blog: "Blog"
-  allBlog: "See all articles"
-  news: "News"
-  latestNews: "Latest News"
+  allBlog: "Stutti gli articoli"
+  news: "notizia"
+  latestNews: "Ultime notizie"
 
 #Advantages: 
 advantages:
   professional:
-    title: "Professional"
-    description: "Our certified tour guides are here to help you."
+    title: "Professionale"
+    description: "Le nostre guide turistiche certificate sono qui per aiutarti."
   friendly:
-    title: "Friendly"
-    description: "Learn about Iran from in a friendly atmosphere."
+    title: "amichevole"
+    description: "Scopri l'Iran da un'atmosfera amichevole."
   international: 
-    title: "International"
-    description: "Our team includes people from different countries, so we know about your culture."
+    title: "Internazionale"
+    description: "Il nostro team include persone di diversi paesi, quindi conosciamo la tua cultura."
   informative:
-    title: "Informative"
-    description: "Not only enjoy your stay in Iran, but also expand your knowledge of Persian culture"
+    title: "Informativo"
+    description: "Non solo goditi il ​​tuo soggiorno in Iran, ma amplia la tua conoscenza della cultura persiana"
   premium:
-    title: "Premium"
-    description: "Have a trip of a lifetime with our very special tours."
+    title: "premio"
+    description: "Fai un viaggio indimenticabile con i nostri tour speciali."
   
 
 #Tours
@@ -130,24 +130,24 @@ tours:
 
 
 #Expressions:
-search: Search
-tags: Tags
-tagcloud: Tag Cloud
-tweets: Tweets
-prev: Prev
-next: Next
-comment: Comments
-archive_a: Archives
-archive_b: "Archives: %s"
-page: Page %d
-recent_posts: Recent Posts
-newer: Newer
-older: Older
-share: Share
-powered_by: Powered by
-rss_feed: RSS Feed
-category: Category
-tag: Tag
+search: "Ricerca"
+tags: "tag"
+tagcloud: "Tag Cloud"
+tweets: "tweets"
+prev: "prev"
+next: "Il prossimo"
+comment: "Commenti"
+archive_a: "archivio"
+archive_b: "archivio: %s"
+page: "Pagina %d"
+recent_posts: "messaggi recenti"
+newer: "Più nuovo"
+older: "Più vecchio"
+share: "Condividere"
+powered_by: "Offerto da"
+rss_feed: "RSS Feed"
+category: "Categoria"
+tag: "Tag"
 
 
 #Langugage Style: DO NOT TRANSLATE
