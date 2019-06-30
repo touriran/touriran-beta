@@ -1,0 +1,169 @@
+#Home Page About
+about:
+  header: "Насчет нас"
+  text: "Мы - тур иранская группа. Мы предоставляем информацию и руководства для туристов."
+  motto: "Желаем вам незабываемого визита в Иран!"
+
+#Header
+header:
+  address: "Тегеран, Иран"
+  office: "Офис в Тегеране"
+  storeName: "Организация тура по Ирану"
+  openingHours: 'Ежедневно 08:00 – 20:00'
+
+#Footer 
+footer:
+  developedby: "Разработано Б Мохсен Ханпур"
+  copyright: "Все права защищены Тур Иран"
+  subscribe: "Подписаться на обновления"
+  subscribeText: "Будьте в курсе новых продуктов и специальных предложений."
+  left:
+    destinations: "Destinations"
+    spots: "Spots"
+    interests: "Interests"
+    tours: "Tours"
+    information: "Information"
+  right:
+    about: "About"
+    contacts: "Contacts"
+    blog: "Blog"
+    news: "News"
+
+toolbarMenu:
+  news: "News"
+  faq: "FAQ"
+  delivery: "Delivery"
+
+navbarMenu:
+  discover: "Discover"
+  destinations: "Destinations"
+  pages: 
+    title: "Pages"
+    delivery: "Delivery"
+  blog: "Blog"
+  about: "About"
+  contacts: "Contacts"
+
+discover:
+  spots: 
+    title: "Spots"
+    islands: "Islands"
+    beaches: "Beaches"
+    deserts: "Deserts"
+    forests: "Forests"
+    villages: "Villages"
+    tombs-shrines: "Tombs and Shrines"
+  interests:
+    title: "Things to Do"
+    art: "Art & Culture"
+    history: "History"
+    nature: "Nature"
+    religion: "Religion"
+    shopping: "Shopping"
+    food: "Food and Drinks"
+    health: "Health"
+    action: "Action and Adventure"
+  events:
+    title: "Events"
+    exhibitions: "Exhibitions"
+    festivals: "Festivals"
+    holidays: "National Holidays"
+    religious: "Religious Events"
+  seasons:
+    title: "Seasons"
+    spring: "Spring"
+    summer: "Summer"
+    fall: "Fall"
+    winter: "Winter"
+  information:
+    title: "Information"
+    visa: "Getting Visa"
+    firstTime: "First time in Iran?"
+    accomodation: "Accomodation"
+    transportation: "Transportation"
+    weather: "Weather Information"
+
+categories:
+  tours: "Tours"
+  transportation: "Transportation"
+  souvenirs: "Souvenirs"
+  spots: "Spots"
+  accomodation: "Accomodation"
+  information: "Information"
+
+
+#General:
+general: 
+  readMore: "Read More"
+  allCategories: "See all categories"
+  latestTours: "Latest Tours"
+  allTours: "See all tours"
+  destinations: "Destinations"
+  allDestinations: "See all destinations"
+  blog: "Blog"
+  allBlog: "See all articles"
+  news: "News"
+  latestNews: "Latest News"
+
+#Advantages: 
+advantages:
+  professional:
+    title: "Professional"
+    description: "Our certified tour guides are here to help you."
+  friendly:
+    title: "Friendly"
+    description: "Learn about Iran from in a friendly atmosphere."
+  international: 
+    title: "International"
+    description: "Our team includes people from different countries, so we know about your culture."
+  informative:
+    title: "Informative"
+    description: "Not only enjoy your stay in Iran, but also expand your knowledge of Persian culture"
+  premium:
+    title: "Premium"
+    description: "Have a trip of a lifetime with our very special tours."
+  
+
+#Tours
+tours:
+  title: "Tours"
+
+
+#Expressions:
+search: Search
+tags: Tags
+tagcloud: Tag Cloud
+tweets: Tweets
+prev: Prev
+next: Next
+comment: Comments
+archive_a: Archives
+archive_b: "Archives: %s"
+page: Page %d
+recent_posts: Recent Posts
+newer: Newer
+older: Older
+share: Share
+powered_by: Powered by
+rss_feed: RSS Feed
+category: Category
+tag: Tag
+
+
+#Langugage Style: DO NOT TRANSLATE
+#Style
+lang: en
+direction: ltr
+style: /x-assets/styles/style-ltr.css
+data: ../data/_data
+
+#UIKit
+uikit:
+  left: left
+  right: right
+  previous: previous
+  next: next
+
+#Breadcrumbs
+breadcrumbs:
+  tours: "Tours"
