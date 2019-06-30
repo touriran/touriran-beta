@@ -1,33 +1,33 @@
 #Home Page About
 about:
-  header: "About Us"
-  text: "We are Tour Iran group. We provide information and guides for tourists."
-  motto: "Have a memorable visit to Iran with us!"
+  header: "Riguardo a noi"
+  text: "Siamo gruppo Tour Iran. Forniamo informazioni e guide per i turisti."
+  motto: "Fai una visita memorabile in Iran con noi!"
 
 #Header
 header:
-  address: "Tehran, Iran"
-  office: "Office in Tehran"
+  address: "Teheran, Iran"
+  office: "Ufficio a Teheran"
   storeName: "Tour Iran Organization"
-  openingHours: 'Daily 08:00 – 20:00'
+  openingHours: 'Quotidiano 08:00 – 20:00'
 
 #Footer 
 footer:
-  developedby: "Developed by Mohsen Khanpour"
-  copyright: "All rights reserved by Tour Iran"
-  subscribe: "Subscribe for updates"
-  subscribeText: "Be aware of new products and special offers."
+  developedby: "Sviluppato B Mohsen Khanpur"
+  copyright: "Tutti i diritti riservati da Tour Iran"
+  subscribe: "Iscriviti per aggiornamenti"
+  subscribeText: "Essere a conoscenza di nuovi prodotti e offerte speciali."
   left:
-    destinations: "Destinations"
-    spots: "Spots"
-    interests: "Interests"
+    destinations: "Destinazioni"
+    spots: "macchie"
+    interests: "Interessi"
     tours: "Tours"
-    information: "Information"
+    information: "Informazione"
   right:
-    about: "About"
-    contacts: "Contacts"
+    about: "Di"
+    contacts: "Contatti"
     blog: "Blog"
-    news: "News"
+    news: "notizia"
 
 toolbarMenu:
   news: "News"
