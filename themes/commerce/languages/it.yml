@@ -1,0 +1,169 @@
+#Home Page About
+about:
+  header: "Riguardo a noi"
+  text: "Siamo gruppo Tour Iran. Forniamo informazioni e guide per i turisti."
+  motto: "Fai una visita memorabile in Iran con noi!"
+
+#Header
+header:
+  address: "Teheran, Iran"
+  office: "Ufficio a Teheran"
+  storeName: "Tour Iran Organization"
+  openingHours: 'Quotidiano 08:00 – 20:00'
+
+#Footer 
+footer:
+  developedby: "Sviluppato B Mohsen Khanpur"
+  copyright: "Tutti i diritti riservati da Tour Iran"
+  subscribe: "Iscriviti per aggiornamenti"
+  subscribeText: "Essere a conoscenza di nuovi prodotti e offerte speciali."
+  left:
+    destinations: "Destinazioni"
+    spots: "macchie"
+    interests: "Interessi"
+    tours: "Tours"
+    information: "Informazione"
+  right:
+    about: "Di"
+    contacts: "Contatti"
+    blog: "Blog"
+    news: "notizia"
+
+toolbarMenu:
+  news: "notizia"
+  faq: "FAQ"
+  delivery: "Consegna"
+
+navbarMenu:
+  discover: "Scoprire"
+  destinations: "Destinazioni"
+  pages: 
+    title: "pagine"
+    delivery: "Consegna"
+  blog: "Blog"
+  about: "Di"
+  contacts: "Contacts"
+
+discover:
+  spots: 
+    title: "macchie"
+    islands: "Isole"
+    beaches: "Spiagge"
+    deserts: "deserti"
+    forests: "foreste"
+    villages: "villaggi"
+    tombs-shrines: "Tombe e santuari"
+  interests:
+    title: "Cose da fare"
+    art: "Arte e cultura"
+    history: "Storia"
+    nature: "Natura"
+    religion: "Religione"
+    shopping: "Shopping"
+    food: "Cibo e bevande"
+    health: "Salute"
+    action: "Azionee avventura"
+  events:
+    title: "eventi"
+    exhibitions: "Esposizioni"
+    festivals: "festival"
+    holidays: "Vacanze nazionali"
+    religious: "Eventi religiosi"
+  seasons:
+    title: "Le stagioni"
+    spring: "Primavera"
+    summer: "Estate"
+    fall: "Autunno"
+    winter: "Inverno"
+  information:
+    title: "Informazione"
+    visa: "Ottenere Visa"
+    firstTime: "La prima volta in Iran?"
+    accomodation: "Alloggio"
+    transportation: "Trasporti"
+    weather: "Informazioni meteorologiche"
+
+categories:
+  tours: "Tours"
+  transportation: "Trasporti"
+  souvenirs: "ricordi"
+  spots: "macchie"
+  accomodation: "Alloggio"
+  information: "Informazione"
+
+
+#General:
+general: 
+  readMore: "Leggi di più"
+  allCategories: "Vedi tutte le categorie"
+  latestTours: "Ultimi tour"
+  allTours: "Vedi tutti i tour"
+  destinations: "Destinazioni"
+  allDestinations: "Vedi tutte le destinazioni"
+  blog: "Blog"
+  allBlog: "Stutti gli articoli"
+  news: "notizia"
+  latestNews: "Ultime notizie"
+
+#Advantages: 
+advantages:
+  professional:
+    title: "Professionale"
+    description: "Le nostre guide turistiche certificate sono qui per aiutarti."
+  friendly:
+    title: "amichevole"
+    description: "Scopri l'Iran da un'atmosfera amichevole."
+  international: 
+    title: "Internazionale"
+    description: "Il nostro team include persone di diversi paesi, quindi conosciamo la tua cultura."
+  informative:
+    title: "Informativo"
+    description: "Non solo goditi il ​​tuo soggiorno in Iran, ma amplia la tua conoscenza della cultura persiana"
+  premium:
+    title: "premio"
+    description: "Fai un viaggio indimenticabile con i nostri tour speciali."
+  
+
+#Tours
+tours:
+  title: "Tours"
+
+
+#Expressions:
+search: "Ricerca"
+tags: "tag"
+tagcloud: "Tag Cloud"
+tweets: "tweets"
+prev: "prev"
+next: "Il prossimo"
+comment: "Commenti"
+archive_a: "archivio"
+archive_b: "archivio: %s"
+page: "Pagina %d"
+recent_posts: "messaggi recenti"
+newer: "Più nuovo"
+older: "Più vecchio"
+share: "Condividere"
+powered_by: "Offerto da"
+rss_feed: "RSS Feed"
+category: "Categoria"
+tag: "Tag"
+
+
+#Langugage Style: DO NOT TRANSLATE
+#Style
+lang: en
+direction: ltr
+style: /x-assets/styles/style-ltr.css
+data: ../data/_data
+
+#UIKit
+uikit:
+  left: left
+  right: right
+  previous: previous
+  next: next
+
+#Breadcrumbs
+breadcrumbs:
+  tours: "Tours"
