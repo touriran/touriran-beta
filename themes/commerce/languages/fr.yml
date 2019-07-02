@@ -159,3 +159,8 @@ uikit:
 #Breadcrumbs
 breadcrumbs:
   tours: "Tours"
+  
+#About Us Page
+aboutus:
+  title: "À propos de nous"
+  heading: ""

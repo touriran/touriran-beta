@@ -167,3 +167,9 @@ uikit:
 #Breadcrumbs
 breadcrumbs:
   tours: "Tours"
+
+#About Us Page
+aboutus:
+  title: "Riguardo a noi"
+  heading: ""
+  

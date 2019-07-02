@@ -145,15 +145,22 @@ tag: Tag
 
 
 #Langugage Style: DO NOT TRANSLATE
-#Style
+#Style: DO NOT TRANSLATE
 lang: jp
 direction: ltr
 style: /x-assets/styles/style-ltr.css
 data: ../data/_data
 
-#UIKit
+#UIKit: DO NOT TRANSLATE
 uikit:
   left: left
   right: right
   previous: previous
   next: next
+
+
+#About Us Page
+aboutus:
+  title: "私たちに関しては"
+  heading: ""
+  

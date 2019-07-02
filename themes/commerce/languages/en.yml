@@ -168,8 +168,8 @@ uikit:
 breadcrumbs:
   tours: "Tours"
 
-#About Us
+#About Us Page
 aboutus:
-  title:
-  heading:
+  title: "About Us"
+  heading: ""
   

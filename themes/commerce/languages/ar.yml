@@ -158,3 +158,9 @@ uikit:
   right: left
   previous: next
   next: previous
+
+#About Us Page
+aboutus:
+  title: "معلومات عنا"
+  heading: ""
+  

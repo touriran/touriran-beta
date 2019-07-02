@@ -156,3 +156,9 @@ uikit:
   right: right
   previous: previous
   next: next
+
+#About Us Page
+aboutus:
+  title: "Über uns"
+  heading: ""
+  

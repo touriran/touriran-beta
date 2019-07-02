@@ -159,4 +159,9 @@ uikit:
 #Breadcrumbs
 breadcrumbs:
   tours:  "تورها"
+
+#About Us Page
+aboutus:
+  title: "درباره ما"
+  heading: ""
   
