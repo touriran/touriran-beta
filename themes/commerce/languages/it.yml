@@ -152,7 +152,7 @@ tag: "Tag"
 
 #Langugage Style: DO NOT TRANSLATE
 #Style
-lang: en
+lang: it
 direction: ltr
 style: /x-assets/styles/style-ltr.css
 data: ../data/_data
