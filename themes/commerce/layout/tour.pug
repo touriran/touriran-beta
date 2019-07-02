@@ -3,9 +3,8 @@ extends layouts/_pages
 block vars
   -
     product = products[0];
-
     page.breadcrumbs = {
-        __('breadcrumbs.tours') : "/" + __('lang') + '/tours.html'
+      [__('breadcrumbs.tours')] : "/" + __('lang') + '/tours.html'
     }
 
 block pages
@@ -96,7 +95,7 @@ block pages
                           default
                             span.uk-label= status
 
-              
+
               //- Shop
               div.uk-margin
                 div.uk-padding-small.uk-background-primary-lighten.uk-border-rounded
@@ -116,7 +115,7 @@ block pages
                       div
                       div.uk-text-meta= "Select the number of people:"
                         div.uk-grid-small(uk-grid)
-                        
+
                           //- Quantity
                           div
                             +quantity(product.id)
@@ -124,10 +123,10 @@ block pages
                           //- Add to cart button
                           div
                             button(class="uk-button " +
-                                         "uk-button-primary " +
-                                         "tm-product-add-button " +
-                                         "tm-shine " +
-                                         "js-add-to-cart") Reserve Now
+                              "uk-button-primary " +
+                              "tm-product-add-button " +
+                              "tm-shine " +
+                              "js-add-to-cart") Reserve Now
 
 
 
@@ -173,8 +172,8 @@ block pages
             header
               nav.tm-product-nav(
                 uk-sticky="offset: 60; " +
-                          "bottom: #description; " +
-                          "cls-active: tm-product-nav-fixed;")
+                  "bottom: #description; " +
+                  "cls-active: tm-product-nav-fixed;")
                 ul.uk-subnav.uk-subnav-pill.js-product-switcher(
                   uk-switcher="connect: .js-tabs")
                   li: a.js-scroll-to-description(href="#description") Overview
@@ -196,7 +195,7 @@ block pages
                 section
                   article.uk-article
                     div.uk-article-body!= page.content
-                    
+
 
                 //- Specifications
                 section
@@ -212,9 +211,9 @@ block pages
                 section
                   div.tm-wrapper
                     div(class="uk-grid-collapse " +
-                              "uk-child-width-1-3@s " +
-                              "uk-child-width-1-4@m " +
-                              "tm-products-grid"
+                      "uk-child-width-1-3@s " +
+                      "uk-child-width-1-4@m " +
+                      "tm-products-grid"
                         uk-grid)
                       each product in products
                         +tour(product)
@@ -225,9 +224,9 @@ block pages
                     div.uk-grid-small.uk-grid-divider(uk-grid)
 
                       div(class="uk-width-1-1 " +
-                                    "uk-width-1-5@s " +
-                                    "uk-text-center " +
-                                    "tm-reviews-column")
+                        "uk-width-1-5@s " +
+                        "uk-text-center " +
+                        "tm-reviews-column")
                         div.uk-text-meta.uk-text-uppercase average rating
                         div.uk-heading-primary 5.0
                         div.uk-flex.uk-flex-center
@@ -239,10 +238,10 @@ block pages
                             li: +icon("star")(class="uk-text-warning")
                         div.uk-margin-small-top.uk-text-meta based on 2 reviews
                         button(class="uk-button uk-button-primary uk-margin-top uk-width-1-1"
-                               uk-toggle="target: #review") write a review
+                          uk-toggle="target: #review") write a review
 
                       div(class="uk-width-1-1 " +
-                                    "uk-width-expand@s")
+                        "uk-width-expand@s")
                         div.uk-grid-small.uk-grid-divider.uk-child-width-1-1(uk-grid)
                           each review in product.reviews
                             article
@@ -295,10 +294,10 @@ block pages
             div.uk-position-relative
               div.uk-slider-container
                 div(class="uk-slider-items " +
-                          "uk-grid-collapse " +
-                          "uk-child-width-1-3 " +
-                          "uk-child-width-1-4@m " +
-                          "tm-products-grid")
+                  "uk-grid-collapse " +
+                  "uk-child-width-1-3 " +
+                  "uk-child-width-1-4@m " +
+                  "tm-products-grid")
                   each product in products
                     +tour(product)
 
