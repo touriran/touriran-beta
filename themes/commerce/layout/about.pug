@@ -1,7 +1,7 @@
 extends layouts/_article
 
 block vars
-  -
+  //-
     page = {
       title: __('aboutus.title'),
       breadcrumbs: {}
@@ -20,9 +20,10 @@ block article
         h1.uk-article-title= page.title
 
       div.uk-article-body
-        p.uk-text-lead.uk-text-center Urabitur justo diam, auctor vitae ornare sit amet, accumsan sed neque. Curabitur efficitur lacinia euismod. Nunc dictum sagittis lacus. Etiam ultrices nulla orci, in ultrices risus.
-        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac tortor sit amet nisi malesuada commodo. Phasellus et tempus justo. Sed iaculis dignissim lacinia. Nulla id felis vel ligula tempus sodales vel a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis neque ac elit lacinia laoreet. Sed dolor sem, rutrum ac egestas non, tempor nec eros. Etiam lobortis porta viverra. Etiam ut suscipit sem, a volutpat mi. Maecenas euismod a lectus ut dapibus. Nulla mattis diam et leo lacinia dignissim.
-
+        //-p.uk-text-lead.uk-text-center Urabitur justo diam, auctor vitae ornare sit amet, accumsan sed neque. Curabitur efficitur lacinia euismod. Nunc dictum sagittis lacus. Etiam ultrices nulla orci, in ultrices risus.
+        p!= page.content
+        - 
+      //-
         h2.uk-text-center Our principles
         ul.uk-list.uk-list-bullet
           li Vestibulum ut mollis est. Fusce iaculis mauris ut tortor convallis sollicitudin. Suspendisse porta nulla nibh, id lacinia lacus tempus ut. Morbi non arcu aliquam, placerat sapien a, luctus diam. Etiam mattis cursus sem, eu maximus nisi bibendum nec. Vivamus ut turpis augue. Phasellus vehicula risus sit amet mi luctus malesuada.
