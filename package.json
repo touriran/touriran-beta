@@ -10,7 +10,7 @@
     "develop": "npx hexo server"
   },
   "dependencies": {
-    "hexo": "^3.8.0",
+    "hexo": "^3.9.0",
     "hexo-all-minifier": "^0.5.3",
     "hexo-filter-optimize": "^0.2.5",
     "hexo-generator-alias": "^0.1.3",
@@ -22,7 +22,7 @@
     "hexo-renderer-less": "^1.0.0",
     "hexo-renderer-marked": "^1.0.1",
     "hexo-server": "^0.3.3",
-    "uikit": "^3.1.5"
+    "uikit": "^3.1.6"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
