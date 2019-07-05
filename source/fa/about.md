@@ -3,11 +3,11 @@ layout: about
 title: "درباره ما"
 ---
 
-Nous sommes un groupe de jeunes Iraniens d’origines et de spécialités différentes, qui nous ont réunis pour les mêmes buts. Ce n’est pas un secret qu’on aime avoir de plus en plus de touristes ici !, pourtant nous comprenons que nous sommes à l’ère de l’internet; et les gens du monde entier lisent des informations et renseignements en ligne tous les jours. 
+ما گروهی جوان ایرانی با پیش‌زمینه ها و تخصص‌هایی مختلف هستیم که برای هدفی مشترک گرد هم آمده‌ایم. همان اندازه که از داشتن توریست‌های بیشتر خوشحال می‌شویم، می‌دانیم که در عصر اینترنت به سر می‌بریم. و مردم در سراسر دنیا مطالب را آنلاین مطالعه می‌کنند. در همین پی، اولین جرقه‌ی این گردهمایی (مارس 2019) فقدان یک پایگاه اطلاعاتی همه‌جانبه درباره‌ی ایران به زبان‌هایی غیر از فارسی و انگلیسی در فضای وب بود.
 
-Par conséquent, le premier déclencheur de cette équipe (Mars 2019) a été l'absence d'une base de données complète sur l'Iran dans des langues autres que le persan ou l'anglais, sur le Web. Cela dit, nous avons commencé par créer une base de données contenant tout ce que vous devez savoir sur l'Iran dans différentes langues et deuxièmement, commencer à travailler en tant que tour-opérateur fiable et abordable. 
+بر این اساس، ابتدا با درست کردن یک بانک اطلاعاتی آغاز کردیم که تامین کننده تمامی آنچه باید در مورد ایران بدانید در زبان‌های گوناگون باشد، و دوم با شروع به کار به عنوان گرداننده‌ی توری مطمئن و مناسب با بودجه شما.
 
-Nous proposons plusieurs visites guidées par nos guides indépendants bilingues, à savoir anglais, japonais, français, allemand, italien, etc. qui vous accompagnerait dans la visite des meilleurs endroits à visiter pour que vous puissiez avoir une expérience agréable en rencontrant différentes cultures. Nous aimerions vous aider à planifier un voyage facile et fructueux en Iran à bien des égards.
 
- Notre objectif principal est de vous offrir toutes les connaissances dont vous avez besoin sur l’Iran afin que vous puissiez simplement choisir le meilleur ensemble de services incontournables et bien sûr de services en fonction de vos priorités et de votre budget. Vous pouvez voyager plusieurs jours dans plusieurs villes, y compris des sites touristiques avec un guide touristique, de bons logements, des moyens de transport, des repas et plus encore, selon vos préférences. 
-Donc, si vous souhaitez effectuer un voyage efficace et sûr en Iran, n'hésitez pas à nous contacter et à discuter de vos souhaits.
+ما تورهای متعددی همراه با راهنماهای تور دو زبانه ارائه می‌دهیم که شامل انگلیسی، ژاپنی، فرانسوی، آلمانی و ایتالیایی زبان می‌باشند، که شما را در بازدید از بهترین نقاط و جاهای رفتنی همراهی خواهند کرد، تا بتوانید تجربه‌ای لذت‌بخش در کنار آشنایی با فرهنگ‌های گوناگون داشته باشید.
+
+ما قصد داریم در انجام سفری آسان و مثمرثمر به ایران شما را یاری کنیم. هدف اصلی ما ارائه‌ی تمام دانش مورد نیاز درباره‌ی ایران است، تا بتوانید به آسانی بهترین دیدنی ها و البته خدمات مورد نیازتان را با توجه به الویت‌ها و بودجه‌ی خود انتخاب نمایید. شما می‌توانید سفری چندین روزه میان شهرهای متعدد، شامل بازدید از مناطق برجسته به همراه راهنمای تور، اقامت مناسب، حمل و نقل، غذا و غیره را بسته به تمایلات خود داشته باشید. پس اگر می‌خواهید مسافرتی پربازده و امن به ایران داشته باشید، با ما تماس بگیرید و خواسته‌های خود را با ما در میان بگذارید.

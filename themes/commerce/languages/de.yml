@@ -1,8 +1,8 @@
 #Home Page About
 about:
   header: "Über uns"
-  text: "Wir sind eine Tour Iran Gruppe. Wir bieten Informationen und Anleitungen für Touristen."
-  motto: "Machen Sie einen unvergesslichen Besuch im Iran mit uns!"
+  text: "Wir sind sind die Tour Iran Gruppe. Wir bieten Informationen und Anleitungen für Touristen."
+  motto: "Machen Sie mit uns eine unvergessliche Erfahung in Iran!"
 
 #Header
 header:
@@ -11,17 +11,18 @@ header:
   storeName: "Tour Iran Organisation"
   openingHours: 'Täglich 08:00 – 20:00 Uhr'
 
+#Footer
 footer:
-  developedby: "Entwickelt B Mohsen Khanpur"
+  developedby: "Entwickelt von der Tour Iran Group"
   copyright: "Alle Rechte sind der Tour Iran vorbehalten"
-  subscribe: "Abonnieren Sie Updates"
-  subscribeText: "Be aware of new products and special offers."
+  subscribe: "Abonnieren Sie für Updates"
+  subscribeText: "Erhalten Sie neue Angebote"
   left:
-    destinations: "Destinations"
-    spots: "Flecken"
-    interests: "Interessen"
+    destinations: "Ziele"
+    spots: "Sehenswürdigkeiten"
+    interests: "Tätigkeiten"
     tours: "Touren"
-    information: "Information"
+    information: "Informationen"
   right:
     about: "Über"
     contacts: "Kontakte"
@@ -30,7 +31,7 @@ footer:
 
 toolbarMenu:
   news: "Nachrichten"
-  faq: "FAQ"
+  faq: "Häufig gestellte Fragen"
   delivery: "Lieferung"
 
 navbarMenu:
@@ -45,23 +46,23 @@ navbarMenu:
 
 discover:
   spots: 
-    title: "Flecken"
+    title: "Sehenswürdigkeiten"
     islands: "Inseln"
     beaches: "Strände"
     deserts: "Wüsten"
     forests: "Wälder"
     villages: "Dörfer"
-    tombs-shrines: "Gräber und Schreine"
+    tombs-shrines: "Gräber und Tempel"
   interests:
-    title: "Dinge die zu tun sind"
-    art: "Kunstkultur"
+    title: "Sachen machen"
+    art: "Kunst und Kultur"
     history: "Geschichte"
     nature: "Natur"
     religion: "Religion"
     shopping: "Einkaufen"
     food: "Essen und Trinken"
     health: "Gesundheit"
-    action: "Action und Abenteuer"
+    action: "Abenteuer"
   events:
     title: "Veranstaltungen"
     exhibitions: "Ausstellungen"
@@ -72,55 +73,55 @@ discover:
     title: "Jahreszeiten"
     spring: "Frühling"
     summer: "Sommer"
-    fall: "Fall"
+    fall: "Herbst"
     winter: "Winter"
   information:
-    title: "Information"
+    title: "Informationen"
     visa: "Visum bekommen"
-    firstTime: "Zum ersten Mal im Iran?"
+    firstTime: "Zum ersten Mal in Iran?"
     accomodation: "Unterkunft"
     transportation: "Transport"
-    weather: "Wetter informationen"
+    weather: "Wetter"
 
 categories:
   tours: "Touren"
-  activities: "Dinge die zu tun sind"
+  activities: "Aktivitäten"
   transportation: "Transport"
-  souvenirs: "Erinnerungen"
-  spots: "Flecken"
+  souvenirs: "Souvenirs"
+  spots: "Sehenswürdigkeiten"
   accomodation: "Unterkunft"
-  information: "Information"
+  information: "Informationen"
 
 #General:
 general: 
   readMore: "Weiterlesen"
   allCategories: "Alle Kategorien anzeigen"
-  latestTours: "Letzte Touren"
+  latestTours: "die letzten Touren"
   allTours: "Alle Touren anzeigen"
   destinations: "Reiseziele"
   allDestinations: "Alle Reiseziele anzeigen"
   blog: "Blog"
   allBlog: "Alle Artikel anzeigen"
   news: "Nachrichten"
-  latestNews: "Neuesten Nachrichten"
+  latestNews: "Die neuesten Nachrichten"
 
 #Advantages:
 advantages:
   professional:
-    title: "Professionel"
+    title: "Erfahrene"
     description: "Unsere zertifizierten Reiseführer helfen Ihnen gerne weiter."
   friendly:
     title: "Freundlich"
-    description: "Lernen Sie den Iran in freundlicher Atmosphäre kennen."
+    description: "Lernen Sie Iran in einer freundlichen Atmosphäre kennen."
   international: 
     title: "International"
-    description: "Unser Team besteht aus Menschen aus verschiedenen Ländern, damit wir Ihre Kultur kennen."
+    description: "Unser Team besteht aus Menschen aus verschiedenen Ländern, daher kennen wir Ihre Kultur."
   informative:
-    title: "Informative"
-    description: "Genießen Sie nicht nur Ihren Aufenthalt im Iran, sondern erweitern Sie auch Ihr Wissen über die persische Kultur"
+    title: "Informativ"
+    description: "Genießen Sie nicht nur Ihren Aufenthalt in Iran, sondern erweitern Sie auch Ihr Wissen über die persische Kultur"
   premium:
     title: "Prämie"
-    description: "Erleben Sie eine Reise mit unseren ganz besonderen Touren."
+    description: "Erleben Sie mit unseren ganz besonderen Touren die Reise Ihres Lebens."
 
 #Expressions:
 search: Search

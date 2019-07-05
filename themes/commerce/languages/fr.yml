@@ -12,10 +12,10 @@ header:
   openingHours: 'Tous les jours de 08h00 à 20h00'
 
 footer:
-  developedby: Développé B Mohsen Khanpur
-  copyright: Tous droits réservés par Tour Iran
-  subscribe: Abonnez-vous pour les mises à jour
-  subscribeText: Soyez au courant des nouveaux produits et des offres spéciales.
+  developedby: "Développé par Tour Iran Group"
+  copyright: "Tous droits réservés par Tour Iran"
+  subscribe: "Abonnez-vous pour les mises à jour"
+  subscribeText: "Soyez au courant des nouveaux produits et des offres spéciales."
   left:
     destinations: "Destinations"
     spots: "Spots"
@@ -23,7 +23,7 @@ footer:
     tours: "Tours"
     information: "Information"
   right:
-    about: "Sur"
+    about: "A propos"
     contacts: "Contacts"
     blog: "Blog"
     news: "Nouvelles"
@@ -40,7 +40,7 @@ navbarMenu:
     title: "Pages"
     delivery: "Livraison"
   blog: "Blog"
-  about: "Sur"
+  about: "A propos"
   contacts: "Contacts"
 
 discover:
@@ -53,7 +53,7 @@ discover:
     villages: "Villages"
     tombs-shrines: "Tombeaux et sanctuaires"
   interests:
-    title: "Choses à faire"
+    title: "Trucs à faire"
     art: "Art & Culture"
     history: "L'histoire"
     nature: "Nature"
@@ -72,7 +72,7 @@ discover:
     title: "Saisons"
     spring: "Printemps"
     summer: "Été"
-    fall: "Tomber"
+    fall: "L'automne"
     winter: "Hiver"
   information:
     title: "Information"
@@ -80,11 +80,11 @@ discover:
     firstTime: "Première fois en Iran?"
     accomodation: "Hébergement"
     transportation: "Transport"
-    weather: "Information météo"
+    weather: " météo"
 
 categories:
   tours: "Tours"
-  activities: "Choses à faire"
+  activities: "Trucs à faire"
   souvenirs: "Souvenirs"
   transportation: "Transport"
   spots: "Spots"
@@ -102,13 +102,13 @@ general:
   blog: "Blog"
   allBlog: "Voir tous les articles"
   news: "Nouvelles"
-  latestNews: "Dernières nouvelles"
+  latestNews: " nouvelles"
   
 #Advantages:
 advantages:
   professional:
     title: "Professionnel"
-    description: "Nos guides touristiques certifiés sont là pour vous aider."
+    Description: "Nos guides touristiques certifiés sont là pour vous aider."
   friendly:
     title: "Amical"
     description: "En savoir plus sur l'Iran dans une atmosphère amicale."
@@ -121,7 +121,7 @@ advantages:
   premium:
     title: "Prime"
     description: "Faites un voyage de votre vie avec nos visites très spéciales."
-
+    
 #Expressions:
 search: Search
 tags: Tags

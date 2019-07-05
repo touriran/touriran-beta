@@ -1,29 +1,29 @@
 #Home Page About
 about:
-  header: "私たちに関しては"
-  text: "私たちはツアーイラングループです。私たちは観光客のための情報とガイドを提供します。"
-  motto: "私たちと一緒にイランへの思い出に残る訪問をしてください！"
+  header: "私たちについて"
+  text: "私たちはツアーイラングループといいます。観光客のための情報とガイドを提供しています。"
+  motto: "私たちと一緒に思い出に残るイラン旅行にしましょう！"
 
 #Header
 header:
   address: "テヘラン、イラン"
-  office: "テヘランの事務所"
+  office: "テヘランのオフィス"
   storeName: "ツアーイラン組織"
   openingHours: '毎日08：00〜20：00'
 
 footer:
-  developedby: " Mohsen Khanpurを開発しました"
+  developedby: " 作成者　Mohsen Khanpur"
   copyright: "ツアーイランに帰属するすべての権利"
-  subscribe: "更新を購読する"
-  subscribeText: "新製品や特別オファーに注意してください。"
+  subscribe: "アップデートを署名します"
+  subscribeText: "新製品や特別なオファーに注意してください。"
   left:
-    destinations: "行き先"
-    spots: "スポット"
+    destinations: "目的地"
+    spots: "地点"
     interests: "興味"
     tours: "ツアー"
     information: "情報"
   right:
-    about: "約"
+    about: "おおよそ、～について"
     contacts: "連絡先"
     blog: "ブログ"
     news: "ニュース"
@@ -35,22 +35,22 @@ toolbarMenu:
 
 navbarMenu:
   discover: "発見"
-  destinations: "行き先"
+  destinations: "目的地"
   pages: 
     title: "ページ数"
     delivery: "配達"
   blog: "ブログ"
-  about: "約"
+  about: "おおよそ、～について"
   contacts: "連絡先"
 
 discover:
   spots: 
-    title: "スポット"
+    title: "地点"
     islands: "島"
-    beaches: "ビーチ"
+    beaches: "海辺"
     deserts: "砂漠"
     forests: "森林"
-    villages: "村落"
+    villages: "村"
     tombs-shrines: "墓と神社"
   interests:
     title: "やる事"
@@ -76,8 +76,8 @@ discover:
     winter: "冬"
   information:
     title: "情報"
-    visa: "ビザ取得"
-    firstTime: "イランで初めてですか？"
+    visa: "ビザの取得"
+    firstTime: "イランに来るのは初めてですか？"
     accomodation: "ご宿泊"
     transportation: "交通手段"
     weather: "気象情報"
@@ -85,10 +85,10 @@ discover:
 categories:
   tours: "ツアー"
   activities: "やる事"
-  souvenirs: "メモワール"
+  souvenirs: "お土産"
   transportation: "交通手段"
-  spots: "スポット"
-  accomodation: "ご宿泊"
+  spots: "地点"
+  accomodation: "宿泊施設"
   information: "情報"
 
 #General:
@@ -97,7 +97,7 @@ general:
   allCategories: "すべてのカテゴリを見る"
   latestTours: "最新のツアー"
   allTours: "すべてのツアーを見る"
-  destinations: "行き先"
+  destinations: "目的地"
   allDestinations: "目的地をすべて見る"
   blog: "ブログ"
   allBlog: "全ての記事を見る"
@@ -107,21 +107,22 @@ general:
 #Advantages:
 advantages:
   professional:
-    title: "プロ"
-    description: "私たちの認定ツアーガイドはあなたを助けるためにここにあります。"
+    title: "プロフェッショナル"
+    description: "認定ツアーガイドがお客様をお手伝いいたします。"
   friendly:
     title: "やさしい"
-    description: "フレンドリーな雰囲気の中からイランについて学びましょう。"
+    description: "フレンドリーな雰囲気でイランについて学びましょう。"
   international: 
     title: "国際"
-    description: "私たちのチームはさまざまな国からの人々を含んでいるので、私たちはあなたの文化について知っています。"
+    description: "私たちのチームには様々な国の人々がいるので、あなたの文化について知っています。"
   informative:
     title: "有益な"
     description: "イランでの滞在を楽しむだけでなく、ペルシャ文化に関する知識を広げることもできます。"
   premium:
     title: "プレミアム"
-    description: "私たちの非常に特別なツアーで一生の旅をします。"
+    description: "私たちと一緒に最高の旅にしましょう。"
   
+
 
 #Expressions:
 search: Search
