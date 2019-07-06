@@ -145,7 +145,7 @@ tag: Mot-clé
 #Style:
 lang: fa
 direction: rtl
-style: /x-assets/styles/style-rtl.css
+style: /assets/styles/style-rtl.css
 data: ../data/_data
 
 

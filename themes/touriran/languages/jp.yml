@@ -149,7 +149,7 @@ tag: Tag
 #Style: DO NOT TRANSLATE
 lang: jp
 direction: ltr
-style: /x-assets/styles/style-ltr.css
+style: /assets/styles/style-ltr.css
 data: ../data/_data
 
 #UIKit: DO NOT TRANSLATE

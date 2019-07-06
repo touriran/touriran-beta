@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 // Scripts
 
 gulp.task('scripts', function () {
-  return gulp.src('source/x-assets/scripts/*.js')
+  return gulp.src('themes/touriran/source/assets/_scripts/*.js')
     .pipe(include({
       extensions: 'js',
       hardFail: true,
@@ -15,7 +15,7 @@ gulp.task('scripts', function () {
       ]
     }))
     .pipe(jsmin())
-    .pipe(gulp.dest('public/x-assets/scripts'));
+    .pipe(gulp.dest('themes/touriran/source/assets/scripts'));
 });
 
 //Default 

@@ -121,7 +121,7 @@ advantages:
   premium:
     title: "Prime"
     description: "Faites un voyage de votre vie avec nos visites très spéciales."
-    
+
 #Expressions:
 search: Search
 tags: Tags
@@ -146,7 +146,7 @@ tag: Tag
 #Style
 lang: fr
 direction: ltr
-style: /x-assets/styles/style-ltr.css
+style: /assets/styles/style-ltr.css
 data: ../data/_data
 
 #UIKit
