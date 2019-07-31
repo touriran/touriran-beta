@@ -26,7 +26,7 @@ mixin product-small(product)
               div.uk-text-muted Product not available
             else
               if product.oldPrice
-                del.uk-text-meta= product.oldPrice
+                div.uk-text-meta Duration
               div.tm-product-card-price= product.price
           div.tm-product-card-add
             if !product.isNotAvailable
