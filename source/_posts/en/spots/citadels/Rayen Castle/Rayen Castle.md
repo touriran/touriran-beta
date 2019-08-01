@@ -7,8 +7,7 @@ district: Rayen
 city: Rayen
 period: Sassanid
 excerpt: "Rayen Castle (Persian: ارگ راين‎ Arg-e Rāyen) is an adobe castle 100 Kilometers south of Kerman province, Iran. It is situated on the skirts of the mountain Haraz."
-collection:
-  - Spots
+collection: Spots
 category: 
   - citadels
 tags: history architecture citadel castle

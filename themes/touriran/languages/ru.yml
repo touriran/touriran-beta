@@ -32,14 +32,13 @@ footer:
 toolbarMenu:
   news: "Новости"
   faq: "Часто задаваемые вопросы"
-  delivery: "Доставка"
+  tours: "Туры"
 
 navbarMenu:
   discover: "Обнаружить"
   destinations: "Направления"
   pages: 
     title: "страницы"
-    delivery: "Доставка"
   blog: "Блог"
   about: "Около"
   contacts: "контакты"

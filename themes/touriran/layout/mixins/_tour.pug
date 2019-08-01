@@ -1,16 +1,16 @@
-mixin tour(product)
+mixin tour(tour)
 
   article.tm-product-card
 
     //- Media
     div.tm-product-card-media
       div.tm-ratio.tm-ratio-4-3
-        a.tm-media-box(href=url_for(product.path))
+        a.tm-media-box(href=url_for(tour.path))
 
           //- Labels
-          if product.statuses
+          if tour.statuses
             div.tm-product-card-labels
-              each status in product.statuses
+              each status in tour.statuses
                 case status
                   when "new"
                     span.uk-label.uk-label-success= status
@@ -23,8 +23,8 @@ mixin tour(product)
 
           //- Image
           figure.tm-media-box-wrap
-            if product.image
-              img(src= product.image.medium alt= product.title)
+            if tour.image
+              img(src= tour.image alt= tour.title)
             else
               +icon("image", "3")(class="uk-text-muted")
 
@@ -35,16 +35,16 @@ mixin tour(product)
       div.tm-product-card-info
 
         //- Type
-        div.uk-text-meta.uk-margin-xsmall-bottom= product.type
+        div.uk-text-meta.uk-margin-xsmall-bottom= tour.type
 
         //- Title
         h3.tm-product-card-title
-          a.uk-link-heading(href= url_for(product.path))= product.title
+          a.uk-link-heading(href= url_for(tour.path))= tour.title
 
         //- Properties
-        if product.properties
+        if tour.properties
           ul.uk-list.uk-text-small.tm-product-card-properties
-            each value, property in product.properties
+            each value, property in tour.properties
               li
                 span.uk-text-muted!= property + ": "
                 span!= value
@@ -54,12 +54,12 @@ mixin tour(product)
 
         //- Prices
         div.tm-product-card-prices
-          if product.isNotAvailable
+          if tour.isNotAvailable
             div.uk-text-muted Product not available
           else
-            if product.oldPrice
+            if tour.duration
               div.uk-text-meta Duration
-            div.tm-product-card-price= product.price
+              div.tm-product-card-price= tour.duration + " " + "Days"
 
       //- Actions buttons
         div.tm-product-card-add

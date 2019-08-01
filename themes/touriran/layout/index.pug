@@ -92,11 +92,11 @@ block default
                   "uk-child-width-1-4@m " +
                   "tm-products-grid"
             uk-grid)
-          - var productsFeed = site.categories.findOne( {name: 'Tour'} ).posts.find({lang: __('lang')}).sort('date', -1).limit(4);  
+          - var toursFeed = site.categories.findOne( {name: 'Tour'} ).posts.find({lang: __('lang')}).sort('date', -1).limit(4);  
           - var count = 0
-          each product in productsFeed.toArray()
+          each tour in toursFeed.toArray()
             if count < 4
-              +tour(product)
+              +tour(tour)
             - count++;
 
       div.uk-margin.uk-text-center

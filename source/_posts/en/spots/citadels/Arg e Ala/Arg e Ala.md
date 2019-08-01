@@ -8,8 +8,7 @@ city:
 village: Ala
 period: Qajar
 excerpt: "The Arg e Ala is located at 9 km southwest of Semnan and next to the Semnan road to the Alaa Air Base and is one of the historical monuments of the Middle Qajar, which has historic records."
-collection:
-  - Spots
+collection: "Spots"
 category: 
   - citadels
 tags: history architecture citadel castle
@@ -18,8 +17,8 @@ weather-theme: "weather_one"
 weather-name: "Semnan City"
 map: 29.6174, 52.5446
 season:
-image-bg: https://loremflickr.com/1020/720/bam
-image-sm: https://loremflickr.com/400/400/bam
+image: "./Arg_alaa.jpg"
+
 ---
 # **Introduction:**
 

@@ -32,14 +32,13 @@ footer:
 toolbarMenu:
   news: "أخبار"
   faq: "التعليمات"
-  delivery: "توصيل"
+  tours: "جولات"
 
 navbarMenu:
   discover: "اكتشف"
   destinations: "الأماكن"
   pages: 
     title: "صفحات"
-    delivery: "توصيل"
   blog: "مدونة"
   about: "حول"
   contacts: "جهات الاتصال"

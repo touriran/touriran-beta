@@ -8,8 +8,7 @@ city: Kashmar
 village:
 period: Qajar
 excerpt: "The ruins of the old citadel with a winding that continues to prevail over decades, is located on the northern side of the central square of Kashmar."
-collection:
-  - Spots
+collection: Spots
 category: 
   - citadels
 tags: history architecture citadel castle

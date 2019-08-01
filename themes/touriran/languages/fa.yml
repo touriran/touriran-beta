@@ -31,14 +31,13 @@ footer:
 toolbarMenu:
   news: "اخبار"
   faq: "سوالات متداول"
-  delivery: "تحویل"
+  tours: "تور‌ها"
 
 navbarMenu:
   discover: "كشف کنید"
   destinations: "مقاصد"
   pages: 
     title: "صفحات"
-    delivery: "تحویل"
   blog: "وبلاگ"
   about: "درباره"
   contacts: "ارتباط با ما"

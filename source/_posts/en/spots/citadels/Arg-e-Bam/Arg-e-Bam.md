@@ -7,8 +7,7 @@ district: Central District
 city: Bam
 period: Achaemenians around 579–323 BC
 excerpt: "The Arg-e Bam (Persian: ارگ بم‎) is the largest adobe building in the world, located in Bam, a city in Kerman Province of southeastern Iran."
-collection:
-  - Spots
+collection: Spots
 category: 
   - citadels
 tags: history architecture citadels

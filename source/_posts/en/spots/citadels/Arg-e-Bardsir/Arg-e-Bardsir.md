@@ -8,8 +8,7 @@ city: Bardsir
 village:
 period: Afsharid
 excerpt: "Arg e Bardsir is located in the center of Bardsir, opposite of the Jame Mosque, which is also home to the old works."
-collection:
-  - Spots
+collection: Spots
 category: 
   - citadels
 tags: history architecture citadel castle
@@ -18,8 +17,8 @@ weather-theme: "weather_one"
 weather-name: "Kashmar City"
 map: 29.6174, 52.5446
 season:
-image-bg: https://loremflickr.com/1020/720/bam
-image-sm: https://loremflickr.com/400/400/bam
+image: "Arg-e-Bardsir/ArgeBardsir.jpg"
+
 ---
 # **Introduction:**
 

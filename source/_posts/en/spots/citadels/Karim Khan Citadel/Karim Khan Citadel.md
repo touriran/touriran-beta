@@ -7,8 +7,7 @@ district: District 8
 city: Shiraz
 period: Zand
 excerpt: "The Karim Khan Castle (Persian: ارگ کریم خان‎ Arg-e Karim Khan) is a citadel located in the downtown Shiraz, southern Iran."
-collection:
-  - Spots
+collection: Spots
 category: 
   - citadels
 tags: history architecture citadel castle

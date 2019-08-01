@@ -6,12 +6,10 @@ category: [Tour]
 image-bg: ''
 image-sm: ''
 layout: post
-image: 
-    medium: "/z-media/images/products/new/plate.jpg"
+image:  "/z-media/images/products/new/plate.jpg"
 tag: []
 type: "Tour"
-price: 11
-oldPrice: 12
+duration: 4
 ---
 Programme 13jours/ 12 Nuits 2017 Sortie Chiraz
 

@@ -3,11 +3,11 @@ title: Tehran Tour Short
 date: 2019-01-01 17:08:30 +0330
 description: 'Programme L''Iran en 09 jours: TEHERAN / CHIRAZ / YAZD / ISFAHAN / KACHAN'
 category: [Tour]
-image: 
-    medium: "/z-media/images/products/new/plate.jpg"
+image: "/z-media/images/products/new/plate.jpg"
 tag: []
 layout: post
 type: "Tour"
+duration: 2
 ---
 
 _TEHERAN / CHIRAZ / YAZD / ISFAHAN / KACHAN_

@@ -7,8 +7,7 @@ district: Central District
 city: Kalat
 period: Sassanid
 excerpt: "The ruins of Foroud citadel is located on the northwest of the city of Kalat and about 1 km north of the village of Ghor over mountains overlooking the Turkmen plains."
-collection:
-  - Spots
+collection: Spots
 category: 
   - citadels
 tags: history architecture citadels

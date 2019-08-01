@@ -31,14 +31,13 @@ footer:
 toolbarMenu:
   news: "ニュース"
   faq: "よくある質問"
-  delivery: "配達"
+  tours: "ツアー"
 
 navbarMenu:
   discover: "発見"
   destinations: "目的地"
   pages: 
     title: "ページ数"
-    delivery: "配達"
   blog: "ブログ"
   about: "おおよそ、～について"
   contacts: "連絡先"

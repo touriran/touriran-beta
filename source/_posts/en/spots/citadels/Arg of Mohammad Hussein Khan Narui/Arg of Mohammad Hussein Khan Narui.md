@@ -7,8 +7,7 @@ district: Central
 city: Zehak
 period: Zand
 excerpt: "One of the unique monuments of the new castle village is the organ of Sardar Mohammad Hussein Khan Narui."
-collection:
-  - Spots
+collection: Spots
 category: 
   - citadels
 tags: history architecture citadel castle

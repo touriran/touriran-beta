@@ -7,8 +7,7 @@ district: Central District
 city: Zabol
 period: Pahlavi
 excerpt: "Arg Khan Malek Kiani is located in Shahrivarand city, Sistan and Baloochestan province and Zabol city."
-collection:
-  - Spots
+collection: Spots
 category: 
   - citadels
 tags: history architecture citadels

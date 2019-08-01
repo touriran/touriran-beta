@@ -8,8 +8,7 @@ city: Tehran
 village: 
 period: Saffavid
 excerpt: "Nowadays, the historical Arg Square in Tehran has a small green garden with a pool in the middle. Pahlavi era buildings such as the Judiciary Complex (The Court), Radio Building, Arg Mosque, the Ministry of Justice, the Police Headquarters, and the Qajari Golestan Palace surround the square."
-collection:
-  - Spots
+collection: Spots
 category: 
   - citadels
 tags: history architecture citadel castle

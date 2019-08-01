@@ -1,13 +1,11 @@
 ---
 title: "Tehran Tour Long"
 date: 2019-01-01 17:12:17 +0330
-price: 11
-oldPrice: 12
+duration: 11
 isNotAvailable: false
 description: 'Programme 13jours/ 12 Nuits 2019: TEHERAN / ISFHAN / YAZD / KERMAN / CHIRAZ'
 category: "Tour"
-image: 
-    medium: "/z-media/images/products/new/plate.jpg"
+image:  "/z-media/images/products/new/plate.jpg"
 tag: []
 statuses: ["Popular"]
 layout: post

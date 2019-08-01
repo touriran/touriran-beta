@@ -7,8 +7,7 @@ district: Central District
 city: Gugad
 period: Sassanid
 excerpt: "Historical archaeological site of Gugad is one of the great monuments of Iran's clay and mud, which dates back to about four centuries."
-collection:
-  - Spots
+collection: Spots
 category: 
   - citadels
 tags: history architecture citadels

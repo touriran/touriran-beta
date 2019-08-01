@@ -1,13 +1,11 @@
 ---
 title: "Iran Tour (Long)" 
 date:   2018-12-30 01:00:00
-price: 11
+duration: 12
 priceDescription: This price includes food, transportation, and accomodation.
 isNotAvailable: false
-image: 
-    small: "/z-media/images/tours/shiraz/Shiraz-1.jpg"
-    medium: "/z-media/images/tours/shiraz/Shiraz-1.jpg"
-    large: "/z-media/images/tours/shiraz/Shiraz-1.jpg"
+image: "/z-media/images/tours/shiraz/Shiraz-1.jpg"
+
 additionalImages:
     - small: "/z-media/images/tours/shiraz/Shiraz-2.jpg"
       large: "/z-media/images/tours/shiraz/Shiraz-2.jpg"

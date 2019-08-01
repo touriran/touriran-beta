@@ -31,14 +31,13 @@ footer:
 toolbarMenu:
   news: "Nouvelles"
   faq: "FAQ"
-  delivery: "Livraison"
+  tours: "Tours"
 
 navbarMenu:
   discover: "Découvrir"
   destinations: "Destinations"
   pages: 
     title: "Pages"
-    delivery: "Livraison"
   blog: "Blog"
   about: "A propos"
   contacts: "Contacts"

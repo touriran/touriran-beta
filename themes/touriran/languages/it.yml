@@ -32,14 +32,13 @@ footer:
 toolbarMenu:
   news: "notizia"
   faq: "FAQ"
-  delivery: "Consegna"
+  tours: "Tours"
 
 navbarMenu:
   discover: "Scoprire"
   destinations: "Destinazioni"
   pages: 
     title: "pagine"
-    delivery: "Consegna"
   blog: "Blog"
   about: "Di"
   contacts: "Contacts"
