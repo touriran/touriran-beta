@@ -22,7 +22,7 @@
         href: "/" + __('lang') + '/spots/islands'
       },
       {
-        title: __('discover.spots.deserts'),
+        title: __('discover.spots.deserts'), 
         href: "/" + __('lang') + '/spots/deserts'
       },
       {
@@ -48,8 +48,8 @@
     image: '/z-media/images/catalog/menu/activities.svg',
     quantity: 144,
     items: [{
-        title: __('discover.interests.history'),
-        href: "/" + __('lang') + '/activities/history'
+      title: __('discover.interests.history'),
+      href: "/" + __('lang') + '/activities/history'
       }, {
         title: __('discover.interests.art'),
         href: "/" + __('lang') + '/activities/art'
@@ -75,8 +75,8 @@
     image: '/z-media/images/catalog/menu/events.svg',
     quantity: 58,
     items: [{
-        title: __('discover.events.festivals'),
-        href: "/" + __('lang') + '/events/festivals'
+      title: __('discover.events.festivals'),
+      href: "/" + __('lang') + '/events/festivals'
       },
       {
         title:__('discover.events.exhibitions'),
@@ -97,8 +97,8 @@
     image: '/z-media/images/catalog/menu/seasons.svg',
     quantity: 13,
     items: [{
-        title: __('discover.seasons.spring'),
-        href: "/" + __('lang') + '/seasons/spring'
+      title: __('discover.seasons.spring'),
+      href: "/" + __('lang') + '/seasons/spring'
       },
       {
         title:__('discover.seasons.summer'),
@@ -119,8 +119,8 @@
     image: '/z-media/images/catalog/menu/information.svg',
     quantity: 59,
     items: [{
-        title: __('discover.information.visa'),
-        href: "/" + __('lang') + '/information/visa'
+      title: __('discover.information.visa'),
+      href: "/" + __('lang') + '/information/visa'
       },
       {
         title:__('discover.information.firstTime'),
@@ -142,72 +142,77 @@
   }]
 
   var brands = [{
-    name: 'Apple',
+    href: "/" + __('lang') + "/destinations/Tehran",
+    name: 'Tehran',
     image: '/z-media/images/brands/Tehran.png',
   }, {
-    name: 'Samsung',
+    href: "/" + __('lang') + "/destinations/Shiraz",
+    name: 'Shiraz',
     image: '/z-media/images/brands/Shiraz.svg'
   }, {
-    name: 'Sony',
+    href: "/" + __('lang') + "/destinations/Isfahan",
+    name: 'Isfahan',
     image: '/z-media/images/brands/Isfahan.svg'
   }, {
-    name: 'Microsoft',
+    href: "/" + __('lang') + "/destinations/Kermanshah",
+    name: 'Kermanshah',
     image: '/z-media/images/brands/Kermanshah.png'
   }, {
-    name: 'Intel',
+    href: "/" + __('lang') + "/destinations/Tabriz",
+    name: 'Tabriz',
     image: '/z-media/images/brands/Tabriz.png'
   }, {
-    name: 'HP',
+    href: "/" + __('lang') +  "/destinations/Mashhad",
+    name: 'Mashhad',
     image: '/z-media/images/brands/Mashhad.png'
   }, {
-    name: 'LG',
+    href: "/" + __('lang') +  "/destinations/Ardabil",
+    name: 'Ardabil',
     image: '/z-media/images/brands/Ardabil.png'
-  }, {
-    name: 'Lenovo',
+  }, 
+  {
+    href: "/" + __('lang') +  "/destinations/Yazd",
+    name: 'Yazd',
     image: '/z-media/images/brands/Yazd.png'
   }, {
-    name: 'ASUS',
+    href: "/" + __('lang') +  "/destinations/Ahvaz",
+    name: 'Ahvaz',
     image: '/z-media/images/brands/Ahvaz.png'
   }, {
-    name: 'Acer',
+    href: "/" + __('lang') +  "/destinations/Urmia",
+    name: 'Urmia',
     image: '/z-media/images/brands/Urmia.png'
-  }, {
-    name: 'Dell',
-    image: '/z-media/images/brands/Zanjan.png'
-  }, {
-    name: 'Canon',
-    image: '/z-media/images/brands/Zahedan.png'
   }]
 
   var toolbarMenu = [{
     name: __('toolbarMenu.news'),
-    href: "/" + __('lang') + '/news.html'
+    href: "/" + __('lang') + '/news'
   }, {
     name: __('toolbarMenu.faq'),
-    href: "/" + __('lang') + '/faq.html'
+    href: "/" + __('lang') + '/faq'
   }, {
     name: __('toolbarMenu.tours'),
-    href: "/" + __('lang') + '/tours.html'
+    href: "/" + __('lang') + '/tours'
   }]
 
   var navbarMenu = [{
     name: __('navbarMenu.discover'),
-    href: 'catalog.html',
+    href: "/" + __('lang') + '/discover',
     items: catalog
   }, {
     name: __('navbarMenu.destinations'),
-    href: 'brands.html',
+    href: "/" + __('lang') + '/destionations',
     items: brands
   },
   {
     name: __('navbarMenu.blog'),
-    href: "/" + __('lang') + '/blog.html'
+    href: "/" + __('lang') + '/blog'
   }, {
     name: __('navbarMenu.about'),
-    href: "/" + __('lang') + '/about.html'
+    href: "/" + __('lang') + '/about'
   }, {
     name: __('navbarMenu.contacts'),
-    href: "/" + __('lang') + '/contacts.html'
+    href: "/" + __('lang') + '/contacts'
   }]
 
   var footerMenuLeft = [{
@@ -229,16 +234,16 @@
 
   var footerMenuRight = [{
     name: __('footer.right.about'),
-    href: "/" + __('lang') + '/about.html'
+    href: "/" + __('lang') + '/about'
   }, {
     name: __('footer.right.contacts'),
-    href: "/" + __('lang') + '/contacts.html'
+    href: "/" + __('lang') + '/contacts'
   }, {
     name: __('footer.right.blog'),
-    href: "/" + __('lang') + '/blog.html'
+    href: "/" + __('lang') + '/blog'
   }, {
     name: __('footer.right.news'),
-    href: "/" + __('lang') + '/news.html'
+    href: "/" + __('lang') + '/news'
   }]
 
   var socials = [{
@@ -1069,29 +1074,29 @@
   var informationalNav = [{
     id: 1,
     title: 'Tours',
-    href: 'tours.html'
+    href: "/" + __('lang') + '/tours'
   }, {
     id: 2,
     title: 'News',
-    href: 'news.html'
+    href: "/" + __('lang') + '/news'
 
   }, {
     id: 3,
     title: 'Blog',
-    href: 'blog.html'
+    href: "/" + __('lang') + '/blog'
   }, {
     id: 4,
     title: 'FAQ',
-    href: 'faq.html'
+    href: "/" + __('lang') + '/faq'
   }, {
     id: 5,
     title: 'Contacts',
-    href: 'contacts.html'
+    href: "/" + __('lang') +  '/contacts'
 
   }, {
     id: 6,
     title: 'About',
-    href: 'about.html'
+    href:"/" + __('lang') +  '/about.html'
   }]
 
   var promo = [{

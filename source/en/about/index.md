@@ -1,6 +1,8 @@
 ---
 layout: about
-alias: about.html
+alias: 
+    - about.html
+    - /about/
 title: "About Us"
 ---
 
