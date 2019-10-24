@@ -5,7 +5,7 @@ description: 'Programme L''Iran en 09 jours: TEHERAN / CHIRAZ / YAZD / ISFAHAN /
 category: [Tour]
 image: "/z-media/images/products/new/plate.jpg"
 tag: []
-layout: post
+layout: templates/tour
 type: "Tour"
 duration: 2
 ---

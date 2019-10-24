@@ -5,7 +5,7 @@ description: 'Programme 13jours 2019: TEHERAN / ISFHAN / YAZD / KERMAN / CHIRAZ'
 category: [Tour]
 image-bg: ''
 image-sm: ''
-layout: post
+layout: templates/tour
 image:  "/z-media/images/products/new/plate.jpg"
 tag: []
 type: "Tour"

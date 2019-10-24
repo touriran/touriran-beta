@@ -1,9 +1,9 @@
-extends layouts/_pages
+extends ../layouts/_pages
 
 block vars
   -
     product = products[0];
-    page.breadcrumbs = {
+    pageData.breadcrumbs = {
       [__('breadcrumbs.tours')] : "/" + __('lang') + '/tours.html'
     }
 

@@ -8,7 +8,7 @@ category: "Tour"
 image:  "/z-media/images/products/new/plate.jpg"
 tag: []
 statuses: ["Popular"]
-layout: post
+layout: templates/tour
 type: "Tour"
 ---
 Programme 13jours/ 12 Nuits 2017 Sortie Chiraz

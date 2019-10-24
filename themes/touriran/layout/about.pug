@@ -1,8 +1,8 @@
 extends layouts/_article
 
 block vars
- // -
-    page = {
+  -
+    pageData = {
       title: __('aboutus.title'),
       breadcrumbs: {}
     }
@@ -20,7 +20,7 @@ block article
 
       header.uk-text-center
         //- Title
-        h1.uk-article-title= page.title
+        h1.uk-article-title= pageData.title
 
       div.uk-article-body
         //-p.uk-text-lead.uk-text-center Urabitur justo diam, auctor vitae ornare sit amet, accumsan sed neque. Curabitur efficitur lacinia euismod. Nunc dictum sagittis lacus. Etiam ultrices nulla orci, in ultrices risus.

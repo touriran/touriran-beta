@@ -1,9 +1,9 @@
-extends layouts/_pages
+extends ../layouts/_pages
 
 block vars
   -
-    page = {
-      title: __('tours.title'),
+    pageData = {
+      title: __('categories.spots'),
       breadcrumbs: {
         'Catalog': 'catalog.html'
       },
@@ -43,12 +43,15 @@ block pages
               h4.uk-margin-small-bottom Categories
               ul.uk-nav.uk-nav-default
                 each category in catalog
-                  each item in category.items
-                    li: a(href="subcategory.html")= item
-                  - break
+                  if category.id === page.key
+                    each item in category.items
+                      li: a(href=item.href)= item.title
+                - console.log(page)
+                    //- break
+
 
             //- Prices
-            section.uk-card-body.uk-open.js-accordion-section
+            //- section.uk-card-body.uk-open.js-accordion-section
               h4.uk-accordion-title.uk-margin-remove Prices
               div.uk-accordion-content
                 div.uk-grid-small.uk-child-width-1-2.uk-text-small(uk-grid)
@@ -62,7 +65,7 @@ block pages
                       input.uk-input(type="text" placeholder="$6559")
 
             //- Properties
-            each property in filters
+            //- each property in filters
               if property.id= 1
                 section.uk-card-body.js-accordion-section(
                   class= { "uk-open": property.isOpen })
@@ -99,11 +102,11 @@ block pages
               - break
 
             //- Reset filters
-            div.uk-card-body
+            //- div.uk-card-body
               button.uk-button.uk-button-default.uk-width-1-1
                 +icon("close", ".75")(class="uk-margin-xsmall-right")
                 | Reset all filters
 
     //- Content
     div.uk-width-expand
-      include partials/_tours
+      include ../partials/_catalog

@@ -12,68 +12,132 @@
 
   var catalog = [{
     name: __('discover.spots.title'),
-    id: 'laptops-tablets',
-    href: 'category.html',
+    id: 'spots',
+    href: "/" + __('lang') +'/spots',
     image: '/z-media/images/catalog/menu/mosque.svg',
     quantity: 367,
     items: [
-      __('discover.spots.islands'),
-      __('discover.spots.deserts'),
-      __('discover.spots.beaches'),
-      __('discover.spots.villages'),
-      __('discover.spots.forests'),
-      __('discover.spots.tombs-shrines')
+      {
+        title: __('discover.spots.islands'),
+        href: "/" + __('lang') + '/spots/islands'
+      },
+      {
+        title: __('discover.spots.deserts'),
+        href: "/" + __('lang') + '/spots/deserts'
+      },
+      {
+        title: __('discover.spots.beaches'),
+        href: "/" + __('lang') + '/spots/beaches'
+      },
+      {
+        title: __('discover.spots.villages'),
+        href: "/" + __('lang') + '/spots/villages'
+      },
+      {
+        title: __('discover.spots.forests'),
+        href: "/" + __('lang') + '/spots/forests'
+      },{
+        title:  __('discover.spots.tombs-shrines'),
+        href: "/" + __('lang') + '/spots/shrines'
+      }
     ]
   }, {
     name: __('discover.interests.title'),
-    id: 'phones-gadgets',
-    href: 'category.html',
+    id: 'activities',
+    href: "/" + __('lang') + '/activities',
     image: '/z-media/images/catalog/menu/activities.svg',
     quantity: 144,
-    items: [
-      __('discover.interests.history'),
-      __('discover.interests.art'),
-      __('discover.interests.nature'),
-      __('discover.interests.shopping'),
-      __('discover.interests.health'),
-      __('discover.interests.food')
+    items: [{
+        title: __('discover.interests.history'),
+        href: "/" + __('lang') + '/activities/history'
+      }, {
+        title: __('discover.interests.art'),
+        href: "/" + __('lang') + '/activities/art'
+      },
+      {
+        title: __('discover.interests.nature'),
+        href: "/" + __('lang') + '/activities/nature'
+      }, {
+        title: __('discover.interests.shopping'),
+        href: "/" + __('lang') + '/activities/shopping'
+      }, {
+        title: __('discover.interests.health'),
+        href: "/" + __('lang') + '/activities/health'
+      }, {
+        title: __('discover.interests.food'),
+        href: "/" + __('lang') + '/activities/food'
+      }
     ]
   }, {
     name: __('discover.events.title'),
     id: 'tv-video',
-    href: 'category.html',
+    href: "/" + __('lang') + '/events',
     image: '/z-media/images/catalog/menu/events.svg',
     quantity: 58,
-    items: [
-      __('discover.events.festivals'),
-      __('discover.events.exhibitions'),
-      __('discover.events.holidays'),
-      __('discover.events.religious')
+    items: [{
+        title: __('discover.events.festivals'),
+        href: "/" + __('lang') + '/events/festivals'
+      },
+      {
+        title:__('discover.events.exhibitions'),
+        href: "/" + __('lang') + '/events/exhibitions'
+      },
+      {
+        title: __('discover.events.holidays'),
+        href: "/" + __('lang') + '/events/holidays'
+      },{
+        title:  __('discover.events.religious'),
+        href: "/" + __('lang') + '/events/religious'
+      }
     ]
   }, {
     name: __('discover.seasons.title'),
     id: 'games-entertainment',
-    href: 'category.html',
+    href: "/" + __('lang') + '/seasons',
     image: '/z-media/images/catalog/menu/seasons.svg',
     quantity: 13,
-    items: [
-      __('discover.seasons.spring'),
-      __('discover.seasons.summer'),
-      __('discover.seasons.fall'),
-      __('discover.seasons.winter')
+    items: [{
+        title: __('discover.seasons.spring'),
+        href: "/" + __('lang') + '/seasons/spring'
+      },
+      {
+        title:__('discover.seasons.summer'),
+        href: "/" + __('lang') + '/seasons/summer'
+      },
+      {
+        title: __('discover.seasons.fall'),
+        href: "/" + __('lang') + '/seasons/fall'
+      },{
+        title:  __('discover.seasons.winter'),
+        href: "/" + __('lang') + '/seasons/winter'
+      }
     ]
   }, {
     name: __('discover.information.title'),
     id: 'photo',
-    href: 'category.html',
+    href: "/" + __('lang') +  '/information',
     image: '/z-media/images/catalog/menu/information.svg',
     quantity: 59,
-    items: [
-      __('discover.information.visa'),
-      __('discover.information.firstTime'),
-      __('discover.information.accomodation'),
-      __('discover.information.transportation'),
-      __('discover.information.weather')
+    items: [{
+        title: __('discover.information.visa'),
+        href: "/" + __('lang') + '/information/visa'
+      },
+      {
+        title:__('discover.information.firstTime'),
+        href: "/" + __('lang') + '/information/firstTime'
+      },
+      {
+        title: __('discover.information.accomodation'),
+        href: "/" + __('lang') + '/information/accomodation'
+      },{
+        title:  __('discover.information.transportation'),
+        href: "/" + __('lang') + '/information/transportation'
+      }
+      ,{
+        title:  __('discover.information.weather'),
+        href: "/" + __('lang') + '/information/weather'
+      }
+
     ]
   }]
 

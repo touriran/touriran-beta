@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Faloode"
-collection:
-  - Activities
+collection: Activities
 category: Eat-and-Drink
 excerpt: ""
 tags: nature mountains

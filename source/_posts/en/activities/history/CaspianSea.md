@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Perspolis"
-collection:
-  - Activities
+collection: Activities
 category: history
 tags: nature sea history
 excerpt: "This site dates back to 2500 years ago."

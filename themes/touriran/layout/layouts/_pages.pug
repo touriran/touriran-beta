@@ -8,15 +8,15 @@ block default
       div.uk-grid-medium.uk-child-width-1-1(uk-grid)
 
         div.uk-text-center
-          if page.breadcrumbs
+          if pageData.breadcrumbs
             ul.uk-breadcrumb.uk-flex-center.uk-margin-remove
               li: a(href="index.html") Home
-              each href, breadcrumb in page.breadcrumbs
+              each href, breadcrumb in pageData.breadcrumbs
                 li: a(href= href)= breadcrumb
-              if page.title
-                li: span= page.title
-          if page.title
-            h1.uk-margin-small-top.uk-margin-remove-bottom= page.title
+              if pageData.title
+                li: span= pageData.title
+          if pageData.title
+            h1.uk-margin-small-top.uk-margin-remove-bottom= pageData.title
           if page.quantity
             div.uk-text-meta.uk-margin-xsmall-top #{page.quantity} items
 

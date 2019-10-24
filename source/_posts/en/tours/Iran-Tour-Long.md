@@ -17,7 +17,7 @@ category: "Tour"
 statuses: [new]
 type: "Short"
 description:
-layout: tour
+layout: templates/tour
 tourInfo:
     "Duration" : "16 days."
     "Start" : "July 15"

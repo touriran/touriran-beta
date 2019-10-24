@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Dress Code"
-collection:
-  - Activities
+collection: Activities
 category: Culture
 excerpt: ""
 tags: nature mountains

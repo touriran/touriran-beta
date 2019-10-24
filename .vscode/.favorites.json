@@ -1,10 +1,11 @@
 [
     {
-        "type": "Group",
-        "name": "languages",
+        "type": "Directory",
+        "name": "c:\\Users\\Mohsen\\Desktop\\Projects\\Development\\web\\touriran.info\\themes\\touriran\\languages",
         "parent_id": null,
+        "fsPath": "c:\\Users\\Mohsen\\Desktop\\Projects\\Development\\web\\touriran.info\\themes\\touriran\\languages",
         "workspaceRoot": null,
         "workspacePath": null,
-        "id": "TOC2SNrKcybEV6ig"
+        "id": "sbgkImcL2yZXRDlN"
     }
 ]
