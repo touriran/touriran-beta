@@ -2,8 +2,7 @@
 layout: post
 title: "Alborz"
 excerpt: Alborz Province was formed by division of Tehran Province into two provinces, after the Parliamentary approval on June 23, 2010, and was introduced as 31st province of Iran. Alborz Province is the smallest province of Iran.
-collection:
-  - Destinations
+collection: Destinations
 category: province
 tags:
 weather: "https://forecast7.com/en/35d6951d39/tehran/"

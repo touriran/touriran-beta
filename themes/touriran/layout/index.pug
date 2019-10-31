@@ -102,7 +102,7 @@ block default
       div.uk-margin.uk-text-center
         +link-to-all(__('general.allTours'), "subcategory.html")
 
-  //- Brands
+  //- Destinations
   section.uk-section.uk-section-default.uk-section-small
     div.uk-container
 
@@ -123,14 +123,14 @@ block default
                        "uk-child-width-1-6@s " +
                        "uk-grid " +
                        "uk-grid-large")
-                each brand in brands
+                each destination in destinations
                   li
                     div.tm-ratio.tm-ratio-16-9
                       a.uk-link-muted.tm-media-box.tm-grayscale(
                         href="#"
-                        title= brand.name)
+                        title= destination.name)
                         figure.tm-media-box-wrap
-                          img(src= brand.image alt= brand.name)
+                          img(src= destination.image alt= destination.name)
 
             div(class="uk-visible@m")
               a(href="#"
@@ -144,7 +144,7 @@ block default
                  "uk-hidden@m")
 
       div.uk-margin.uk-text-center
-        +link-to-all(__('general.allDestinations'), "brands.html")
+        +link-to-all(__('general.allDestinations'), "destinations.html")
 
   //- Blog
   - var blogArticles = site.categories.findOne( {name: 'Blog'} ).posts.find({lang: __('lang')}).sort('date', -1).limit(2);

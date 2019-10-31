@@ -2,8 +2,7 @@
 layout: post
 title: "Bushehr"
 excerpt: It is in the south of the country, with a long coastline onto the Persian Gulf. Its center is Bandar-e-Bushehr, the provincial capital.
-collection:
-  - Destinations
+collection: Destinations
 category: province
 tags:
 weather:

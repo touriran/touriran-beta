@@ -18,10 +18,10 @@ div#nav-offcanvas(uk-offcanvas= __('direction')=="rtl" ? 'overlay: true; flip: t
                 ul.uk-nav-sub.uk-list-divider
                   each category in item.items
                     li: a(href="subcategory.html")= category.name
-                  if item.name === "Catalog"
+                  if item.name === __('navbarMenu.discover')
                     li.uk-text-center
                       +link-to-all(__('general.allCategories'), item.href)
-                  if item.name === "Brands"
+                  if item.name === __('navbarMenu.destinations')
                     li.uk-text-center
                       +link-to-all('see all brands', item.href)
           li

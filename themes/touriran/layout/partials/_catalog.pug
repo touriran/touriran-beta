@@ -58,7 +58,9 @@ div.uk-grid-medium.uk-child-width-1-1(uk-grid)
                     "js-products-grid"
               uk-grid)
             - var catalogPosts = site.posts.find({collection: page.collection}).find({lang: __('lang')}).sort('date', -1).limit(10)
+            - console.log(catalogPosts)
             each item in catalogPosts.toArray()
+            
               +tour(item)
 
         //- Load more
