@@ -2,8 +2,7 @@
 layout: post
 title: "Fars"
 excerpt: Known as Cultural Capital of Iran. It is in the south of the country and its center is Shiraz.
-collection:
-  - Destinations
+collection: Destinations
 category: province
 tags:
 weather:
