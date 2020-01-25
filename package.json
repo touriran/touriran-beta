@@ -6,8 +6,8 @@
     "version": "3.9.0"
   },
   "scripts": {
-    "build": "npx hexo clean && npx gulp && npx hexo generate",
-    "develop": "npx hexo server"
+    "build": "hexo clean && gulp && hexo generate",
+    "develop": "hexo server"
   },
   "dependencies": {
     "hexo": "^3.9.0",
